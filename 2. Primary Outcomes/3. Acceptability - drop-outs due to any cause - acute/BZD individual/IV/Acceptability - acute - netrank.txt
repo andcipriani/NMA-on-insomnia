@@ -1,0 +1,30 @@
+               P-score (fixed) P-score (random)
+seltorexant             0.8586           0.8553
+loprazolam              0.8120           0.7947
+nitrazepam              0.7761           0.7685
+doxylamine              0.7687           0.7641
+quetiapine              0.6897           0.6907
+lemborexant             0.6766           0.6812
+brotizolam              0.6452           0.6462
+lormetazepam            0.6182           0.6194
+trimipramine            0.5878           0.5892
+flunitrazepam           0.5827           0.5817
+temazepam               0.5887           0.5794
+eszopiclone             0.5746           0.5746
+suvorexant              0.5264           0.5321
+zolpidem                0.5189           0.5003
+quazepam                0.4931           0.4945
+doxepin                 0.4709           0.4775
+estazolam               0.4626           0.4668
+trazodone               0.4657           0.4628
+melatonin               0.4506           0.4552
+zaleplon                0.4441           0.4413
+zopiclone               0.3539           0.3588
+placebo                 0.3439           0.3503
+flurazepam              0.2962           0.2995
+triazolam               0.2564           0.2589
+ramelteon               0.1962           0.2023
+daridorexant            0.1805           0.1883
+midazolam               0.1870           0.1867
+diphenydramine          0.1747           0.1796
+[1] "File created on 2022-01-25"

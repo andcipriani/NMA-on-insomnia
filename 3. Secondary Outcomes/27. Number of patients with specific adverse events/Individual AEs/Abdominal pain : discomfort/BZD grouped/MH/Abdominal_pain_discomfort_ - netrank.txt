@@ -1,0 +1,12 @@
+                 P-score
+daridorexant      0.9300
+doxylamine        0.6881
+BZD-intermediate  0.5606
+lemborexant       0.5172
+placebo           0.4813
+zolpidem          0.4779
+zopiclone         0.4631
+ramelteon         0.3192
+zaleplon          0.3075
+eszopiclone       0.2551
+[1] "File created by E. G. Ostinelli on 2021-12-31"

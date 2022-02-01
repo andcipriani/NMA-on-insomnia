@@ -1,0 +1,154 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+                    comparison  k prop   nma direct indir.  Diff     z p-value
+     BZD-intermediate:BZD-long  1 0.47  0.08   0.27  -0.10  0.37  1.58  0.1131
+    BZD-intermediate:BZD-short  1 0.56 -0.02  -0.38   0.44 -0.82 -3.57  0.0004
+ BZD-intermediate:daridorexant  0    0 -0.59      .  -0.59     .     .       .
+  BZD-intermediate:eszopiclone  0    0 -0.25      .  -0.25     .     .       .
+      BZD-intermediate:placebo  2 0.56 -0.54  -0.55  -0.53 -0.02 -0.07  0.9409
+    BZD-intermediate:ramelteon  0    0 -0.56      .  -0.56     .     .       .
+   BZD-intermediate:suvorexant  0    0 -0.54      .  -0.54     .     .       .
+    BZD-intermediate:trazodone  1 0.46 -0.26  -0.14  -0.36  0.22  0.87  0.3822
+     BZD-intermediate:zaleplon  0    0 -0.41      .  -0.41     .     .       .
+     BZD-intermediate:zolpidem  0    0 -0.38      .  -0.38     .     .       .
+    BZD-intermediate:zopiclone  2 0.71  0.31   0.48  -0.09  0.56  2.00  0.0454
+            BZD-long:BZD-short  4 0.54 -0.09   0.26  -0.52  0.78  3.08  0.0021
+         BZD-long:daridorexant  0    0 -0.67      .  -0.67     .     .       .
+          BZD-long:eszopiclone  0    0 -0.33      .  -0.33     .     .       .
+              BZD-long:placebo  2 0.58 -0.62  -0.61  -0.63  0.02  0.09  0.9302
+            BZD-long:ramelteon  0    0 -0.64      .  -0.64     .     .       .
+           BZD-long:suvorexant  0    0 -0.62      .  -0.62     .     .       .
+            BZD-long:trazodone  0    0 -0.34      .  -0.34     .     .       .
+             BZD-long:zaleplon  0    0 -0.49      .  -0.49     .     .       .
+             BZD-long:zolpidem  0    0 -0.45      .  -0.45     .     .       .
+            BZD-long:zopiclone  1 0.51  0.24  -0.04   0.52 -0.56 -2.00  0.0454
+        BZD-short:daridorexant  0    0 -0.57      .  -0.57     .     .       .
+         BZD-short:eszopiclone  0    0 -0.24      .  -0.24     .     .       .
+             BZD-short:placebo  2 0.38 -0.52  -0.69  -0.42 -0.26 -0.96  0.3381
+           BZD-short:ramelteon  0    0 -0.55      .  -0.55     .     .       .
+          BZD-short:suvorexant  0    0 -0.52      .  -0.52     .     .       .
+           BZD-short:trazodone  0    0 -0.24      .  -0.24     .     .       .
+            BZD-short:zaleplon  0    0 -0.39      .  -0.39     .     .       .
+            BZD-short:zolpidem  0    0 -0.36      .  -0.36     .     .       .
+           BZD-short:zopiclone  0    0  0.33      .   0.33     .     .       .
+      daridorexant:eszopiclone  0    0  0.34      .   0.34     .     .       .
+          daridorexant:placebo  2 1.00  0.05   0.05      .     .     .       .
+        daridorexant:ramelteon  0    0  0.03      .   0.03     .     .       .
+       daridorexant:suvorexant  0    0  0.05      .   0.05     .     .       .
+        daridorexant:trazodone  0    0  0.33      .   0.33     .     .       .
+         daridorexant:zaleplon  0    0  0.18      .   0.18     .     .       .
+         daridorexant:zolpidem  0    0  0.21      .   0.21     .     .       .
+        daridorexant:zopiclone  0    0  0.90      .   0.90     .     .       .
+           eszopiclone:placebo  6 1.00 -0.29  -0.29      .     .     .       .
+         eszopiclone:ramelteon  0    0 -0.31      .  -0.31     .     .       .
+        eszopiclone:suvorexant  0    0 -0.29      .  -0.29     .     .       .
+         eszopiclone:trazodone  0    0 -0.01      .  -0.01     .     .       .
+          eszopiclone:zaleplon  0    0 -0.16      .  -0.16     .     .       .
+          eszopiclone:zolpidem  0    0 -0.12      .  -0.12     .     .       .
+         eszopiclone:zopiclone  0    0  0.57      .   0.57     .     .       .
+             ramelteon:placebo  2 1.00  0.02   0.02      .     .     .       .
+            suvorexant:placebo  2 1.00  0.00  -0.00      .     .     .       .
+             trazodone:placebo  2 0.64 -0.28  -0.25  -0.35  0.10  0.46  0.6487
+              zaleplon:placebo  5 0.82 -0.13  -0.13  -0.12 -0.01 -0.09  0.9246
+              zolpidem:placebo 15 0.96 -0.17  -0.15  -0.47  0.31  1.77  0.0772
+             zopiclone:placebo  0    0 -0.86      .  -0.86     .     .       .
+          ramelteon:suvorexant  0    0  0.02      .   0.02     .     .       .
+           ramelteon:trazodone  0    0  0.30      .   0.30     .     .       .
+            ramelteon:zaleplon  0    0  0.15      .   0.15     .     .       .
+            ramelteon:zolpidem  0    0  0.19      .   0.19     .     .       .
+           ramelteon:zopiclone  0    0  0.88      .   0.88     .     .       .
+          suvorexant:trazodone  0    0  0.28      .   0.28     .     .       .
+           suvorexant:zaleplon  0    0  0.13      .   0.13     .     .       .
+           suvorexant:zolpidem  0    0  0.17      .   0.17     .     .       .
+          suvorexant:zopiclone  0    0  0.86      .   0.86     .     .       .
+            trazodone:zaleplon  0    0 -0.15      .  -0.15     .     .       .
+            trazodone:zolpidem  1 0.50 -0.12  -0.07  -0.16  0.09  0.43  0.6650
+           trazodone:zopiclone  0    0  0.57      .   0.57     .     .       .
+             zaleplon:zolpidem  3 0.55  0.04   0.06   0.00  0.06  0.56  0.5722
+            zaleplon:zopiclone  0    0  0.73      .   0.73     .     .       .
+            zolpidem:zopiclone  0    0  0.69      .   0.69     .     .       .
+
+Random effects model: 
+
+                    comparison  k prop   nma direct indir.  Diff     z p-value
+     BZD-intermediate:BZD-long  1 0.43  0.05   0.27  -0.11  0.38  1.31  0.1918
+    BZD-intermediate:BZD-short  1 0.49  0.04  -0.38   0.44 -0.82 -2.85  0.0044
+ BZD-intermediate:daridorexant  0    0 -0.58      .  -0.58     .     .       .
+  BZD-intermediate:eszopiclone  0    0 -0.25      .  -0.25     .     .       .
+      BZD-intermediate:placebo  2 0.56 -0.53  -0.55  -0.50 -0.05 -0.17  0.8620
+    BZD-intermediate:ramelteon  0    0 -0.58      .  -0.58     .     .       .
+   BZD-intermediate:suvorexant  0    0 -0.53      .  -0.53     .     .       .
+    BZD-intermediate:trazodone  1 0.46 -0.25  -0.14  -0.35  0.20  0.65  0.5185
+     BZD-intermediate:zaleplon  0    0 -0.40      .  -0.40     .     .       .
+     BZD-intermediate:zolpidem  0    0 -0.35      .  -0.35     .     .       .
+    BZD-intermediate:zopiclone  2 0.70  0.31   0.50  -0.12  0.62  1.79  0.0739
+            BZD-long:BZD-short  4 0.61 -0.01   0.28  -0.48  0.76  2.49  0.0126
+         BZD-long:daridorexant  0    0 -0.63      .  -0.63     .     .       .
+          BZD-long:eszopiclone  0    0 -0.30      .  -0.30     .     .       .
+              BZD-long:placebo  2 0.57 -0.58  -0.55  -0.63  0.07  0.22  0.8268
+            BZD-long:ramelteon  0    0 -0.63      .  -0.63     .     .       .
+           BZD-long:suvorexant  0    0 -0.58      .  -0.58     .     .       .
+            BZD-long:trazodone  0    0 -0.31      .  -0.31     .     .       .
+             BZD-long:zaleplon  0    0 -0.45      .  -0.45     .     .       .
+             BZD-long:zolpidem  0    0 -0.41      .  -0.41     .     .       .
+            BZD-long:zopiclone  1 0.52  0.26  -0.04   0.58 -0.62 -1.79  0.0739
+        BZD-short:daridorexant  0    0 -0.62      .  -0.62     .     .       .
+         BZD-short:eszopiclone  0    0 -0.29      .  -0.29     .     .       .
+             BZD-short:placebo  2 0.44 -0.57  -0.66  -0.50 -0.16 -0.49  0.6249
+           BZD-short:ramelteon  0    0 -0.62      .  -0.62     .     .       .
+          BZD-short:suvorexant  0    0 -0.57      .  -0.57     .     .       .
+           BZD-short:trazodone  0    0 -0.29      .  -0.29     .     .       .
+            BZD-short:zaleplon  0    0 -0.44      .  -0.44     .     .       .
+            BZD-short:zolpidem  0    0 -0.39      .  -0.39     .     .       .
+           BZD-short:zopiclone  0    0  0.27      .   0.27     .     .       .
+      daridorexant:eszopiclone  0    0  0.33      .   0.33     .     .       .
+          daridorexant:placebo  2 1.00  0.05   0.05      .     .     .       .
+        daridorexant:ramelteon  0    0 -0.00      .  -0.00     .     .       .
+       daridorexant:suvorexant  0    0  0.05      .   0.05     .     .       .
+        daridorexant:trazodone  0    0  0.32      .   0.32     .     .       .
+         daridorexant:zaleplon  0    0  0.18      .   0.18     .     .       .
+         daridorexant:zolpidem  0    0  0.22      .   0.22     .     .       .
+        daridorexant:zopiclone  0    0  0.89      .   0.89     .     .       .
+           eszopiclone:placebo  6 1.00 -0.28  -0.28      .     .     .       .
+         eszopiclone:ramelteon  0    0 -0.33      .  -0.33     .     .       .
+        eszopiclone:suvorexant  0    0 -0.28      .  -0.28     .     .       .
+         eszopiclone:trazodone  0    0 -0.00      .  -0.00     .     .       .
+          eszopiclone:zaleplon  0    0 -0.15      .  -0.15     .     .       .
+          eszopiclone:zolpidem  0    0 -0.10      .  -0.10     .     .       .
+         eszopiclone:zopiclone  0    0  0.56      .   0.56     .     .       .
+             ramelteon:placebo  2 1.00  0.05   0.05      .     .     .       .
+            suvorexant:placebo  2 1.00 -0.00  -0.00      .     .     .       .
+             trazodone:placebo  2 0.64 -0.28  -0.24  -0.35  0.12  0.42  0.6719
+              zaleplon:placebo  5 0.86 -0.13  -0.13  -0.18  0.05  0.24  0.8089
+              zolpidem:placebo 15 0.96 -0.18  -0.17  -0.43  0.26  0.95  0.3422
+             zopiclone:placebo  0    0 -0.84      .  -0.84     .     .       .
+          ramelteon:suvorexant  0    0  0.05      .   0.05     .     .       .
+           ramelteon:trazodone  0    0  0.33      .   0.33     .     .       .
+            ramelteon:zaleplon  0    0  0.18      .   0.18     .     .       .
+            ramelteon:zolpidem  0    0  0.23      .   0.23     .     .       .
+           ramelteon:zopiclone  0    0  0.89      .   0.89     .     .       .
+          suvorexant:trazodone  0    0  0.28      .   0.28     .     .       .
+           suvorexant:zaleplon  0    0  0.13      .   0.13     .     .       .
+           suvorexant:zolpidem  0    0  0.18      .   0.18     .     .       .
+          suvorexant:zopiclone  0    0  0.84      .   0.84     .     .       .
+            trazodone:zaleplon  0    0 -0.14      .  -0.14     .     .       .
+            trazodone:zolpidem  1 0.46 -0.10  -0.07  -0.13  0.06  0.20  0.8412
+           trazodone:zopiclone  0    0  0.56      .   0.56     .     .       .
+             zaleplon:zolpidem  3 0.59  0.04   0.06   0.02  0.04  0.23  0.8149
+            zaleplon:zopiclone  0    0  0.71      .   0.71     .     .       .
+            zolpidem:zopiclone  0    0  0.67      .   0.67     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.14. (2 out of 14 comparisons)."
+[1] "File created on 2022-01-31"

@@ -1,0 +1,80 @@
+Original data:
+
+          treat1    treat2      TE   seTE
+58   eszopiclone   placebo  0.6438 0.3033
+59       placebo  zolpidem -0.6229 0.2921
+75       placebo ramelteon  0.2462 0.4840
+155  lemborexant   placebo  0.4670 0.4120
+159 daridorexant   placebo -0.7097 0.4527
+160 daridorexant   placebo -0.2942 0.7680
+
+Number of treatment arms (by study):
+    narms
+58      2
+59      2
+75      2
+155     2
+159     2
+160     2
+
+Results (fixed effects model):
+
+          treat1    treat2     OR           95%-CI    Q leverage
+58   eszopiclone   placebo 1.9037 [1.0505; 3.4497] 0.00     1.00
+59       placebo  zolpidem 0.5364 [0.3026; 0.9508] 0.00     1.00
+75       placebo ramelteon 1.2792 [0.4954; 3.3030] 0.00     1.00
+155  lemborexant   placebo 1.5952 [0.7114; 3.5771] 0.00     1.00
+159 daridorexant   placebo 0.5474 [0.2549; 1.1757] 0.06     0.74
+160 daridorexant   placebo 0.5474 [0.2549; 1.1757] 0.16     0.26
+
+Results (random effects model):
+
+          treat1    treat2     OR           95%-CI
+58   eszopiclone   placebo 1.9037 [1.0505; 3.4497]
+59       placebo  zolpidem 0.5364 [0.3026; 0.9508]
+75       placebo ramelteon 1.2792 [0.4954; 3.3030]
+155  lemborexant   placebo 1.5952 [0.7114; 3.5771]
+159 daridorexant   placebo 0.5474 [0.2549; 1.1757]
+160 daridorexant   placebo 0.5474 [0.2549; 1.1757]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 4778
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'daridorexant'):
+                 OR           95%-CI    z p-value
+daridorexant      .                .    .       .
+eszopiclone  3.4775 [1.3204; 9.1589] 2.52  0.0117
+lemborexant  2.9141 [0.9585; 8.8598] 1.89  0.0594
+placebo      1.8268 [0.8505; 3.9235] 1.54  0.1224
+ramelteon    1.4280 [0.4223; 4.8287] 0.57  0.5665
+zolpidem     3.4057 [1.3105; 8.8504] 2.51  0.0119
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'daridorexant'):
+                 OR           95%-CI    z p-value
+daridorexant      .                .    .       .
+eszopiclone  3.4775 [1.3204; 9.1589] 2.52  0.0117
+lemborexant  2.9141 [0.9585; 8.8598] 1.89  0.0594
+placebo      1.8268 [0.8505; 3.9235] 1.54  0.1224
+ramelteon    1.4280 [0.4223; 4.8287] 0.57  0.5665
+zolpidem     3.4057 [1.3105; 8.8504] 2.51  0.0119
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.22    1  0.6412
+Within designs  0.22    1  0.6412
+Between designs 0.00    0      --
+[1] "A total of 6 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-30"

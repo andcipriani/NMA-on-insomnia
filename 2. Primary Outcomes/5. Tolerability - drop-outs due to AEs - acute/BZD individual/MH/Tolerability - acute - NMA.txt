@@ -1,0 +1,44 @@
+Number of studies: k = 67
+Number of treatments: n = 24
+Number of pairwise comparisons: m = 99
+Number of designs: d = 40
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                   OR            95%-CI     z p-value
+brotizolam     0.4962 [0.0406;  6.0673] -0.55  0.5833
+daridorexant   0.9658 [0.0579; 16.1029] -0.02  0.9807
+diphenydramine 4.3030 [0.4689; 39.4922]  1.29  0.1970
+doxepin        1.5394 [0.5122;  4.6264]  0.77  0.4422
+doxylamine     0.7471 [0.1533;  3.6401] -0.36  0.7182
+estazolam      0.9923 [0.5092;  1.9338] -0.02  0.9820
+eszopiclone    1.1148 [0.6470;  1.9208]  0.39  0.6955
+flunitrazepam  1.1588 [0.5214;  2.5755]  0.36  0.7176
+flurazepam     1.8144 [0.8678;  3.7937]  1.58  0.1134
+lemborexant    0.8354 [0.2623;  2.6607] -0.30  0.7609
+loprazolam     1.0399 [0.5752;  1.8801]  0.13  0.8970
+melatonin      0.6698 [0.1879;  2.3868] -0.62  0.5364
+midazolam      2.0532 [0.6260;  6.7343]  1.19  0.2352
+nitrazepam     0.9618 [0.2698;  3.4282] -0.06  0.9521
+placebo             .                 .     .       .
+quazepam       2.0714 [0.1777; 24.1485]  0.58  0.5611
+ramelteon      1.1974 [0.7541;  1.9014]  0.76  0.4450
+seltorexant    0.9518 [0.2314;  3.9147] -0.07  0.9454
+temazepam      1.2685 [0.5605;  2.8708]  0.57  0.5681
+trazodone      2.1838 [0.6551;  7.2796]  1.27  0.2035
+triazolam      1.6013 [1.0258;  2.4995]  2.07  0.0382
+zaleplon       1.3314 [0.7987;  2.2192]  1.10  0.2723
+zolpidem       1.9643 [1.3558;  2.8460]  3.57  0.0004
+zopiclone      2.0938 [1.3158;  3.3319]  3.12  0.0018
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 23.32   30  0.8019
+[1] "A total of 24 treatments are included in the network."
+[1] "A total of 67 studies are included in this analysis."
+[1] "A total of 21489 participants are included in this analysis, with 646 events (3.01%)."
+[1] "The following studies were included in this analysis: 1 2 3 6 7 8 9 10 15 16 23 25 26 27 32 36 37 39 43 49 51 57 61 62 63 65 66 67 68 69 76 77 82 86 88 89 90 91 92 99 103 104 105 106 114 115 117 120 122 124 125 127 129 130 131 132 134 135 137 140 143 144 145 153 156 158 161"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.80186 (Q=23, d.o.f. 30)"
+[1] "File created on 2022-01-25"

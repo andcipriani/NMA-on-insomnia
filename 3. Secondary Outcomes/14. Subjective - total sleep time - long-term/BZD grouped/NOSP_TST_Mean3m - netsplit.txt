@@ -1,0 +1,78 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+               comparison k prop   nma direct indir. Diff z p-value
+     daridorexant:doxepin 0    0 -0.51      .  -0.51    . .       .
+ daridorexant:eszopiclone 0    0 -0.24      .  -0.24    . .       .
+ daridorexant:lemborexant 0    0  0.05      .   0.05    . .       .
+     daridorexant:placebo 2 1.00  0.37   0.37      .    . .       .
+   daridorexant:ramelteon 0    0  0.44      .   0.44    . .       .
+  daridorexant:suvorexant 0    0  0.44      .   0.44    . .       .
+    daridorexant:zolpidem 0    0 -0.08      .  -0.08    . .       .
+      doxepin:eszopiclone 0    0  0.27      .   0.27    . .       .
+      doxepin:lemborexant 0    0  0.56      .   0.56    . .       .
+          doxepin:placebo 1 1.00  0.88   0.88      .    . .       .
+        doxepin:ramelteon 0    0  0.95      .   0.95    . .       .
+       doxepin:suvorexant 0    0  0.95      .   0.95    . .       .
+         doxepin:zolpidem 0    0  0.43      .   0.43    . .       .
+  eszopiclone:lemborexant 0    0  0.29      .   0.29    . .       .
+      eszopiclone:placebo 2 1.00  0.61   0.61      .    . .       .
+    eszopiclone:ramelteon 0    0  0.68      .   0.68    . .       .
+   eszopiclone:suvorexant 0    0  0.68      .   0.68    . .       .
+     eszopiclone:zolpidem 0    0  0.16      .   0.16    . .       .
+      lemborexant:placebo 1 1.00  0.32   0.32      .    . .       .
+    lemborexant:ramelteon 0    0  0.39      .   0.39    . .       .
+   lemborexant:suvorexant 0    0  0.39      .   0.39    . .       .
+     lemborexant:zolpidem 0    0 -0.13      .  -0.13    . .       .
+        ramelteon:placebo 1 1.00 -0.06  -0.06      .    . .       .
+       suvorexant:placebo 2 1.00 -0.07  -0.07      .    . .       .
+         zolpidem:placebo 2 1.00  0.45   0.45      .    . .       .
+     ramelteon:suvorexant 0    0  0.00      .   0.00    . .       .
+       ramelteon:zolpidem 0    0 -0.51      .  -0.51    . .       .
+      suvorexant:zolpidem 0    0 -0.52      .  -0.52    . .       .
+
+Random effects model: 
+
+               comparison k prop   nma direct indir. Diff z p-value
+     daridorexant:doxepin 0    0 -0.50      .  -0.50    . .       .
+ daridorexant:eszopiclone 0    0 -0.23      .  -0.23    . .       .
+ daridorexant:lemborexant 0    0  0.06      .   0.06    . .       .
+     daridorexant:placebo 2 1.00  0.38   0.38      .    . .       .
+   daridorexant:ramelteon 0    0  0.45      .   0.45    . .       .
+  daridorexant:suvorexant 0    0  0.46      .   0.46    . .       .
+    daridorexant:zolpidem 0    0  0.01      .   0.01    . .       .
+      doxepin:eszopiclone 0    0  0.27      .   0.27    . .       .
+      doxepin:lemborexant 0    0  0.56      .   0.56    . .       .
+          doxepin:placebo 1 1.00  0.88   0.88      .    . .       .
+        doxepin:ramelteon 0    0  0.95      .   0.95    . .       .
+       doxepin:suvorexant 0    0  0.96      .   0.96    . .       .
+         doxepin:zolpidem 0    0  0.51      .   0.51    . .       .
+  eszopiclone:lemborexant 0    0  0.29      .   0.29    . .       .
+      eszopiclone:placebo 2 1.00  0.61   0.61      .    . .       .
+    eszopiclone:ramelteon 0    0  0.68      .   0.68    . .       .
+   eszopiclone:suvorexant 0    0  0.70      .   0.70    . .       .
+     eszopiclone:zolpidem 0    0  0.24      .   0.24    . .       .
+      lemborexant:placebo 1 1.00  0.32   0.32      .    . .       .
+    lemborexant:ramelteon 0    0  0.39      .   0.39    . .       .
+   lemborexant:suvorexant 0    0  0.40      .   0.40    . .       .
+     lemborexant:zolpidem 0    0 -0.05      .  -0.05    . .       .
+        ramelteon:placebo 1 1.00 -0.06  -0.06      .    . .       .
+       suvorexant:placebo 2 1.00 -0.08  -0.08      .    . .       .
+         zolpidem:placebo 2 1.00  0.37   0.37      .    . .       .
+     ramelteon:suvorexant 0    0  0.02      .   0.02    . .       .
+       ramelteon:zolpidem 0    0 -0.44      .  -0.44    . .       .
+      suvorexant:zolpidem 0    0 -0.45      .  -0.45    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-31"

@@ -1,0 +1,5 @@
+            P-score
+suvorexant   0.6504
+placebo      0.5691
+eszopiclone  0.2806
+[1] "File created by E. G. Ostinelli on 2022-01-01"

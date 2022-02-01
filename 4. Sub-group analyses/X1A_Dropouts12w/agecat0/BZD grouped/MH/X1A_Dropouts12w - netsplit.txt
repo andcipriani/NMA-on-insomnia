@@ -1,0 +1,143 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+                      comparison  k  nma direct indir.  RoR     z p-value
+       BZD-intermediate:BZD-long  1 1.06   1.14   1.04 1.10  0.19  0.8511
+      BZD-intermediate:BZD-short  2 0.98   1.10   0.93 1.19  0.45  0.6540
+   BZD-intermediate:daridorexant  0 0.65      .   0.65    .     .       .
+ BZD-intermediate:diphenydramine  0 0.53      .   0.53    .     .       .
+        BZD-intermediate:doxepin  0 0.68      .   0.68    .     .       .
+     BZD-intermediate:doxylamine  0 1.46      .   1.46    .     .       .
+    BZD-intermediate:eszopiclone  0 1.10      .   1.10    .     .       .
+    BZD-intermediate:lemborexant  0 1.12      .   1.12    .     .       .
+      BZD-intermediate:melatonin  0 0.86      .   0.86    .     .       .
+        BZD-intermediate:placebo  9 0.82   0.92   0.70 1.31  0.84  0.4016
+     BZD-intermediate:quetiapine  0 1.92      .   1.92    .     .       .
+      BZD-intermediate:ramelteon  0 0.65      .   0.65    .     .       .
+    BZD-intermediate:seltorexant  0 1.90      .   1.90    .     .       .
+     BZD-intermediate:suvorexant  0 0.97      .   0.97    .     .       .
+      BZD-intermediate:trazodone  1 0.88   1.45   0.77 1.90  0.66  0.5069
+   BZD-intermediate:trimipramine  1 1.05   1.24      .    .     .       .
+       BZD-intermediate:zaleplon  0 0.84      .   0.84    .     .       .
+       BZD-intermediate:zolpidem  2 0.92   0.46   1.11 0.41 -2.11  0.0347
+      BZD-intermediate:zopiclone  2 0.84   1.00   0.83 1.20  0.28  0.7824
+              BZD-long:BZD-short  6 0.93   0.86   1.16 0.74 -0.76  0.4455
+           BZD-long:daridorexant  0 0.62      .   0.62    .     .       .
+         BZD-long:diphenydramine  0 0.50      .   0.50    .     .       .
+                BZD-long:doxepin  0 0.64      .   0.64    .     .       .
+             BZD-long:doxylamine  0 1.38      .   1.38    .     .       .
+            BZD-long:eszopiclone  0 1.04      .   1.04    .     .       .
+            BZD-long:lemborexant  0 1.07      .   1.07    .     .       .
+              BZD-long:melatonin  0 0.82      .   0.82    .     .       .
+                BZD-long:placebo  4 0.78   0.86   0.68 1.26  0.66  0.5064
+             BZD-long:quetiapine  0 1.82      .   1.82    .     .       .
+              BZD-long:ramelteon  0 0.62      .   0.62    .     .       .
+            BZD-long:seltorexant  0 1.80      .   1.80    .     .       .
+             BZD-long:suvorexant  0 0.92      .   0.92    .     .       .
+              BZD-long:trazodone  0 0.83      .   0.83    .     .       .
+           BZD-long:trimipramine  0 1.00      .   1.00    .     .       .
+               BZD-long:zaleplon  0 0.80      .   0.80    .     .       .
+               BZD-long:zolpidem  0 0.87      .   0.87    .     .       .
+              BZD-long:zopiclone  3 0.80   0.80   0.72 1.11  0.28  0.7784
+          BZD-short:daridorexant  0 0.66      .   0.66    .     .       .
+        BZD-short:diphenydramine  0 0.54      .   0.54    .     .       .
+               BZD-short:doxepin  0 0.69      .   0.69    .     .       .
+            BZD-short:doxylamine  0 1.49      .   1.49    .     .       .
+           BZD-short:eszopiclone  0 1.12      .   1.12    .     .       .
+           BZD-short:lemborexant  0 1.14      .   1.14    .     .       .
+             BZD-short:melatonin  0 0.88      .   0.88    .     .       .
+               BZD-short:placebo  6 0.84   0.85   0.77 1.10  0.31  0.7585
+            BZD-short:quetiapine  0 1.95      .   1.95    .     .       .
+             BZD-short:ramelteon  0 0.66      .   0.66    .     .       .
+           BZD-short:seltorexant  0 1.93      .   1.93    .     .       .
+            BZD-short:suvorexant  0 0.99      .   0.99    .     .       .
+             BZD-short:trazodone  0 0.89      .   0.89    .     .       .
+          BZD-short:trimipramine  0 1.07      .   1.07    .     .       .
+              BZD-short:zaleplon  0 0.86      .   0.86    .     .       .
+              BZD-short:zolpidem  1 0.94   2.27   0.88 2.56  1.23  0.2199
+             BZD-short:zopiclone  2 0.86   0.92   0.79 1.17  0.50  0.6156
+     daridorexant:diphenydramine  0 0.82      .   0.82    .     .       .
+            daridorexant:doxepin  0 1.04      .   1.04    .     .       .
+         daridorexant:doxylamine  0 2.24      .   2.24    .     .       .
+        daridorexant:eszopiclone  0 1.69      .   1.69    .     .       .
+        daridorexant:lemborexant  0 1.73      .   1.73    .     .       .
+          daridorexant:melatonin  0 1.32      .   1.32    .     .       .
+            daridorexant:placebo  3 1.26   1.32      .    .     .       .
+         daridorexant:quetiapine  0 2.95      .   2.95    .     .       .
+          daridorexant:ramelteon  0 1.00      .   1.00    .     .       .
+        daridorexant:seltorexant  0 2.91      .   2.91    .     .       .
+         daridorexant:suvorexant  0 1.49      .   1.49    .     .       .
+          daridorexant:trazodone  0 1.35      .   1.35    .     .       .
+       daridorexant:trimipramine  0 1.62      .   1.62    .     .       .
+           daridorexant:zaleplon  0 1.29      .   1.29    .     .       .
+           daridorexant:zolpidem  1 1.41   0.49   1.51 0.32 -1.08  0.2797
+          daridorexant:zopiclone  0 1.29      .   1.29    .     .       .
+          diphenydramine:doxepin  0 1.27      .   1.27    .     .       .
+       diphenydramine:doxylamine  0 2.75      .   2.75    .     .       .
+      diphenydramine:eszopiclone  0 2.07      .   2.07    .     .       .
+      diphenydramine:lemborexant  0 2.11      .   2.11    .     .       .
+        diphenydramine:melatonin  0 1.62      .   1.62    .     .       .
+          diphenydramine:placebo  1 1.55   1.55      .    .     .       .
+       diphenydramine:quetiapine  0 3.61      .   3.61    .     .       .
+        diphenydramine:ramelteon  0 1.23      .   1.23    .     .       .
+      diphenydramine:seltorexant  0 3.57      .   3.57    .     .       .
+       diphenydramine:suvorexant  0 1.83      .   1.83    .     .       .
+        diphenydramine:trazodone  0 1.65      .   1.65    .     .       .
+     diphenydramine:trimipramine  0 1.98      .   1.98    .     .       .
+         diphenydramine:zaleplon  0 1.58      .   1.58    .     .       .
+         diphenydramine:zolpidem  0 1.73      .   1.73    .     .       .
+        diphenydramine:zopiclone  0 1.58      .   1.58    .     .       .
+              doxepin:doxylamine  0 2.16      .   2.16    .     .       .
+             doxepin:eszopiclone  0 1.63      .   1.63    .     .       .
+             doxepin:lemborexant  0 1.66      .   1.66    .     .       .
+               doxepin:melatonin  0 1.27      .   1.27    .     .       .
+                 doxepin:placebo  2 1.21   1.15      .    .     .       .
+              doxepin:quetiapine  0 2.83      .   2.83    .     .       .
+               doxepin:ramelteon  1 0.96   1.22   0.73 1.67  0.81  0.4185
+             doxepin:seltorexant  0 2.80      .   2.80    .     .       .
+              doxepin:suvorexant  0 1.43      .   1.43    .     .       .
+               doxepin:trazodone  0 1.30      .   1.30    .     .       .
+            doxepin:trimipramine  0 1.56      .   1.56    .     .       .
+                doxepin:zaleplon  0 1.24      .   1.24    .     .       .
+                doxepin:zolpidem  0 1.36      .   1.36    .     .       .
+               doxepin:zopiclone  0 1.24      .   1.24    .     .       .
+          doxylamine:eszopiclone  0 0.75      .   0.75    .     .       .
+          doxylamine:lemborexant  0 0.77      .   0.77    .     .       .
+            doxylamine:melatonin  0 0.59      .   0.59    .     .       .
+              doxylamine:placebo  1 0.56   0.54      .    .     .       .
+           doxylamine:quetiapine  0 1.31      .   1.31    .     .       .
+            doxylamine:ramelteon  0 0.45      .   0.45    .     .       .
+          doxylamine:seltorexant  0 1.30      .   1.30    .     .       .
+           doxylamine:suvorexant  0 0.66      .   0.66    .     .       .
+            doxylamine:trazodone  0 0.60      .   0.60    .     .       .
+         doxylamine:trimipramine  0 0.72      .   0.72    .     .       .
+             doxylamine:zaleplon  0 0.58      .   0.58    .     .       .
+             doxylamine:zolpidem  1 0.63   0.65      .    .     .       .
+            doxylamine:zopiclone  0 0.58      .   0.58    .     .       .
+         eszopiclone:lemborexant  0 1.02      .   1.02    .     .       .
+           eszopiclone:melatonin  0 0.78      .   0.78    .     .       .
+             eszopiclone:placebo  3 0.75   0.68   0.87 0.78 -0.66  0.5069
+          eszopiclone:quetiapine  0 1.74      .   1.74    .     .       .
+           eszopiclone:ramelteon  0 0.59      .   0.59    .     .       .
+         eszopiclone:seltorexant  0 1.72      .   1.72    .     .       .
+          eszopiclone:suvorexant  0 0.88      .   0.88    .     .       .
+           eszopiclone:trazodone  0 0.80      .   0.80    .     .       .
+        eszopiclone:trimipramine  0 0.96      .   0.96    .     .       .
+            eszopiclone:zaleplon  0 0.77      .   0.77    .     .       .
+            eszopiclone:zolpidem  0 0.84      .   0.84    .     .       .
+           eszopiclone:zopiclone  2 0.76   0.85   0.67 1.28  0.66  0.5069
+           lemborexant:melatonin  0 0.77      .   0.77    .     .       .
+ [ reached getOption("max.print") -- omitted 65 rows ]
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-30"

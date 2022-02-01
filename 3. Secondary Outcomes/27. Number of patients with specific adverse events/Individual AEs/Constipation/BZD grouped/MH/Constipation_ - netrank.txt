@@ -1,0 +1,5 @@
+                 P-score
+mirtazapine       0.5262
+placebo           0.4904
+BZD-intermediate  0.4834
+[1] "File created by E. G. Ostinelli on 2022-01-01"

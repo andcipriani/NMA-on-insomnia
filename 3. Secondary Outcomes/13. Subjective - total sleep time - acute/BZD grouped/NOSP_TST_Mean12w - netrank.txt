@@ -1,0 +1,19 @@
+                 P-score (fixed) P-score (random)
+mirtazapine               0.9732           0.9363
+BZD-long                  0.9280           0.9294
+BZD-intermediate          0.8694           0.8459
+eszopiclone               0.7432           0.7081
+BZD-short                 0.7139           0.6777
+zolpidem                  0.6241           0.6178
+zopiclone                 0.7249           0.5738
+daridorexant              0.4939           0.5119
+trazodone                 0.5195           0.4895
+lemborexant               0.4290           0.4711
+diphenydramine            0.3657           0.4148
+doxepin                   0.3257           0.3869
+zaleplon                  0.2534           0.2710
+ramelteon                 0.1927           0.2308
+quetiapine                0.1900           0.2178
+suvorexant                0.0738           0.1173
+placebo                   0.0796           0.0998
+[1] "File created on 2022-01-31"

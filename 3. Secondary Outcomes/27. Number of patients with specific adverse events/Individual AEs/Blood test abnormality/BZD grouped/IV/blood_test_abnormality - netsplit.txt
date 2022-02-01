@@ -1,0 +1,78 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+               comparison k prop  nma direct indir.  RoR     z p-value
+     daridorexant:doxepin 0    0 0.35      .   0.35    .     .       .
+ daridorexant:lemborexant 0    0 1.12      .   1.12    .     .       .
+     daridorexant:placebo 2 0.90 0.89   0.75   4.65 0.16 -0.76  0.4483
+   daridorexant:ramelteon 0    0 0.99      .   0.99    .     .       .
+ daridorexant:seltorexant 0    0 1.00      .   1.00    .     .       .
+    daridorexant:zolpidem 1 0.69 0.84   1.26   0.34 3.69  0.66  0.5096
+   daridorexant:zopiclone 0    0 0.33      .   0.33    .     .       .
+      doxepin:lemborexant 0    0 3.17      .   3.17    .     .       .
+          doxepin:placebo 1 1.00 2.52   2.52      .    .     .       .
+        doxepin:ramelteon 0    0 2.79      .   2.79    .     .       .
+      doxepin:seltorexant 0    0 2.82      .   2.82    .     .       .
+         doxepin:zolpidem 0    0 2.37      .   2.37    .     .       .
+        doxepin:zopiclone 0    0 0.94      .   0.94    .     .       .
+      lemborexant:placebo 1 1.00 0.80   0.80      .    .     .       .
+    lemborexant:ramelteon 0    0 0.88      .   0.88    .     .       .
+  lemborexant:seltorexant 0    0 0.89      .   0.89    .     .       .
+     lemborexant:zolpidem 0    0 0.75      .   0.75    .     .       .
+    lemborexant:zopiclone 0    0 0.30      .   0.30    .     .       .
+        placebo:ramelteon 2 1.00 1.11   1.11      .    .     .       .
+      placebo:seltorexant 1 0.73 1.12   0.72   3.69 0.19 -0.76  0.4483
+         placebo:zolpidem 2 0.97 0.94   0.99   0.15 6.72  0.35  0.7238
+        placebo:zopiclone 0    0 0.37      .   0.37    .     .       .
+    ramelteon:seltorexant 0    0 1.01      .   1.01    .     .       .
+       ramelteon:zolpidem 0    0 0.85      .   0.85    .     .       .
+      ramelteon:zopiclone 0    0 0.34      .   0.34    .     .       .
+     seltorexant:zolpidem 1 0.88 0.84   0.67   4.75 0.14 -0.76  0.4483
+    seltorexant:zopiclone 0    0 0.33      .   0.33    .     .       .
+       zolpidem:zopiclone 1 1.00 0.40   0.40      .    .     .       .
+
+Random effects model: 
+
+               comparison k prop  nma direct indir.  RoR     z p-value
+     daridorexant:doxepin 0    0 0.36      .   0.36    .     .       .
+ daridorexant:lemborexant 0    0 1.13      .   1.13    .     .       .
+     daridorexant:placebo 2 0.90 0.90   0.75   4.85 0.16 -0.74  0.4567
+   daridorexant:ramelteon 0    0 0.97      .   0.97    .     .       .
+ daridorexant:seltorexant 0    0 1.00      .   1.00    .     .       .
+    daridorexant:zolpidem 1 0.69 0.85   1.26   0.35 3.65  0.64  0.5245
+   daridorexant:zopiclone 0    0 0.34      .   0.34    .     .       .
+      doxepin:lemborexant 0    0 3.17      .   3.17    .     .       .
+          doxepin:placebo 1 1.00 2.52   2.52      .    .     .       .
+        doxepin:ramelteon 0    0 2.71      .   2.71    .     .       .
+      doxepin:seltorexant 0    0 2.81      .   2.81    .     .       .
+         doxepin:zolpidem 0    0 2.37      .   2.37    .     .       .
+        doxepin:zopiclone 0    0 0.94      .   0.94    .     .       .
+      lemborexant:placebo 1 1.00 0.80   0.80      .    .     .       .
+    lemborexant:ramelteon 0    0 0.85      .   0.85    .     .       .
+  lemborexant:seltorexant 0    0 0.89      .   0.89    .     .       .
+     lemborexant:zolpidem 0    0 0.75      .   0.75    .     .       .
+    lemborexant:zopiclone 0    0 0.30      .   0.30    .     .       .
+        placebo:ramelteon 2 1.00 1.07   1.07      .    .     .       .
+      placebo:seltorexant 1 0.73 1.11   0.72   3.77 0.19 -0.74  0.4567
+         placebo:zolpidem 2 0.97 0.94   0.99   0.15 6.45  0.35  0.7294
+        placebo:zopiclone 0    0 0.37      .   0.37    .     .       .
+    ramelteon:seltorexant 0    0 1.04      .   1.04    .     .       .
+       ramelteon:zolpidem 0    0 0.87      .   0.87    .     .       .
+      ramelteon:zopiclone 0    0 0.35      .   0.35    .     .       .
+     seltorexant:zolpidem 1 0.88 0.84   0.67   4.89 0.14 -0.74  0.4567
+    seltorexant:zopiclone 0    0 0.33      .   0.33    .     .       .
+       zolpidem:zopiclone 1 1.00 0.40   0.40      .    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0. (0 out of 5 comparisons)."
+[1] "File created by E. G. Ostinelli on 2022-01-01"

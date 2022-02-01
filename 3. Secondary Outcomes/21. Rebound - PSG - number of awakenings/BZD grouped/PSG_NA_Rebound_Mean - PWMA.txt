@@ -1,0 +1,9 @@
+                    comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1         BZD-short vs  placebo                 1  0.00    -0.49     0.49     NA   NA         NA         NA  0.0     NA
+2 BZD-short vs BZD-intermediate                 2  0.69    -0.45     1.83   0.43  0.6          0       0.91  2.5 0.1138
+3         BZD-short vs BZD-long                 1  0.10    -1.04     1.23     NA   NA         NA         NA  0.0     NA
+4         melatonin vs  placebo                 1  0.12    -0.50     0.74     NA   NA         NA         NA  0.0     NA
+5          zolpidem vs  placebo                 3 -0.03    -0.44     0.37   0.00  0.0          0       0.90  0.9 0.6376
+6         zolpidem vs BZD-short                 1  0.00    -0.49     0.49     NA   NA         NA         NA  0.0     NA
+7         zopiclone vs BZD-long                 1 -1.24    -2.66     0.18     NA   NA         NA         NA  0.0     NA
+[1] "File created on 2022-01-31"

@@ -1,0 +1,23 @@
+Number of studies: k = 4
+Number of treatments: n = 5
+Number of pairwise comparisons: m = 4
+Number of designs: d = 4
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+              OR             95%-CI    z p-value
+BZD-long  4.6285 [0.1598; 134.0258] 0.89  0.3723
+BZD-short 3.6288 [0.1998;  65.9212] 0.87  0.3836
+melatonin 1.2564 [0.3349;   4.7138] 0.34  0.7351
+placebo        .                  .    .       .
+zolpidem  1.9286 [0.8627;   4.3113] 1.60  0.1096
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 4 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2022-01-01"

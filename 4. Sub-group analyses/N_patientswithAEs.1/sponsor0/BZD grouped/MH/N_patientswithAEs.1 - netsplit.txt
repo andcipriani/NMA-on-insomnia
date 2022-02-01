@@ -1,0 +1,45 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+                   comparison k  nma direct indir.  RoR     z p-value
+    BZD-intermediate:BZD-long 3 0.56   0.57   0.23 2.49  1.33  0.1827
+   BZD-intermediate:BZD-short 0 0.57      .   0.57    .     .       .
+ BZD-intermediate:eszopiclone 1 5.22   5.22      .    .     .       .
+ BZD-intermediate:mirtazapine 1 1.23   1.23      .    .     .       .
+     BZD-intermediate:placebo 5 1.52   1.56      .    .     .       .
+    BZD-intermediate:zolpidem 0 0.94      .   0.94    .     .       .
+   BZD-intermediate:zopiclone 0 0.59      .   0.59    .     .       .
+           BZD-long:BZD-short 2 1.03   1.42   0.80 1.78  0.95  0.3398
+         BZD-long:eszopiclone 0 9.34      .   9.34    .     .       .
+         BZD-long:mirtazapine 0 2.20      .   2.20    .     .       .
+             BZD-long:placebo 4 2.71   3.18   2.39 1.33  0.71  0.4799
+            BZD-long:zolpidem 1 1.68   1.13   1.92 0.59 -1.07  0.2855
+           BZD-long:zopiclone 1 1.06   0.73   1.15 0.64 -0.71  0.4748
+        BZD-short:eszopiclone 0 9.10      .   9.10    .     .       .
+        BZD-short:mirtazapine 0 2.15      .   2.15    .     .       .
+            BZD-short:placebo 3 2.64   3.20   1.16 2.76  1.48  0.1377
+           BZD-short:zolpidem 0 1.63      .   1.63    .     .       .
+          BZD-short:zopiclone 0 1.04      .   1.04    .     .       .
+      eszopiclone:mirtazapine 0 0.24      .   0.24    .     .       .
+          eszopiclone:placebo 0 0.29      .   0.29    .     .       .
+         eszopiclone:zolpidem 0 0.18      .   0.18    .     .       .
+        eszopiclone:zopiclone 0 0.11      .   0.11    .     .       .
+          mirtazapine:placebo 0 1.23      .   1.23    .     .       .
+         mirtazapine:zolpidem 0 0.76      .   0.76    .     .       .
+        mirtazapine:zopiclone 0 0.48      .   0.48    .     .       .
+             zolpidem:placebo 4 1.62   1.65   1.56 1.06  0.18  0.8552
+            zopiclone:placebo 1 2.55   2.00   3.22 0.62 -1.35  0.1762
+           zolpidem:zopiclone 1 0.63   0.57   0.80 0.72 -0.94  0.3448
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-30"

@@ -1,0 +1,6 @@
+            P-score (fixed) P-score (random)
+eszopiclone          0.9696           0.9696
+doxepin              0.6837           0.6837
+melatonin            0.3032           0.3032
+placebo              0.0435           0.0435
+[1] "File created on 2022-01-30"

@@ -1,0 +1,7 @@
+             P-score
+daridorexant  0.7562
+placebo       0.6310
+lemborexant   0.4225
+melatonin     0.3976
+eszopiclone   0.2927
+[1] "File created by E. G. Ostinelli on 2021-12-31"

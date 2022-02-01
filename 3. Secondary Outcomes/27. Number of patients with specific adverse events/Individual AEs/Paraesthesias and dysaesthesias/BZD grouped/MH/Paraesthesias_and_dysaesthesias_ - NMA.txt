@@ -1,0 +1,21 @@
+Number of studies: k = 3
+Number of treatments: n = 3
+Number of pairwise comparisons: m = 5
+Number of designs: d = 2
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+             OR           95%-CI    z p-value
+placebo       .                .    .       .
+zaleplon 1.4832 [0.4545; 4.8399] 0.65  0.5136
+zolpidem 1.0293 [0.3240; 3.2706] 0.05  0.9609
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.36    1  0.5498
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 3 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.54978 (Q=0, d.o.f. 1)"
+[1] "File created by E. G. Ostinelli on 2022-01-02"

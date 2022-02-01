@@ -1,0 +1,11 @@
+                    comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1         BZD-short vs BZD-long                 1 0.78     0.14     4.33     NA   NA         NA         NA    0    NA
+2      daridorexant vs  placebo                 1 1.50     0.06    37.02     NA   NA         NA         NA    0    NA
+3         melatonin vs  placebo                 1 1.26     0.33     4.71     NA   NA         NA         NA    0    NA
+4         ramelteon vs  placebo                 1 3.25     0.13    80.84     NA   NA         NA         NA    0    NA
+5 trazodone vs BZD-intermediate                 1 0.09     0.00     2.30     NA   NA         NA         NA    0    NA
+6          zolpidem vs  placebo                 1 1.93     0.86     4.31     NA   NA         NA         NA    0    NA
+7         zolpidem vs BZD-short                 1 0.53     0.03     8.62     NA   NA         NA         NA    0    NA
+8         zopiclone vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+9        zopiclone vs ramelteon                 1 0.33     0.01     8.30     NA   NA         NA         NA    0    NA
+[1] "File created by E. G. Ostinelli on 2022-01-01"

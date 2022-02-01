@@ -1,0 +1,62 @@
+Number of studies: k = 1
+Number of treatments: n = 4
+Number of pairwise comparisons: m = 6
+Number of designs: d = 1
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR'):
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    1.3128  1.2668    1.5622
+BZD-short   0.7617         .  0.9650    1.1899
+placebo     0.7894    1.0363       .    1.2331
+zopiclone   0.6401    0.8404  0.8110         .
+
+Lower 95%-confidence limit:
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    0.8656  0.8347    1.0837
+BZD-short   0.5022         .  0.6283    0.8145
+placebo     0.5201    0.6747       .    0.8434
+zopiclone   0.4441    0.5752  0.5547         .
+
+Upper 95%-confidence limit:
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    1.9912  1.9227    2.2518
+BZD-short   1.1553         .  1.4820    1.7385
+placebo     1.1980    1.5916       .    1.8029
+zopiclone   0.9227    1.2278  1.1857         .
+
+Random effects model
+
+Treatment estimate (sm = 'OR'):
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    1.3128  1.2668    1.5622
+BZD-short   0.7617         .  0.9650    1.1899
+placebo     0.7894    1.0363       .    1.2331
+zopiclone   0.6401    0.8404  0.8110         .
+
+Lower 95%-confidence limit:
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    0.8656  0.8347    1.0837
+BZD-short   0.5022         .  0.6283    0.8145
+placebo     0.5201    0.6747       .    0.8434
+zopiclone   0.4441    0.5752  0.5547         .
+
+Upper 95%-confidence limit:
+          BZD-long BZD-short placebo zopiclone
+BZD-long         .    1.9912  1.9227    2.2518
+BZD-short   1.1553         .  1.4820    1.7385
+placebo     1.1980    1.5916       .    1.8029
+zopiclone   0.9227    1.2278  1.1857         .
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 1 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=NA, d.o.f. NA)"
+[1] "File created by E. G. Ostinelli on 2022-01-08"

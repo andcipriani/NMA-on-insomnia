@@ -1,0 +1,10 @@
+                 P-score
+BZD-long          0.7818
+zaleplon          0.7474
+BZD-short         0.6577
+zolpidem          0.6510
+seltorexant       0.6004
+placebo           0.3131
+BZD-intermediate  0.1669
+zopiclone         0.0816
+[1] "File created by E. G. Ostinelli on 2022-01-01"

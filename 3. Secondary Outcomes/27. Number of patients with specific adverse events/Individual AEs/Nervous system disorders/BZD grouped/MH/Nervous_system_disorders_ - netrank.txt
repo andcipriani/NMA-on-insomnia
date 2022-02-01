@@ -1,0 +1,9 @@
+                 P-score
+BZD-intermediate  0.8219
+daridorexant      0.8029
+zaleplon          0.7078
+melatonin         0.5569
+placebo           0.4339
+zolpidem          0.1652
+ramelteon         0.0114
+[1] "File created by E. G. Ostinelli on 2021-12-31"

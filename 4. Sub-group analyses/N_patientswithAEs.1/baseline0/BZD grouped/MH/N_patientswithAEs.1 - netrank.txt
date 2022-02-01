@@ -1,0 +1,14 @@
+                 P-score
+doxepin           0.9482
+zaleplon          0.8632
+placebo           0.6909
+mirtazapine       0.6714
+melatonin         0.5711
+BZD-intermediate  0.5681
+zolpidem          0.5524
+ramelteon         0.3885
+eszopiclone       0.2329
+BZD-short         0.2102
+BZD-long          0.2057
+zopiclone         0.0974
+[1] "File created on 2022-01-30"

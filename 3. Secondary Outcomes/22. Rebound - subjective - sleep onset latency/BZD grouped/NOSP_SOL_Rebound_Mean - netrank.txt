@@ -1,0 +1,9 @@
+                 P-score (fixed) P-score (random)
+placebo                   0.7998           0.7801
+zaleplon                  0.8825           0.7761
+ramelteon                 0.7494           0.7235
+BZD-long                  0.4273           0.4526
+BZD-intermediate          0.3234           0.4133
+zolpidem                  0.2400           0.2177
+BZD-short                 0.0775           0.1368
+[1] "File created on 2022-01-31"

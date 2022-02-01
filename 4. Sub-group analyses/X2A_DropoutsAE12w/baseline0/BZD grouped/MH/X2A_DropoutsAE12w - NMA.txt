@@ -1,0 +1,29 @@
+Number of studies: k = 13
+Number of pairwise comparisons: m = 15
+Number of observations: o = 4419
+Number of treatments: n = 10
+Number of designs: d = 8
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 2.3780 [0.5083; 11.1241]  1.10  0.2711
+BZD-long         2.0714 [0.1777; 24.1485]  0.58  0.5611
+BZD-short        1.1890 [0.0678; 20.8507]  0.12  0.9057
+eszopiclone      0.9657 [0.4980;  1.8729] -0.10  0.9178
+melatonin        0.7999 [0.2138;  2.9920] -0.33  0.7401
+placebo               .                 .     .       .
+ramelteon        1.4772 [0.5993;  3.6410]  0.85  0.3967
+zaleplon         1.0000 [0.2950;  3.3903]  0.00  1.0000
+zolpidem         1.8295 [0.5211;  6.4240]  0.94  0.3459
+zopiclone        0.4573 [0.0116; 18.0506] -0.42  0.6765
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 10 treatments are included in the network."
+[1] "A total of 13 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-30"

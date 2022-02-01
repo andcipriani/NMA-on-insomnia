@@ -1,0 +1,25 @@
+Number of studies: k = 13
+Number of treatments: n = 7
+Number of pairwise comparisons: m = 17
+Number of designs: d = 7
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z  p-value
+BZD-long    12.2848 [3.1475; 47.9484]  3.61   0.0003
+eszopiclone 14.4413 [7.8357; 26.6154]  8.56 < 0.0001
+placebo           .                 .     .        .
+ramelteon    2.4775 [1.0656;  5.7601]  2.11   0.0351
+zaleplon     1.6342 [0.5295;  5.0434]  0.85   0.3930
+zolpidem     0.7485 [0.1875;  2.9886] -0.41   0.6817
+zopiclone   17.6688 [8.7670; 35.6093]  8.03 < 0.0001
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.93    3  0.5875
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 13 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.58749 (Q=2, d.o.f. 3)"
+[1] "File created by E. G. Ostinelli on 2022-01-02"

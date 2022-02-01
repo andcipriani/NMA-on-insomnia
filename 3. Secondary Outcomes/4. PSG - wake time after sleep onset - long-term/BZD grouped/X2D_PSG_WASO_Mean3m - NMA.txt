@@ -1,0 +1,80 @@
+Original data:
+
+          treat1     treat2      TE   seTE
+45       placebo suvorexant  0.2345 0.0993
+46       placebo suvorexant  0.5668 0.1105
+60       doxepin    placebo -0.7503 0.1621
+112      placebo   zolpidem  0.6569 0.2153
+159 daridorexant    placebo -0.5319 0.0706
+160 daridorexant    placebo -0.2725 0.0809
+
+Number of treatment arms (by study):
+    narms
+45      2
+46      2
+60      2
+112     2
+159     2
+160     2
+
+Results (fixed effects model):
+
+          treat1     treat2     SMD             95%-CI    Q leverage
+45       placebo suvorexant  0.3829 [ 0.2382;  0.5277] 2.23     0.55
+46       placebo suvorexant  0.3829 [ 0.2382;  0.5277] 2.77     0.45
+60       doxepin    placebo -0.7503 [-1.0679; -0.4326] 0.00     1.00
+112      placebo   zolpidem  0.6569 [ 0.2348;  1.0790] 0.00     1.00
+159 daridorexant    placebo -0.4197 [-0.5240; -0.3154] 2.52     0.57
+160 daridorexant    placebo -0.4197 [-0.5240; -0.3154] 3.31     0.43
+
+Results (random effects model):
+
+          treat1     treat2     SMD             95%-CI
+45       placebo suvorexant  0.3963 [ 0.1040;  0.6885]
+46       placebo suvorexant  0.3963 [ 0.1040;  0.6885]
+60       doxepin    placebo -0.7503 [-1.2293; -0.2713]
+112      placebo   zolpidem  0.6569 [ 0.1031;  1.2107]
+159 daridorexant    placebo -0.4048 [-0.6792; -0.1303]
+160 daridorexant    placebo -0.4048 [-0.6792; -0.1303]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 2606
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z  p-value
+daridorexant -0.4197 [-0.5240; -0.3154] -7.89 < 0.0001
+doxepin      -0.7503 [-1.0679; -0.4326] -4.63 < 0.0001
+placebo            .                  .     .        .
+suvorexant   -0.3829 [-0.5277; -0.2382] -5.18 < 0.0001
+zolpidem     -0.6569 [-1.0790; -0.2348] -3.05   0.0023
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z p-value            95%-PI
+daridorexant -0.4048 [-0.6792; -0.1303] -2.89  0.0038 [-3.3320; 2.5224]
+doxepin      -0.7503 [-1.2293; -0.2713] -3.07  0.0021 [-4.6292; 3.1287]
+placebo            .                  .     .       .                 .
+suvorexant   -0.3963 [-0.6885; -0.1040] -2.66  0.0079 [-3.3951; 2.6025]
+zolpidem     -0.6569 [-1.2107; -0.1031] -2.32  0.0201 [-4.9339; 3.6201]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0335; tau = 0.1829; I^2 = 81.5% [42.7%; 94.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           10.83    2  0.0044
+Within designs  10.83    2  0.0044
+Between designs  0.00    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "A total of 2606 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 45 46 60 112 159 160"
+[1] "Estimated heterogeneity tau-squared0.03"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-31"

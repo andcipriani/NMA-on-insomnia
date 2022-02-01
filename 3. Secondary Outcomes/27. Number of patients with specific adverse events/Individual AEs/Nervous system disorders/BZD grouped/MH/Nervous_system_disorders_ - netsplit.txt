@@ -1,0 +1,38 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+                    comparison k   nma direct indir.  RoR     z p-value
+ BZD-intermediate:daridorexant 0  0.87      .   0.87    .     .       .
+    BZD-intermediate:melatonin 0  0.41      .   0.41    .     .       .
+      BZD-intermediate:placebo 1  0.33   0.33      .    .     .       .
+    BZD-intermediate:ramelteon 0  0.04      .   0.04    .     .       .
+     BZD-intermediate:zaleplon 0  0.59      .   0.59    .     .       .
+     BZD-intermediate:zolpidem 0  0.14      .   0.14    .     .       .
+        daridorexant:melatonin 0  0.47      .   0.47    .     .       .
+          daridorexant:placebo 3  0.38   0.41      .    .     .       .
+        daridorexant:ramelteon 0  0.04      .   0.04    .     .       .
+         daridorexant:zaleplon 0  0.68      .   0.68    .     .       .
+         daridorexant:zolpidem 1  0.17   0.12   0.22 0.56 -0.36  0.7221
+             melatonin:placebo 1  0.82   0.82      .    .     .       .
+           melatonin:ramelteon 0  0.10      .   0.10    .     .       .
+            melatonin:zaleplon 0  1.45      .   1.45    .     .       .
+            melatonin:zolpidem 0  0.35      .   0.35    .     .       .
+             ramelteon:placebo 1  8.59   8.59      .    .     .       .
+              zaleplon:placebo 1  0.56   0.56      .    .     .       .
+              zolpidem:placebo 3  2.32   2.29      .    .     .       .
+            ramelteon:zaleplon 0 15.23      .  15.23    .     .       .
+            ramelteon:zolpidem 0  3.70      .   3.70    .     .       .
+             zaleplon:zolpidem 0  0.24      .   0.24    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created by E. G. Ostinelli on 2021-12-31"

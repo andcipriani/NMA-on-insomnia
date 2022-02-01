@@ -1,0 +1,7 @@
+            P-score
+seltorexant  0.9432
+placebo      0.7152
+zolpidem     0.3327
+BZD-long     0.2545
+zopiclone    0.2545
+[1] "File created by E. G. Ostinelli on 2022-01-02"

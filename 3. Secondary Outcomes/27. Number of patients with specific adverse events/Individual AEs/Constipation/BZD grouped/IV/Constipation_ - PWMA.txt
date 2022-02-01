@@ -1,0 +1,9 @@
+                      comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1    BZD-intermediate vs  placebo                 1 1.00     0.13     7.89     NA   NA         NA         NA 0.00     NA
+2        daridorexant vs  placebo                 1 0.76     0.03    18.91     NA   NA         NA         NA 0.00     NA
+3         lemborexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA     NA
+4 mirtazapine vs BZD-intermediate                 1 0.94     0.22     4.09     NA   NA         NA         NA 0.00     NA
+5           ramelteon vs  placebo                 1 7.00     0.36   135.87     NA   NA         NA         NA 0.00     NA
+6            zolpidem vs  placebo                 2 3.94     0.42    36.92      0    0         NA         NA 0.05 0.8285
+7        zolpidem vs daridorexant                 1 4.03     0.25    65.44     NA   NA         NA         NA 0.00     NA
+[1] "File created by E. G. Ostinelli on 2022-01-01"

@@ -1,0 +1,10 @@
+                 P-score (fixed) P-score (random)
+zaleplon                  0.8448           0.8310
+placebo                   0.8033           0.7924
+daridorexant              0.7746           0.7769
+ramelteon                 0.6910           0.7037
+zolpidem                  0.4078           0.4092
+BZD-intermediate          0.2590           0.2646
+BZD-long                  0.1862           0.1870
+BZD-short                 0.0333           0.0352
+[1] "File created on 2022-01-31"

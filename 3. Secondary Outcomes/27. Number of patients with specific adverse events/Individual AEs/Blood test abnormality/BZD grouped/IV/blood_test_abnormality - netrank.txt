@@ -1,0 +1,10 @@
+             P-score (fixed) P-score (random)
+seltorexant           0.6009           0.5988
+lemborexant           0.5985           0.5986
+daridorexant          0.6007           0.5975
+ramelteon             0.5953           0.5825
+placebo               0.5514           0.5546
+zolpidem              0.5504           0.5516
+doxepin               0.3172           0.3206
+zopiclone             0.1856           0.1958
+[1] "File created by E. G. Ostinelli on 2022-01-01"

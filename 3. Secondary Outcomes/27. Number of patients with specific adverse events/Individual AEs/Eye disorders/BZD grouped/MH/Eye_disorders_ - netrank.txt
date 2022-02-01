@@ -1,0 +1,8 @@
+            P-score
+placebo      0.8226
+ramelteon    0.7249
+lemborexant  0.6133
+zaleplon     0.3391
+zolpidem     0.2764
+melatonin    0.2237
+[1] "File created by E. G. Ostinelli on 2022-01-01"

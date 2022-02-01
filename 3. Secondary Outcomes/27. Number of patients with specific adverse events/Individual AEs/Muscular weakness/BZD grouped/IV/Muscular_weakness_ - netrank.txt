@@ -1,0 +1,6 @@
+          P-score (fixed) P-score (random)
+zopiclone          0.8892           0.8892
+BZD-short          0.5496           0.5496
+placebo            0.4806           0.4806
+BZD-long           0.0806           0.0806
+[1] "File created by E. G. Ostinelli on 2022-01-08"

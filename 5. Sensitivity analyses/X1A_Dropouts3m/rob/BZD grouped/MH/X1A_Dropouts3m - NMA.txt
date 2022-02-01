@@ -1,0 +1,26 @@
+Number of studies: k = 8
+Number of pairwise comparisons: m = 8
+Number of observations: o = 6384
+Number of treatments: n = 7
+Number of designs: d = 6
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR           95%-CI     z  p-value
+daridorexant 1.0045 [0.6930; 1.4561]  0.02   0.9811
+eszopiclone  0.8525 [0.6148; 1.1820] -0.96   0.3384
+lemborexant  1.3093 [0.9439; 1.8162]  1.61   0.1064
+melatonin    3.2895 [2.2395; 4.8319]  6.07 < 0.0001
+placebo           .                .     .        .
+suvorexant   0.9059 [0.6424; 1.2774] -0.56   0.5729
+zolpidem     0.6018 [0.4626; 0.7828] -3.78   0.0002
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 8 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-30"

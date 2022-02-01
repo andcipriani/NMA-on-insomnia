@@ -1,0 +1,10 @@
+             P-score (fixed) P-score (random)
+doxepin               0.9855           0.9161
+eszopiclone           0.8546           0.7937
+daridorexant          0.5625           0.6005
+zolpidem              0.6749           0.5867
+lemborexant           0.4935           0.5354
+placebo               0.2256           0.2086
+ramelteon             0.1125           0.2002
+suvorexant            0.0908           0.1588
+[1] "File created on 2022-01-31"

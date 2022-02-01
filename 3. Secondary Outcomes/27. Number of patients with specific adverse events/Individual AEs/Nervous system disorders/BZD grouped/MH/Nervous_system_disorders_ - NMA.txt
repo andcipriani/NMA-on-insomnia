@@ -1,0 +1,25 @@
+Number of studies: k = 9
+Number of treatments: n = 7
+Number of pairwise comparisons: m = 11
+Number of designs: d = 7
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 0.3333 [0.0564;  1.9711] -1.21  0.2257
+daridorexant     0.3845 [0.0863;  1.7134] -1.25  0.2100
+melatonin        0.8195 [0.4390;  1.5299] -0.62  0.5320
+placebo               .                 .     .       .
+ramelteon        8.5887 [1.8893; 39.0436]  2.78  0.0054
+zaleplon         0.5641 [0.2136;  1.4897] -1.16  0.2479
+zolpidem         2.3233 [1.3191;  4.0921]  2.92  0.0035
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.17    2  0.9178
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 9 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.91779 (Q=0, d.o.f. 2)"
+[1] "File created by E. G. Ostinelli on 2021-12-31"

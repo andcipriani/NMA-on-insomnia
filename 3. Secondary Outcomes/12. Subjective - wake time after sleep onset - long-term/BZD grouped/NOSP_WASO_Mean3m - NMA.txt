@@ -1,0 +1,96 @@
+Original data:
+
+         treat1     treat2      TE   seTE
+45      placebo suvorexant  0.1282 0.0857
+46      placebo suvorexant  0.1101 0.0890
+58  eszopiclone    placebo -0.0563 0.1093
+59      placebo   zolpidem  0.3802 0.1041
+60      doxepin    placebo -0.4954 0.1699
+75      placebo  ramelteon -0.1993 0.1097
+112     placebo   zolpidem  0.1325 0.2100
+136 eszopiclone    placebo -0.1676 0.1084
+155 lemborexant    placebo -0.2424 0.0783
+
+Number of treatment arms (by study):
+    narms
+45      2
+46      2
+58      2
+59      2
+60      2
+75      2
+112     2
+136     2
+155     2
+
+Results (fixed effects model):
+
+         treat1     treat2     SMD             95%-CI    Q leverage
+45      placebo suvorexant  0.1195 [-0.0016;  0.2405] 0.01     0.52
+46      placebo suvorexant  0.1195 [-0.0016;  0.2405] 0.01     0.48
+58  eszopiclone    placebo -0.1125 [-0.2633;  0.0384] 0.26     0.50
+59      placebo   zolpidem  0.3314 [ 0.1486;  0.5142] 0.22     0.80
+60      doxepin    placebo -0.4954 [-0.8284; -0.1624] 0.00     1.00
+75      placebo  ramelteon -0.1993 [-0.4143;  0.0157] 0.00     1.00
+112     placebo   zolpidem  0.3314 [ 0.1486;  0.5142] 0.90     0.20
+136 eszopiclone    placebo -0.1125 [-0.2633;  0.0384] 0.26     0.50
+155 lemborexant    placebo -0.2424 [-0.3958; -0.0890] 0.00     1.00
+
+Results (random effects model):
+
+         treat1     treat2     SMD             95%-CI
+45      placebo suvorexant  0.1195 [-0.0016;  0.2405]
+46      placebo suvorexant  0.1195 [-0.0016;  0.2405]
+58  eszopiclone    placebo -0.1125 [-0.2633;  0.0384]
+59      placebo   zolpidem  0.3314 [ 0.1486;  0.5142]
+60      doxepin    placebo -0.4954 [-0.8284; -0.1624]
+75      placebo  ramelteon -0.1993 [-0.4143;  0.0157]
+112     placebo   zolpidem  0.3314 [ 0.1486;  0.5142]
+136 eszopiclone    placebo -0.1125 [-0.2633;  0.0384]
+155 lemborexant    placebo -0.2424 [-0.3958; -0.0890]
+
+Number of studies: k = 9
+Number of pairwise comparisons: m = 9
+Number of observations: o = 3785
+Number of treatments: n = 7
+Number of designs: d = 6
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD             95%-CI     z p-value
+doxepin     -0.4954 [-0.8284; -0.1624] -2.92  0.0035
+eszopiclone -0.1125 [-0.2633;  0.0384] -1.46  0.1440
+lemborexant -0.2424 [-0.3958; -0.0890] -3.10  0.0020
+placebo           .                  .     .       .
+ramelteon    0.1993 [-0.0157;  0.4143]  1.82  0.0692
+suvorexant  -0.1195 [-0.2405;  0.0016] -1.93  0.0530
+zolpidem    -0.3314 [-0.5142; -0.1486] -3.55  0.0004
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD             95%-CI     z p-value            95%-PI
+doxepin     -0.4954 [-0.8284; -0.1624] -2.92  0.0035 [-1.2264; 0.2356]
+eszopiclone -0.1125 [-0.2633;  0.0384] -1.46  0.1440 [-0.4436; 0.2187]
+lemborexant -0.2424 [-0.3958; -0.0890] -3.10  0.0020 [-0.5791; 0.0944]
+placebo           .                  .     .       .                 .
+ramelteon    0.1993 [-0.0157;  0.4143]  1.82  0.0692 [-0.2726; 0.6712]
+suvorexant  -0.1195 [-0.2405;  0.0016] -1.93  0.0530 [-0.3851; 0.1462]
+zolpidem    -0.3314 [-0.5142; -0.1486] -3.55  0.0004 [-0.7327; 0.0699]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 84.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.66    3  0.6454
+Within designs  1.66    3  0.6454
+Between designs 0.00    0      --
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 9 studies are included in this analysis."
+[1] "A total of 3785 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 45 46 58 59 60 75 112 136 155"
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-31"

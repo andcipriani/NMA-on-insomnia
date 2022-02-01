@@ -1,0 +1,4 @@
+[1] "A total of 17 treatments are included in the network."
+[1] "A total of 61 studies are included in this analysis."
+[1] "Global test for inconsistency, p-value 0.838 (Q=19, d.o.f. 26)"
+[1] "File created on 2022-01-31"

@@ -1,0 +1,9 @@
+                 P-score (fixed) P-score (random)
+zopiclone                 0.9328           0.9061
+BZD-intermediate          0.7618           0.7517
+BZD-long                  0.4382           0.4299
+zolpidem                  0.3945           0.4055
+BZD-short                 0.3597           0.3609
+placebo                   0.3511           0.3530
+melatonin                 0.2619           0.2930
+[1] "File created on 2022-01-31"

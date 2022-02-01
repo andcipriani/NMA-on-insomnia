@@ -1,0 +1,4 @@
+            P-score
+lemborexant  0.6866
+placebo      0.3134
+[1] "File created by E. G. Ostinelli on 2022-01-02"

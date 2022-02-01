@@ -1,0 +1,7 @@
+               comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1    BZD-short vs BZD-long                 1 6.17     0.24   156.61     NA   NA         NA         NA 0.00     NA
+2 daridorexant vs  placebo                 1 0.17     0.01     4.09     NA   NA         NA         NA 0.00     NA
+3  lemborexant vs  placebo                 2 1.42     0.25     7.96      0    0         NA         NA 0.26 0.6073
+4    melatonin vs  placebo                 1 1.00     0.54     1.87     NA   NA         NA         NA 0.00     NA
+5     zolpidem vs  placebo                 3 1.38     0.57     3.37      0    0          0        0.9 1.86 0.3950
+[1] "File created by E. G. Ostinelli on 2022-01-01"

@@ -1,0 +1,38 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+               comparison k  nma direct indir. RoR z p-value
+ daridorexant:eszopiclone 0 0.38      .   0.38   . .       .
+ daridorexant:lemborexant 0 0.35      .   0.35   . .       .
+   daridorexant:melatonin 0 0.20      .   0.20   . .       .
+     daridorexant:placebo 2 0.55   0.55      .   . .       .
+  daridorexant:suvorexant 0 0.96      .   0.96   . .       .
+    daridorexant:zolpidem 0 0.28      .   0.28   . .       .
+  eszopiclone:lemborexant 0 0.90      .   0.90   . .       .
+    eszopiclone:melatonin 0 0.53      .   0.53   . .       .
+      eszopiclone:placebo 2 1.44   1.44      .   . .       .
+   eszopiclone:suvorexant 0 2.51      .   2.51   . .       .
+     eszopiclone:zolpidem 0 0.73      .   0.73   . .       .
+    lemborexant:melatonin 0 0.59      .   0.59   . .       .
+      lemborexant:placebo 1 1.60   1.60      .   . .       .
+   lemborexant:suvorexant 0 2.78      .   2.78   . .       .
+     lemborexant:zolpidem 0 0.81      .   0.81   . .       .
+        melatonin:placebo 1 2.72   2.72      .   . .       .
+     melatonin:suvorexant 0 4.74      .   4.74   . .       .
+       melatonin:zolpidem 0 1.38      .   1.38   . .       .
+       suvorexant:placebo 2 0.57   0.57      .   . .       .
+         zolpidem:placebo 2 1.97   1.97      .   . .       .
+      suvorexant:zolpidem 0 0.29      .   0.29   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-30"

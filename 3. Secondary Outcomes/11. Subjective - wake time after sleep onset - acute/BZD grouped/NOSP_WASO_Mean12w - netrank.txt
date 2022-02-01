@@ -1,0 +1,13 @@
+                 P-score (fixed) P-score (random)
+BZD-intermediate          0.9531           0.9249
+zolpidem                  0.8917           0.8273
+trazodone                 0.6497           0.6066
+eszopiclone               0.6319           0.5827
+doxepin                   0.5297           0.5445
+daridorexant              0.5276           0.5141
+suvorexant                0.4533           0.4844
+lemborexant               0.3865           0.3428
+zopiclone                 0.2506           0.2842
+placebo                   0.1449           0.2008
+ramelteon                 0.0809           0.1877
+[1] "File created on 2022-01-31"

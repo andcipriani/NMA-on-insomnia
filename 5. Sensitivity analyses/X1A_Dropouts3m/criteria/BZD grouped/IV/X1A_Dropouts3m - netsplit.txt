@@ -1,0 +1,78 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+               comparison k prop  nma direct indir. RoR z p-value
+ eszopiclone:daridorexant 0    0 0.67      .   0.67   . .       .
+ lemborexant:daridorexant 0    0 1.31      .   1.31   . .       .
+   melatonin:daridorexant 0    0 3.29      .   3.29   . .       .
+     placebo:daridorexant 2 1.00 1.00   1.00      .   . .       .
+  suvorexant:daridorexant 0    0 0.91      .   0.91   . .       .
+    zolpidem:daridorexant 0    0 0.63      .   0.63   . .       .
+   zopiclone:daridorexant 0    0 0.88      .   0.88   . .       .
+  eszopiclone:lemborexant 0    0 0.51      .   0.51   . .       .
+    eszopiclone:melatonin 0    0 0.20      .   0.20   . .       .
+      eszopiclone:placebo 2 1.00 0.67   0.67      .   . .       .
+   eszopiclone:suvorexant 0    0 0.74      .   0.74   . .       .
+     eszopiclone:zolpidem 0    0 1.06      .   1.06   . .       .
+    eszopiclone:zopiclone 1 1.00 0.76   0.76      .   . .       .
+    lemborexant:melatonin 0    0 0.40      .   0.40   . .       .
+      lemborexant:placebo 1 1.00 1.31   1.31      .   . .       .
+   lemborexant:suvorexant 0    0 1.44      .   1.44   . .       .
+     lemborexant:zolpidem 0    0 2.08      .   2.08   . .       .
+    lemborexant:zopiclone 0    0 1.49      .   1.49   . .       .
+        melatonin:placebo 1 1.00 3.29   3.29      .   . .       .
+     melatonin:suvorexant 0    0 3.63      .   3.63   . .       .
+       melatonin:zolpidem 0    0 5.22      .   5.22   . .       .
+      melatonin:zopiclone 0    0 3.74      .   3.74   . .       .
+       placebo:suvorexant 2 1.00 1.10   1.10      .   . .       .
+         placebo:zolpidem 2 1.00 1.59   1.59      .   . .       .
+        placebo:zopiclone 0    0 1.14      .   1.14   . .       .
+      suvorexant:zolpidem 0    0 1.44      .   1.44   . .       .
+     suvorexant:zopiclone 0    0 1.03      .   1.03   . .       .
+       zolpidem:zopiclone 0    0 0.72      .   0.72   . .       .
+
+Random effects model: 
+
+               comparison k prop  nma direct indir. RoR z p-value
+ eszopiclone:daridorexant 0    0 0.67      .   0.67   . .       .
+ lemborexant:daridorexant 0    0 1.29      .   1.29   . .       .
+   melatonin:daridorexant 0    0 3.24      .   3.24   . .       .
+     placebo:daridorexant 2 1.00 0.98   0.98      .   . .       .
+  suvorexant:daridorexant 0    0 0.89      .   0.89   . .       .
+    zolpidem:daridorexant 0    0 0.65      .   0.65   . .       .
+   zopiclone:daridorexant 0    0 0.88      .   0.88   . .       .
+  eszopiclone:lemborexant 0    0 0.52      .   0.52   . .       .
+    eszopiclone:melatonin 0    0 0.21      .   0.21   . .       .
+      eszopiclone:placebo 2 1.00 0.68   0.68      .   . .       .
+   eszopiclone:suvorexant 0    0 0.75      .   0.75   . .       .
+     eszopiclone:zolpidem 0    0 1.02      .   1.02   . .       .
+    eszopiclone:zopiclone 1 1.00 0.76   0.76      .   . .       .
+    lemborexant:melatonin 0    0 0.40      .   0.40   . .       .
+      lemborexant:placebo 1 1.00 1.31   1.31      .   . .       .
+   lemborexant:suvorexant 0    0 1.45      .   1.45   . .       .
+     lemborexant:zolpidem 0    0 1.97      .   1.97   . .       .
+    lemborexant:zopiclone 0    0 1.47      .   1.47   . .       .
+        melatonin:placebo 1 1.00 3.29   3.29      .   . .       .
+     melatonin:suvorexant 0    0 3.65      .   3.65   . .       .
+       melatonin:zolpidem 0    0 4.95      .   4.95   . .       .
+      melatonin:zopiclone 0    0 3.68      .   3.68   . .       .
+       placebo:suvorexant 2 1.00 1.11   1.11      .   . .       .
+         placebo:zolpidem 2 1.00 1.50   1.50      .   . .       .
+        placebo:zopiclone 0    0 1.12      .   1.12   . .       .
+      suvorexant:zolpidem 0    0 1.36      .   1.36   . .       .
+     suvorexant:zopiclone 0    0 1.01      .   1.01   . .       .
+       zolpidem:zopiclone 0    0 0.74      .   0.74   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-30"

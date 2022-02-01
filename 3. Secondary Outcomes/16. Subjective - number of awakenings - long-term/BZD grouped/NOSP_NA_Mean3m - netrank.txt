@@ -1,0 +1,8 @@
+             P-score (fixed) P-score (random)
+eszopiclone           0.9956           0.9956
+daridorexant          0.5960           0.5960
+zolpidem              0.5047           0.5047
+suvorexant            0.3516           0.3516
+placebo               0.3310           0.3310
+ramelteon             0.2210           0.2210
+[1] "File created on 2022-01-31"

@@ -1,0 +1,16 @@
+Number of studies: k = 2
+Number of treatments: n = 2
+Number of pairwise comparisons: m = 2
+Number of designs: d = 1
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: 'zolpidem' vs 'placebo'):
+             OR           95%-CI     z p-value
+placebo       .                .     .       .
+zolpidem 0.3001 [0.0241; 3.7303] -0.94  0.3492
+[1] "A total of 2 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2022-01-02"

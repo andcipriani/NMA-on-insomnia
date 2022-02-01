@@ -1,0 +1,24 @@
+Number of studies: k = 7
+Number of treatments: n = 6
+Number of pairwise comparisons: m = 11
+Number of designs: d = 6
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 2.1111 [0.2201; 20.2449]  0.65  0.5171
+daridorexant     0.2269 [0.0196;  2.6265] -1.19  0.2352
+lemborexant      0.6025 [0.0317; 11.4597] -0.34  0.7360
+placebo               .                 .     .       .
+seltorexant      0.6808 [0.3106;  1.4922] -0.96  0.3369
+zolpidem         0.8380 [0.3542;  1.9828] -0.40  0.6875
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.45    3  0.6933
+[1] "A total of 6 treatments are included in the network."
+[1] "A total of 7 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.69325 (Q=1, d.o.f. 3)"
+[1] "File created by E. G. Ostinelli on 2022-01-01"

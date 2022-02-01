@@ -1,0 +1,26 @@
+               P-score
+melatonin       0.7663
+brotizolam      0.7507
+doxylamine      0.7034
+lemborexant     0.6960
+placebo         0.6754
+estazolam       0.6533
+loprazolam      0.6360
+nitrazepam      0.6284
+seltorexant     0.6245
+eszopiclone     0.5910
+daridorexant    0.5723
+flunitrazepam   0.5622
+ramelteon       0.5457
+temazepam       0.5109
+zaleplon        0.4784
+doxepin         0.4118
+quazepam        0.3644
+triazolam       0.3549
+flurazepam      0.3050
+midazolam       0.2858
+trazodone       0.2666
+zolpidem        0.2368
+zopiclone       0.2090
+diphenydramine  0.1711
+[1] "File created on 2022-01-25"

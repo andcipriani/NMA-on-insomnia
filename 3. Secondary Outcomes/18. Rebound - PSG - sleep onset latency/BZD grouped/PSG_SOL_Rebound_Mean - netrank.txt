@@ -1,0 +1,12 @@
+                 P-score (fixed) P-score (random)
+BZD-long                  0.9642           0.9588
+ramelteon                 0.8174           0.7816
+placebo                   0.7317           0.7191
+daridorexant              0.4977           0.5193
+BZD-short                 0.4288           0.4087
+melatonin                 0.3773           0.3947
+BZD-intermediate          0.4289           0.3875
+zolpidem                  0.3980           0.3843
+eszopiclone               0.2150           0.2686
+zaleplon                  0.1410           0.1773
+[1] "File created on 2022-01-31"

@@ -1,0 +1,22 @@
+Number of studies: k = 6
+Number of treatments: n = 4
+Number of pairwise comparisons: m = 6
+Number of designs: d = 3
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI    z p-value
+lemborexant 1.4653 [0.2750; 7.8083] 0.45  0.6545
+melatonin   1.0027 [0.5385; 1.8669] 0.01  0.9933
+placebo          .                .    .       .
+zolpidem    1.2918 [0.5417; 3.0808] 0.58  0.5637
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2022-01-01"

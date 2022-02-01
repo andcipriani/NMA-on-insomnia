@@ -1,0 +1,143 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+                   comparison  k  nma direct indir.  RoR     z p-value
+      brotizolam:daridorexant  0 0.51      .   0.51    .     .       .
+    brotizolam:diphenydramine  0 0.12      .   0.12    .     .       .
+           brotizolam:doxepin  0 0.32      .   0.32    .     .       .
+        brotizolam:doxylamine  0 0.66      .   0.66    .     .       .
+         brotizolam:estazolam  1 0.50   0.50      .    .     .       .
+       brotizolam:eszopiclone  0 0.45      .   0.45    .     .       .
+     brotizolam:flunitrazepam  0 0.43      .   0.43    .     .       .
+        brotizolam:flurazepam  0 0.27      .   0.27    .     .       .
+       brotizolam:lemborexant  0 0.59      .   0.59    .     .       .
+        brotizolam:loprazolam  0 0.48      .   0.48    .     .       .
+         brotizolam:melatonin  0 0.74      .   0.74    .     .       .
+         brotizolam:midazolam  0 0.24      .   0.24    .     .       .
+        brotizolam:nitrazepam  0 0.52      .   0.52    .     .       .
+           brotizolam:placebo  0 0.50      .   0.50    .     .       .
+          brotizolam:quazepam  0 0.24      .   0.24    .     .       .
+         brotizolam:ramelteon  0 0.41      .   0.41    .     .       .
+       brotizolam:seltorexant  0 0.52      .   0.52    .     .       .
+         brotizolam:temazepam  0 0.39      .   0.39    .     .       .
+         brotizolam:trazodone  0 0.23      .   0.23    .     .       .
+         brotizolam:triazolam  0 0.31      .   0.31    .     .       .
+          brotizolam:zaleplon  0 0.37      .   0.37    .     .       .
+          brotizolam:zolpidem  0 0.25      .   0.25    .     .       .
+         brotizolam:zopiclone  0 0.24      .   0.24    .     .       .
+  daridorexant:diphenydramine  0 0.22      .   0.22    .     .       .
+         daridorexant:doxepin  0 0.63      .   0.63    .     .       .
+      daridorexant:doxylamine  0 1.29      .   1.29    .     .       .
+       daridorexant:estazolam  0 0.97      .   0.97    .     .       .
+     daridorexant:eszopiclone  0 0.87      .   0.87    .     .       .
+   daridorexant:flunitrazepam  0 0.83      .   0.83    .     .       .
+      daridorexant:flurazepam  0 0.53      .   0.53    .     .       .
+     daridorexant:lemborexant  0 1.16      .   1.16    .     .       .
+      daridorexant:loprazolam  0 0.93      .   0.93    .     .       .
+       daridorexant:melatonin  0 1.44      .   1.44    .     .       .
+       daridorexant:midazolam  0 0.47      .   0.47    .     .       .
+      daridorexant:nitrazepam  0 1.00      .   1.00    .     .       .
+         daridorexant:placebo  0 0.97      .   0.97    .     .       .
+        daridorexant:quazepam  0 0.47      .   0.47    .     .       .
+       daridorexant:ramelteon  0 0.81      .   0.81    .     .       .
+     daridorexant:seltorexant  0 1.01      .   1.01    .     .       .
+       daridorexant:temazepam  0 0.76      .   0.76    .     .       .
+       daridorexant:trazodone  0 0.44      .   0.44    .     .       .
+       daridorexant:triazolam  0 0.60      .   0.60    .     .       .
+        daridorexant:zaleplon  0 0.73      .   0.73    .     .       .
+        daridorexant:zolpidem  1 0.49   0.49      .    .     .       .
+       daridorexant:zopiclone  0 0.46      .   0.46    .     .       .
+       diphenydramine:doxepin  0 2.80      .   2.80    .     .       .
+    diphenydramine:doxylamine  0 5.76      .   5.76    .     .       .
+     diphenydramine:estazolam  0 4.34      .   4.34    .     .       .
+   diphenydramine:eszopiclone  0 3.86      .   3.86    .     .       .
+ diphenydramine:flunitrazepam  0 3.71      .   3.71    .     .       .
+    diphenydramine:flurazepam  0 2.37      .   2.37    .     .       .
+   diphenydramine:lemborexant  0 5.15      .   5.15    .     .       .
+    diphenydramine:loprazolam  0 4.14      .   4.14    .     .       .
+     diphenydramine:melatonin  0 6.42      .   6.42    .     .       .
+     diphenydramine:midazolam  0 2.10      .   2.10    .     .       .
+    diphenydramine:nitrazepam  0 4.47      .   4.47    .     .       .
+       diphenydramine:placebo  1 4.30   4.30      .    .     .       .
+      diphenydramine:quazepam  0 2.08      .   2.08    .     .       .
+     diphenydramine:ramelteon  0 3.59      .   3.59    .     .       .
+   diphenydramine:seltorexant  0 4.52      .   4.52    .     .       .
+     diphenydramine:temazepam  0 3.39      .   3.39    .     .       .
+     diphenydramine:trazodone  0 1.97      .   1.97    .     .       .
+     diphenydramine:triazolam  0 2.69      .   2.69    .     .       .
+      diphenydramine:zaleplon  0 3.23      .   3.23    .     .       .
+      diphenydramine:zolpidem  0 2.19      .   2.19    .     .       .
+     diphenydramine:zopiclone  0 2.06      .   2.06    .     .       .
+           doxepin:doxylamine  0 2.06      .   2.06    .     .       .
+            doxepin:estazolam  0 1.55      .   1.55    .     .       .
+          doxepin:eszopiclone  0 1.38      .   1.38    .     .       .
+        doxepin:flunitrazepam  0 1.33      .   1.33    .     .       .
+           doxepin:flurazepam  0 0.85      .   0.85    .     .       .
+          doxepin:lemborexant  0 1.84      .   1.84    .     .       .
+           doxepin:loprazolam  0 1.48      .   1.48    .     .       .
+            doxepin:melatonin  0 2.30      .   2.30    .     .       .
+            doxepin:midazolam  0 0.75      .   0.75    .     .       .
+           doxepin:nitrazepam  0 1.60      .   1.60    .     .       .
+              doxepin:placebo  3 1.54   1.73      .    .     .       .
+             doxepin:quazepam  0 0.74      .   0.74    .     .       .
+            doxepin:ramelteon  1 1.29   1.00   1.58 0.63 -0.38  0.7041
+          doxepin:seltorexant  0 1.62      .   1.62    .     .       .
+            doxepin:temazepam  0 1.21      .   1.21    .     .       .
+            doxepin:trazodone  0 0.70      .   0.70    .     .       .
+            doxepin:triazolam  0 0.96      .   0.96    .     .       .
+             doxepin:zaleplon  0 1.16      .   1.16    .     .       .
+             doxepin:zolpidem  0 0.78      .   0.78    .     .       .
+            doxepin:zopiclone  0 0.74      .   0.74    .     .       .
+         doxylamine:estazolam  0 0.75      .   0.75    .     .       .
+       doxylamine:eszopiclone  0 0.67      .   0.67    .     .       .
+     doxylamine:flunitrazepam  0 0.64      .   0.64    .     .       .
+        doxylamine:flurazepam  0 0.41      .   0.41    .     .       .
+       doxylamine:lemborexant  0 0.89      .   0.89    .     .       .
+        doxylamine:loprazolam  0 0.72      .   0.72    .     .       .
+         doxylamine:melatonin  0 1.12      .   1.12    .     .       .
+         doxylamine:midazolam  0 0.36      .   0.36    .     .       .
+        doxylamine:nitrazepam  0 0.78      .   0.78    .     .       .
+           doxylamine:placebo  1 0.75   0.65      .    .     .       .
+          doxylamine:quazepam  0 0.36      .   0.36    .     .       .
+         doxylamine:ramelteon  0 0.62      .   0.62    .     .       .
+       doxylamine:seltorexant  0 0.78      .   0.78    .     .       .
+         doxylamine:temazepam  0 0.59      .   0.59    .     .       .
+         doxylamine:trazodone  0 0.34      .   0.34    .     .       .
+         doxylamine:triazolam  0 0.47      .   0.47    .     .       .
+          doxylamine:zaleplon  0 0.56      .   0.56    .     .       .
+          doxylamine:zolpidem  1 0.38   0.41      .    .     .       .
+         doxylamine:zopiclone  0 0.36      .   0.36    .     .       .
+        estazolam:eszopiclone  0 0.89      .   0.89    .     .       .
+      estazolam:flunitrazepam  0 0.86      .   0.86    .     .       .
+         estazolam:flurazepam  2 0.55   0.37   1.76 0.21 -1.65  0.0992
+        estazolam:lemborexant  0 1.19      .   1.19    .     .       .
+         estazolam:loprazolam  0 0.95      .   0.95    .     .       .
+          estazolam:melatonin  0 1.48      .   1.48    .     .       .
+          estazolam:midazolam  0 0.48      .   0.48    .     .       .
+         estazolam:nitrazepam  0 1.03      .   1.03    .     .       .
+            estazolam:placebo  4 0.99   0.98   4.33 0.23 -1.13  0.2569
+           estazolam:quazepam  0 0.48      .   0.48    .     .       .
+          estazolam:ramelteon  0 0.83      .   0.83    .     .       .
+        estazolam:seltorexant  0 1.04      .   1.04    .     .       .
+          estazolam:temazepam  0 0.78      .   0.78    .     .       .
+          estazolam:trazodone  0 0.45      .   0.45    .     .       .
+          estazolam:triazolam  0 0.62      .   0.62    .     .       .
+           estazolam:zaleplon  0 0.75      .   0.75    .     .       .
+           estazolam:zolpidem  0 0.51      .   0.51    .     .       .
+          estazolam:zopiclone  1 0.47   2.03   0.40 5.07  1.24  0.2138
+    eszopiclone:flunitrazepam  0 0.96      .   0.96    .     .       .
+       eszopiclone:flurazepam  0 0.61      .   0.61    .     .       .
+ [ reached getOption("max.print") -- omitted 151 rows ]
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-01-25"

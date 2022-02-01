@@ -1,0 +1,86 @@
+Original data:
+
+          treat1     treat2      TE   seTE
+45       placebo suvorexant  0.1557 0.0991
+46       placebo suvorexant  0.0924 0.1087
+60       doxepin    placebo  0.0791 0.1567
+75       placebo  ramelteon  0.2601 0.0946
+112      placebo   zolpidem  0.7369 0.2168
+159 daridorexant    placebo -0.2993 0.0699
+160 daridorexant    placebo -0.2743 0.0809
+
+Number of treatment arms (by study):
+    narms
+45      2
+46      2
+60      2
+75      2
+112     2
+159     2
+160     2
+
+Results (fixed effects model):
+
+          treat1     treat2     SMD             95%-CI    Q leverage
+45       placebo suvorexant  0.1269 [-0.0166;  0.2705] 0.08     0.55
+46       placebo suvorexant  0.1269 [-0.0166;  0.2705] 0.10     0.45
+60       doxepin    placebo  0.0791 [-0.2280;  0.3863] 0.00     1.00
+75       placebo  ramelteon  0.2601 [ 0.0747;  0.4455] 0.00     1.00
+112      placebo   zolpidem  0.7369 [ 0.3120;  1.1617] 0.00     1.00
+159 daridorexant    placebo -0.2886 [-0.3923; -0.1849] 0.02     0.57
+160 daridorexant    placebo -0.2886 [-0.3923; -0.1849] 0.03     0.43
+
+Results (random effects model):
+
+          treat1     treat2     SMD             95%-CI
+45       placebo suvorexant  0.1269 [-0.0166;  0.2705]
+46       placebo suvorexant  0.1269 [-0.0166;  0.2705]
+60       doxepin    placebo  0.0791 [-0.2280;  0.3863]
+75       placebo  ramelteon  0.2601 [ 0.0747;  0.4455]
+112      placebo   zolpidem  0.7369 [ 0.3120;  1.1617]
+159 daridorexant    placebo -0.2886 [-0.3923; -0.1849]
+160 daridorexant    placebo -0.2886 [-0.3923; -0.1849]
+
+Number of studies: k = 7
+Number of pairwise comparisons: m = 7
+Number of observations: o = 3057
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z  p-value
+daridorexant -0.2886 [-0.3923; -0.1849] -5.46 < 0.0001
+doxepin       0.0791 [-0.2280;  0.3863]  0.51   0.6135
+placebo            .                  .     .        .
+ramelteon    -0.2601 [-0.4455; -0.0747] -2.75   0.0060
+suvorexant   -0.1269 [-0.2705;  0.0166] -1.73   0.0831
+zolpidem     -0.7369 [-1.1617; -0.3120] -3.40   0.0007
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z  p-value            95%-PI
+daridorexant -0.2886 [-0.3923; -0.1849] -5.46 < 0.0001 [-0.9607; 0.3835]
+doxepin       0.0791 [-0.2280;  0.3863]  0.51   0.6135 [-1.9121; 2.0704]
+placebo            .                  .     .        .                 .
+ramelteon    -0.2601 [-0.4455; -0.0747] -2.75   0.0060 [-1.4618; 0.9416]
+suvorexant   -0.1269 [-0.2705;  0.0166] -1.73   0.0831 [-1.0574; 0.8036]
+zolpidem     -0.7369 [-1.1617; -0.3120] -3.40   0.0007 [-3.4911; 2.0174]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.24    2  0.8871
+Within designs  0.24    2  0.8871
+Between designs 0.00    0      --
+[1] "A total of 6 treatments are included in the network."
+[1] "A total of 7 studies are included in this analysis."
+[1] "A total of 3057 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 45 46 60 75 112 159 160"
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-31"

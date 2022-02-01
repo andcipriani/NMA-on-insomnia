@@ -1,0 +1,108 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+                   comparison k   nma direct indir.  RoR     z p-value
+    BZD-intermediate:BZD-long 0  1.15      .   1.15    .     .       .
+   BZD-intermediate:BZD-short 0  0.29      .   0.29    .     .       .
+     BZD-intermediate:doxepin 0  0.42      .   0.42    .     .       .
+  BZD-intermediate:doxylamine 0  0.45      .   0.45    .     .       .
+ BZD-intermediate:eszopiclone 0  0.19      .   0.19    .     .       .
+ BZD-intermediate:lemborexant 0  2.07      .   2.07    .     .       .
+ BZD-intermediate:mirtazapine 2  2.60   2.60      .    .     .       .
+     BZD-intermediate:placebo 1  0.81   0.81      .    .     .       .
+  BZD-intermediate:suvorexant 0  0.57      .   0.57    .     .       .
+   BZD-intermediate:trazodone 1  3.64   3.64      .    .     .       .
+    BZD-intermediate:zaleplon 0  0.77      .   0.77    .     .       .
+    BZD-intermediate:zolpidem 0  0.60      .   0.60    .     .       .
+   BZD-intermediate:zopiclone 0  0.36      .   0.36    .     .       .
+           BZD-long:BZD-short 0  0.25      .   0.25    .     .       .
+             BZD-long:doxepin 0  0.37      .   0.37    .     .       .
+          BZD-long:doxylamine 0  0.39      .   0.39    .     .       .
+         BZD-long:eszopiclone 0  0.16      .   0.16    .     .       .
+         BZD-long:lemborexant 0  1.80      .   1.80    .     .       .
+         BZD-long:mirtazapine 0  2.26      .   2.26    .     .       .
+             BZD-long:placebo 1  0.71   0.70   1.15 0.61 -0.31  0.7550
+          BZD-long:suvorexant 0  0.49      .   0.49    .     .       .
+           BZD-long:trazodone 0  3.17      .   3.17    .     .       .
+            BZD-long:zaleplon 0  0.67      .   0.67    .     .       .
+            BZD-long:zolpidem 0  0.52      .   0.52    .     .       .
+           BZD-long:zopiclone 2  0.32   0.25      .    .     .       .
+            BZD-short:doxepin 0  1.47      .   1.47    .     .       .
+         BZD-short:doxylamine 0  1.56      .   1.56    .     .       .
+        BZD-short:eszopiclone 0  0.65      .   0.65    .     .       .
+        BZD-short:lemborexant 0  7.20      .   7.20    .     .       .
+        BZD-short:mirtazapine 0  9.04      .   9.04    .     .       .
+            BZD-short:placebo 0  2.82      .   2.82    .     .       .
+         BZD-short:suvorexant 0  1.98      .   1.98    .     .       .
+          BZD-short:trazodone 0 12.68      .  12.68    .     .       .
+           BZD-short:zaleplon 0  2.68      .   2.68    .     .       .
+           BZD-short:zolpidem 0  2.07      .   2.07    .     .       .
+          BZD-short:zopiclone 1  1.27   1.27      .    .     .       .
+           doxepin:doxylamine 0  1.07      .   1.07    .     .       .
+          doxepin:eszopiclone 0  0.45      .   0.45    .     .       .
+          doxepin:lemborexant 0  4.91      .   4.91    .     .       .
+          doxepin:mirtazapine 0  6.17      .   6.17    .     .       .
+              doxepin:placebo 1  1.92   1.92      .    .     .       .
+           doxepin:suvorexant 0  1.35      .   1.35    .     .       .
+            doxepin:trazodone 0  8.64      .   8.64    .     .       .
+             doxepin:zaleplon 0  1.83      .   1.83    .     .       .
+             doxepin:zolpidem 0  1.41      .   1.41    .     .       .
+            doxepin:zopiclone 0  0.86      .   0.86    .     .       .
+       doxylamine:eszopiclone 0  0.42      .   0.42    .     .       .
+       doxylamine:lemborexant 0  4.60      .   4.60    .     .       .
+       doxylamine:mirtazapine 0  5.78      .   5.78    .     .       .
+           doxylamine:placebo 1  1.80   2.04      .    .     .       .
+        doxylamine:suvorexant 0  1.26      .   1.26    .     .       .
+         doxylamine:trazodone 0  8.10      .   8.10    .     .       .
+          doxylamine:zaleplon 0  1.72      .   1.72    .     .       .
+          doxylamine:zolpidem 1  1.32   1.23      .    .     .       .
+         doxylamine:zopiclone 0  0.81      .   0.81    .     .       .
+      eszopiclone:lemborexant 0 11.03      .  11.03    .     .       .
+      eszopiclone:mirtazapine 0 13.85      .  13.85    .     .       .
+          eszopiclone:placebo 3  4.32   4.32      .    .     .       .
+       eszopiclone:suvorexant 0  3.03      .   3.03    .     .       .
+        eszopiclone:trazodone 0 19.41      .  19.41    .     .       .
+         eszopiclone:zaleplon 0  4.11      .   4.11    .     .       .
+         eszopiclone:zolpidem 0  3.17      .   3.17    .     .       .
+        eszopiclone:zopiclone 0  1.94      .   1.94    .     .       .
+      lemborexant:mirtazapine 0  1.26      .   1.26    .     .       .
+          lemborexant:placebo 1  0.39   0.39      .    .     .       .
+       lemborexant:suvorexant 0  0.27      .   0.27    .     .       .
+        lemborexant:trazodone 0  1.76      .   1.76    .     .       .
+         lemborexant:zaleplon 0  0.37      .   0.37    .     .       .
+         lemborexant:zolpidem 0  0.29      .   0.29    .     .       .
+        lemborexant:zopiclone 0  0.18      .   0.18    .     .       .
+          mirtazapine:placebo 0  0.31      .   0.31    .     .       .
+       mirtazapine:suvorexant 0  0.22      .   0.22    .     .       .
+        mirtazapine:trazodone 0  1.40      .   1.40    .     .       .
+         mirtazapine:zaleplon 0  0.30      .   0.30    .     .       .
+         mirtazapine:zolpidem 0  0.23      .   0.23    .     .       .
+        mirtazapine:zopiclone 0  0.14      .   0.14    .     .       .
+           suvorexant:placebo 2  1.43   1.43      .    .     .       .
+            trazodone:placebo 0  0.22      .   0.22    .     .       .
+             zaleplon:placebo 0  1.05      .   1.05    .     .       .
+             zolpidem:placebo 3  1.36   1.37      .    .     .       .
+            zopiclone:placebo 2  2.23   2.43      .    .     .       .
+         suvorexant:trazodone 0  6.41      .   6.41    .     .       .
+          suvorexant:zaleplon 0  1.36      .   1.36    .     .       .
+          suvorexant:zolpidem 0  1.05      .   1.05    .     .       .
+         suvorexant:zopiclone 0  0.64      .   0.64    .     .       .
+           trazodone:zaleplon 0  0.21      .   0.21    .     .       .
+           trazodone:zolpidem 0  0.16      .   0.16    .     .       .
+          trazodone:zopiclone 0  0.10      .   0.10    .     .       .
+            zaleplon:zolpidem 2  0.77   0.77      .    .     .       .
+           zaleplon:zopiclone 0  0.47      .   0.47    .     .       .
+           zolpidem:zopiclone 0  0.61      .   0.61    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created by E. G. Ostinelli on 2021-12-31"

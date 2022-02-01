@@ -1,0 +1,5 @@
+            P-score (fixed) P-score (random)
+eszopiclone             1.0              1.0
+placebo                 0.5              0.5
+melatonin               0.0              0.0
+[1] "File created on 2022-01-30"

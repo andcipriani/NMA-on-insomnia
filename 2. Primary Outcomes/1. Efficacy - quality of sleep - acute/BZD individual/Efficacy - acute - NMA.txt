@@ -1,0 +1,88 @@
+Number of studies: k = 88
+Number of treatments: n = 29
+Number of pairwise comparisons: m = 120
+Number of designs: d = 50
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                   SMD            95%-CI     z  p-value
+brotizolam      0.8908 [ 0.6489; 1.1327]  7.22 < 0.0001
+daridorexant    0.2728 [ 0.1768; 0.3687]  5.57 < 0.0001
+diphenydramine  0.5274 [ 0.1702; 0.8845]  2.89   0.0038
+doxepin         0.2664 [ 0.0647; 0.4681]  2.59   0.0096
+doxylamine      0.4944 [ 0.2632; 0.7255]  4.19 < 0.0001
+estazolam       0.7544 [ 0.6328; 0.8759] 12.16 < 0.0001
+eszopiclone     0.5958 [ 0.5203; 0.6712] 15.48 < 0.0001
+flunitrazepam   0.7108 [ 0.3487; 1.0728]  3.85   0.0001
+flurazepam      0.7353 [ 0.5677; 0.9028]  8.60 < 0.0001
+lemborexant     0.4103 [ 0.3152; 0.5053]  8.46 < 0.0001
+loprazolam      0.5104 [ 0.2917; 0.7291]  4.57 < 0.0001
+lorazepam      -0.1516 [-0.7850; 0.4818] -0.47   0.6390
+lormetazepam    0.6579 [ 0.4014; 0.9145]  5.03 < 0.0001
+melatonin       0.1103 [-0.0055; 0.2262]  1.87   0.0619
+midazolam       0.8302 [ 0.2654; 1.3949]  2.88   0.0040
+mirtazapine     0.1710 [-0.6150; 0.9569]  0.43   0.6699
+nitrazepam      0.3678 [ 0.1736; 0.5621]  3.71   0.0002
+placebo              .                 .     .        .
+quazepam        0.6254 [ 0.3913; 0.8596]  5.24 < 0.0001
+quetiapine      0.0471 [-1.0436; 1.1377]  0.08   0.9326
+ramelteon       0.1364 [ 0.0403; 0.2325]  2.78   0.0054
+suvorexant      0.2948 [ 0.1772; 0.4124]  4.91 < 0.0001
+temazepam       0.5422 [ 0.3695; 0.7149]  6.15 < 0.0001
+trazodone       0.4730 [ 0.2729; 0.6732]  4.63 < 0.0001
+triazolam       0.8099 [ 0.6170; 1.0027]  8.23 < 0.0001
+trimipramine    0.5398 [-0.0339; 1.1135]  1.84   0.0652
+zaleplon        0.2001 [ 0.1062; 0.2941]  4.17 < 0.0001
+zolpidem        0.5075 [ 0.4459; 0.5691] 16.14 < 0.0001
+zopiclone       0.5725 [ 0.4628; 0.6823] 10.22 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                   SMD            95%-CI     z  p-value            95%-PI
+brotizolam      0.8305 [ 0.4495; 1.2116]  4.27 < 0.0001 [ 0.2617; 1.3993]
+daridorexant    0.2811 [ 0.0288; 0.5334]  2.18   0.0290 [-0.2081; 0.7703]
+diphenydramine  0.5274 [-0.0163; 1.0710]  1.90   0.0573 [-0.1646; 1.2194]
+doxepin         0.2916 [-0.0663; 0.6495]  1.60   0.1102 [-0.2614; 0.8447]
+doxylamine      0.4932 [ 0.0665; 0.9199]  2.27   0.0235 [-0.1081; 1.0946]
+estazolam       0.7105 [ 0.4933; 0.9277]  6.41 < 0.0001 [ 0.2390; 1.1820]
+eszopiclone     0.5404 [ 0.3734; 0.7074]  6.34 < 0.0001 [ 0.0905; 0.9903]
+flunitrazepam   0.6209 [ 0.1013; 1.1406]  2.34   0.0192 [-0.0517; 1.2936]
+flurazepam      0.7137 [ 0.4751; 0.9523]  5.86 < 0.0001 [ 0.2316; 1.1958]
+lemborexant     0.4040 [ 0.1179; 0.6901]  2.77   0.0056 [-0.1040; 0.9121]
+loprazolam      0.5132 [ 0.2006; 0.8259]  3.22   0.0013 [-0.0108; 1.0372]
+lorazepam      -0.1653 [-0.9264; 0.5957] -0.43   0.6703 [-1.0439; 0.7132]
+lormetazepam    0.7360 [ 0.3867; 1.0853]  4.13 < 0.0001 [ 0.1887; 1.2834]
+melatonin       0.1004 [-0.1371; 0.3380]  0.83   0.4073 [-0.3811; 0.5819]
+midazolam       0.7741 [ 0.0506; 1.4976]  2.10   0.0360 [-0.0711; 1.6192]
+mirtazapine     0.1572 [-0.8244; 1.1389]  0.31   0.7536 [-0.9240; 1.2385]
+nitrazepam      0.3774 [ 0.1064; 0.6483]  2.73   0.0063 [-0.1220; 0.8768]
+placebo              .                 .     .        .                 .
+quazepam        0.6393 [ 0.3419; 0.9367]  4.21 < 0.0001 [ 0.1246; 1.1540]
+quetiapine      0.0471 [-1.1180; 1.2122]  0.08   0.9369 [-1.2083; 1.3024]
+ramelteon       0.1175 [-0.1423; 0.3773]  0.89   0.3754 [-0.3757; 0.6107]
+suvorexant      0.2989 [-0.0139; 0.6118]  1.87   0.0611 [-0.2251; 0.8230]
+temazepam       0.5455 [ 0.2960; 0.7950]  4.28 < 0.0001 [ 0.0578; 1.0332]
+trazodone       0.4973 [ 0.1775; 0.8170]  3.05   0.0023 [-0.0311; 1.0257]
+triazolam       0.8546 [ 0.5743; 1.1350]  5.98 < 0.0001 [ 0.3499; 1.3593]
+trimipramine    0.5825 [-0.1030; 1.2680]  1.67   0.0958 [-0.2293; 1.3943]
+zaleplon        0.1974 [-0.0013; 0.3962]  1.95   0.0516 [-0.2656; 0.6605]
+zolpidem        0.4937 [ 0.3764; 0.6111]  8.25 < 0.0001 [ 0.0604; 0.9271]
+zopiclone       0.5164 [ 0.2962; 0.7367]  4.59 < 0.0001 [ 0.0435; 0.9894]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0437; tau = 0.2091; I^2 = 66.6% [57.7%; 73.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           227.73   76 < 0.0001
+Within designs  148.27   41 < 0.0001
+Between designs  79.44   35 < 0.0001
+[1] "A total of 29 treatments are included in the network."
+[1] "A total of 88 studies are included in this analysis."
+[1] "A total of 20812 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 4 5 6 7 8 9 11 13 15 18 19 20 23 24 25 27 30 31 32 34 36 39 40 43 44 45 46 47 48 50 58 59 60 62 63 65 67 69 70 71 72 73 74 75 76 77 80 81 87 94 99 100 102 104 106 108 111 112 113 117 119 120 121 123 124 125 127 128 129 130 131 132 136 137 141 142 143 144 145 146 149 153 155 159 160 161 162 164"
+[1] "Estimated heterogeneity tau-squared0.04"
+[1] "Global test for inconsistency, p-value 3e-05 (Q=79, d.o.f. 35)"
+[1] "File created on 2022-01-28"

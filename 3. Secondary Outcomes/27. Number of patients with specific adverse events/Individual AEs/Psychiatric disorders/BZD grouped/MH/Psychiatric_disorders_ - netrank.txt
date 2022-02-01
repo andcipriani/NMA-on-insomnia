@@ -1,0 +1,7 @@
+          P-score
+placebo    0.7999
+melatonin  0.6442
+zolpidem   0.4301
+BZD-short  0.3468
+BZD-long   0.2790
+[1] "File created by E. G. Ostinelli on 2022-01-01"

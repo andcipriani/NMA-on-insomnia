@@ -1,0 +1,74 @@
+Original data:
+
+          treat1    treat2      TE   seTE
+58   eszopiclone   placebo  0.5000 0.0833
+75       placebo ramelteon -0.0000 0.0942
+155  lemborexant   placebo  0.6229 0.0786
+159 daridorexant   placebo  0.2221 0.0698
+160 daridorexant   placebo  0.2689 0.0809
+
+Number of treatment arms (by study):
+    narms
+58      2
+75      2
+155     2
+159     2
+160     2
+
+Results (fixed effects model):
+
+          treat1    treat2    SMD            95%-CI    Q leverage
+58   eszopiclone   placebo 0.5000 [ 0.3367; 0.6633] 0.00     1.00
+75       placebo ramelteon 0.0000 [-0.1846; 0.1846] 0.00     1.00
+155  lemborexant   placebo 0.6229 [ 0.4688; 0.7771] 0.00     1.00
+159 daridorexant   placebo 0.2421 [ 0.1385; 0.3456] 0.08     0.57
+160 daridorexant   placebo 0.2421 [ 0.1385; 0.3456] 0.11     0.43
+
+Results (random effects model):
+
+          treat1    treat2    SMD            95%-CI
+58   eszopiclone   placebo 0.5000 [ 0.3367; 0.6633]
+75       placebo ramelteon 0.0000 [-0.1846; 0.1846]
+155  lemborexant   placebo 0.6229 [ 0.4688; 0.7771]
+159 daridorexant   placebo 0.2421 [ 0.1385; 0.3456]
+160 daridorexant   placebo 0.2421 [ 0.1385; 0.3456]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 5
+Number of observations: o = 3538
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD            95%-CI     z  p-value
+daridorexant  0.2421 [ 0.1385; 0.3456]  4.58 < 0.0001
+eszopiclone   0.5000 [ 0.3367; 0.6633]  6.00 < 0.0001
+lemborexant   0.6229 [ 0.4688; 0.7771]  7.92 < 0.0001
+placebo            .                 .     .        .
+ramelteon    -0.0000 [-0.1846; 0.1846] -0.00   1.0000
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD            95%-CI     z  p-value
+daridorexant  0.2421 [ 0.1385; 0.3456]  4.58 < 0.0001
+eszopiclone   0.5000 [ 0.3367; 0.6633]  6.00 < 0.0001
+lemborexant   0.6229 [ 0.4688; 0.7771]  7.92 < 0.0001
+placebo            .                 .     .        .
+ramelteon    -0.0000 [-0.1846; 0.1846] -0.00   1.0000
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.19    1  0.6612
+Within designs  0.19    1  0.6612
+Between designs 0.00    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 5 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-30"

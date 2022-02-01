@@ -1,0 +1,9 @@
+                 P-score
+quetiapine        0.7626
+placebo           0.6346
+BZD-long          0.6147
+BZD-intermediate  0.5541
+zolpidem          0.4559
+zopiclone         0.2546
+BZD-short         0.2234
+[1] "File created on 2022-01-30"

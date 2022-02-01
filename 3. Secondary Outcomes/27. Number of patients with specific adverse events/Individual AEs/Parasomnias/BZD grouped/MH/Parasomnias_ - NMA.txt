@@ -1,0 +1,16 @@
+Number of studies: k = 1
+Number of treatments: n = 2
+Number of pairwise comparisons: m = 1
+Number of designs: d = 1
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: 'lemborexant' vs 'placebo'):
+                OR           95%-CI     z p-value
+lemborexant 0.7941 [0.1083; 5.8225] -0.23  0.8206
+placebo          .                .     .       .
+[1] "A total of 2 treatments are included in the network."
+[1] "A total of 1 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2022-01-02"

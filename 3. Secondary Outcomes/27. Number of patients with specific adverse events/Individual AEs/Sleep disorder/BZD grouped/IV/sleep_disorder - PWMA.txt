@@ -1,0 +1,10 @@
+                   comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 BZD-intermediate vs  placebo                 1 0.48     0.04     5.62     NA   NA         NA         NA    0    NA
+2     daridorexant vs  placebo                 1 0.76     0.03    18.91     NA   NA         NA         NA    0    NA
+3      lemborexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+4       suvorexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+5         zolpidem vs  placebo                 1 2.83     0.11    74.46     NA   NA         NA         NA    0    NA
+6     zolpidem vs daridorexant                 1 1.31     0.05    32.66     NA   NA         NA         NA    0    NA
+7      zolpidem vs lemborexant                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+8       zopiclone vs BZD-short                 1 0.45     0.08     2.47     NA   NA         NA         NA    0    NA
+[1] "File created by E. G. Ostinelli on 2022-01-01"

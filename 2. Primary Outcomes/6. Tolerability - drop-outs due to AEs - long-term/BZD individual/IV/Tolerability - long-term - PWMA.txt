@@ -1,0 +1,11 @@
+                comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1  daridorexant vs  placebo                 2 0.55     0.25     1.18   0.00 0.00         NA         NA 0.22 0.6411
+2       doxepin vs  placebo                 1 0.99     0.19     5.04     NA   NA         NA         NA 0.00     NA
+3   eszopiclone vs  placebo                 2 1.43     0.85     2.41   0.06 0.42         NA         NA 1.71 0.1904
+4   lemborexant vs  placebo                 1 1.60     0.71     3.58     NA   NA         NA         NA 0.00     NA
+5     melatonin vs  placebo                 1 2.72     1.29     5.72     NA   NA         NA         NA 0.00     NA
+6 mirtazapine vs alprazolam                 1 1.67     0.26    10.59     NA   NA         NA         NA 0.00     NA
+7     ramelteon vs  placebo                 1 0.78     0.30     2.02     NA   NA         NA         NA 0.00     NA
+8    suvorexant vs  placebo                 2 0.58     0.27     1.28   0.13 0.39         NA         NA 1.64 0.2007
+9      zolpidem vs  placebo                 2 1.94     1.10     3.40   0.00 0.00         NA         NA 0.48 0.4879
+[1] "File created on 2022-01-25"

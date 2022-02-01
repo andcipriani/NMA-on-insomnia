@@ -1,0 +1,5 @@
+          P-score (fixed) P-score (random)
+doxepin            0.9953           0.9953
+ramelteon          0.2534           0.2534
+placebo            0.2513           0.2513
+[1] "File created on 2022-01-30"

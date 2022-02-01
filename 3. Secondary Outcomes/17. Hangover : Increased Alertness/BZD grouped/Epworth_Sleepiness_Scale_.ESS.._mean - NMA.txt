@@ -1,0 +1,64 @@
+Original data:
+
+         treat1   treat2      TE   seTE
+59      placebo zolpidem -0.1105 0.0661
+87      placebo zolpidem  0.8564 0.3589
+136 eszopiclone  placebo  0.2568 0.1086
+
+Number of treatment arms (by study):
+    narms
+59      2
+87      2
+136     2
+
+Results (fixed effects model):
+
+         treat1   treat2     SMD            95%-CI    Q leverage
+59      placebo zolpidem -0.0788 [-0.2062; 0.0487] 0.23     0.97
+87      placebo zolpidem -0.0788 [-0.2062; 0.0487] 6.79     0.03
+136 eszopiclone  placebo  0.2568 [ 0.0439; 0.4697] 0.00     1.00
+
+Results (random effects model):
+
+         treat1   treat2    SMD            95%-CI
+59      placebo zolpidem 0.3086 [-0.6305; 1.2477]
+87      placebo zolpidem 0.3086 [-0.6305; 1.2477]
+136 eszopiclone  placebo 0.2568 [-1.0022; 1.5158]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of observations: o = 1402
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+               SMD            95%-CI    z p-value
+eszopiclone 0.2568 [ 0.0439; 0.4697] 2.36  0.0181
+placebo          .                 .    .       .
+zolpidem    0.0788 [-0.0487; 0.2062] 1.21  0.2257
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD            95%-CI     z p-value
+eszopiclone  0.2568 [-1.0022; 1.5158]  0.40  0.6894
+placebo           .                 .     .       .
+zolpidem    -0.3086 [-1.2477; 0.6305] -0.64  0.5196
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.4008; tau = 0.6331; I^2 = 85.8% [42.8%; 96.5%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           7.02    1  0.0081
+Within designs  7.02    1  0.0081
+Between designs 0.00    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 3 studies are included in this analysis."
+[1] "A total of 1402 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 59 87 136"
+[1] "Estimated heterogeneity tau-squared0.4"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-31"

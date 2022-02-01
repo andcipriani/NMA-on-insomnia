@@ -1,0 +1,68 @@
+Original data:
+
+     treat1    treat2      TE   seTE
+59  placebo  zolpidem  0.0102 0.0923
+62  placebo  zolpidem -0.1673 0.2234
+75  placebo ramelteon -0.1056 0.0942
+145 placebo ramelteon  0.0725 0.1218
+
+Number of treatment arms (by study):
+    narms
+59      2
+62      2
+75      2
+145     2
+
+Results (fixed effects model):
+
+     treat1    treat2     SMD            95%-CI    Q leverage
+59  placebo  zolpidem -0.0157 [-0.1829; 0.1515] 0.08     0.85
+62  placebo  zolpidem -0.0157 [-0.1829; 0.1515] 0.46     0.15
+75  placebo ramelteon -0.0389 [-0.1850; 0.1072] 0.50     0.63
+145 placebo ramelteon -0.0389 [-0.1850; 0.1072] 0.84     0.37
+
+Results (random effects model):
+
+     treat1    treat2     SMD            95%-CI
+59  placebo  zolpidem -0.0157 [-0.1829; 0.1515]
+62  placebo  zolpidem -0.0157 [-0.1829; 0.1515]
+75  placebo ramelteon -0.0389 [-0.1850; 0.1072]
+145 placebo ramelteon -0.0389 [-0.1850; 0.1072]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 1352
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+             SMD            95%-CI    z p-value
+placebo        .                 .    .       .
+ramelteon 0.0389 [-0.1072; 0.1850] 0.52  0.6020
+zolpidem  0.0157 [-0.1515; 0.1829] 0.18  0.8540
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+             SMD            95%-CI    z p-value            95%-PI
+placebo        .                 .    .       .                 .
+ramelteon 0.0389 [-0.1072; 0.1850] 0.52  0.6020 [-0.9082; 0.9860]
+zolpidem  0.0157 [-0.1515; 0.1829] 0.18  0.8540 [-1.0680; 1.0994]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.88    2  0.3915
+Within designs  1.88    2  0.3915
+Between designs 0.00    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 4 studies are included in this analysis."
+[1] "A total of 1352 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 59 62 75 145"
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-31"

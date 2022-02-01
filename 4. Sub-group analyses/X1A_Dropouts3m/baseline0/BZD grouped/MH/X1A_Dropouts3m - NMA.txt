@@ -1,0 +1,22 @@
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 1621
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR           95%-CI     z  p-value
+eszopiclone 0.5496 [0.4108; 0.7354] -4.03 < 0.0001
+melatonin   3.2895 [2.2395; 4.8319]  6.07 < 0.0001
+placebo          .                .     .        .
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-30"

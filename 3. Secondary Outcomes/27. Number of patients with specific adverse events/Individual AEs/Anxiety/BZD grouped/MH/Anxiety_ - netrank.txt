@@ -1,0 +1,12 @@
+                 P-score
+zaleplon          0.8494
+BZD-long          0.7711
+daridorexant      0.6766
+BZD-intermediate  0.6657
+placebo           0.5492
+lemborexant       0.4673
+zopiclone         0.3105
+eszopiclone       0.2871
+BZD-short         0.2337
+zolpidem          0.1894
+[1] "File created by E. G. Ostinelli on 2021-12-31"

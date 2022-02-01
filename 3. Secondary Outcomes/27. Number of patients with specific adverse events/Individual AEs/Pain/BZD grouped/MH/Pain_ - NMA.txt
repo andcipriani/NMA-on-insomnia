@@ -1,0 +1,21 @@
+Number of studies: k = 4
+Number of treatments: n = 3
+Number of pairwise comparisons: m = 4
+Number of designs: d = 2
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI    z p-value
+eszopiclone 1.2317 [0.8584;  1.7673] 1.13  0.2579
+placebo          .                 .    .       .
+zolpidem    7.5000 [0.7913; 71.0856] 1.76  0.0791
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 4 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2021-12-31"

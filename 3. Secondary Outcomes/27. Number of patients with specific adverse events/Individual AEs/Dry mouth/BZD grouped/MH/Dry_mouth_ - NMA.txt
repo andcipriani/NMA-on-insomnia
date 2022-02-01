@@ -1,0 +1,32 @@
+Number of studies: k = 20
+Number of treatments: n = 14
+Number of pairwise comparisons: m = 24
+Number of designs: d = 14
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 0.8095 [0.1728;  3.7919] -0.27  0.7885
+BZD-long         0.7059 [0.1775;  2.8063] -0.49  0.6208
+BZD-short        2.8183 [0.3537; 22.4593]  0.98  0.3279
+doxepin          1.9219 [0.1721; 21.4662]  0.53  0.5957
+doxylamine       1.8009 [0.5833;  5.5608]  1.02  0.3064
+eszopiclone      4.3166 [1.9440;  9.5850]  3.59  0.0003
+lemborexant      0.3913 [0.0346;  4.4303] -0.76  0.4486
+mirtazapine      0.3117 [0.0321;  3.0283] -1.00  0.3149
+placebo               .                 .     .       .
+suvorexant       1.4263 [0.5754;  3.5353]  0.77  0.4433
+trazodone        0.2223 [0.0091;  5.4144] -0.92  0.3560
+zaleplon         1.0501 [0.3111;  3.5443]  0.08  0.9372
+zolpidem         1.3598 [0.5081;  3.6390]  0.61  0.5405
+zopiclone        2.2250 [0.8525;  5.8070]  1.63  0.1023
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.16    3  0.7633
+[1] "A total of 14 treatments are included in the network."
+[1] "A total of 20 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.76334 (Q=1, d.o.f. 3)"
+[1] "File created by E. G. Ostinelli on 2021-12-31"

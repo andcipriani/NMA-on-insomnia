@@ -1,0 +1,24 @@
+      OR           95%-CI %W(fixed) %W(random)
+1 1.0842 [0.3667; 3.2058]      56.0       57.0
+2 1.0026 [0.2880; 3.4906]      44.0       43.0
+
+Number of studies combined: k = 2
+Number of observations: o = 1003
+Number of events: e = 24
+
+                         OR           95%-CI    z p-value
+Fixed effect model   1.0483 [0.4625; 2.3760] 0.11  0.9101
+Random effects model 1.0483 [0.4625; 2.3761] 0.11  0.9101
+
+Quantifying heterogeneity:
+ tau^2 = 0; tau = 0; I^2 = 0.0%; H = 1.00
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 0.01    1  0.9260
+
+Details on meta-analytical method:
+- Mantel-Haenszel method
+- DerSimonian-Laird estimator for tau^2
+- Mantel-Haenszel estimator used in calculation of Q and tau^2 (like RevMan 5)
+[1] "File created by E. G. Ostinelli on 2022-01-01"

@@ -1,0 +1,5 @@
+          P-score (fixed) P-score (random)
+placebo             0.636            0.636
+zolpidem            0.504            0.504
+ramelteon           0.360            0.360
+[1] "File created on 2022-01-31"

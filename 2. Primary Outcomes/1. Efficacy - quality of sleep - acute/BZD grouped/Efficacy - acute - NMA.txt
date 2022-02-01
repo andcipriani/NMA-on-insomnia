@@ -1,0 +1,70 @@
+Number of studies: k = 89
+Number of treatments: n = 20
+Number of pairwise comparisons: m = 119
+Number of designs: d = 38
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD            95%-CI     z  p-value
+BZD-intermediate 0.6558 [ 0.5708; 0.7409] 15.11 < 0.0001
+BZD-long         0.5945 [ 0.4842; 0.7048] 10.56 < 0.0001
+BZD-short        0.8151 [ 0.6690; 0.9612] 10.93 < 0.0001
+daridorexant     0.2737 [ 0.1777; 0.3696]  5.59 < 0.0001
+diphenydramine   0.5274 [ 0.1702; 0.8845]  2.89   0.0038
+doxepin          0.2664 [ 0.0647; 0.4681]  2.59   0.0096
+doxylamine       0.5012 [ 0.2701; 0.7324]  4.25 < 0.0001
+eszopiclone      0.5957 [ 0.5216; 0.6699] 15.74 < 0.0001
+lemborexant      0.4143 [ 0.3193; 0.5093]  8.55 < 0.0001
+melatonin        0.1103 [-0.0055; 0.2262]  1.87   0.0619
+mirtazapine      0.9784 [ 0.5054; 1.4514]  4.05 < 0.0001
+placebo               .                 .     .        .
+quetiapine       0.0471 [-1.0436; 1.1377]  0.08   0.9326
+ramelteon        0.1364 [ 0.0403; 0.2325]  2.78   0.0054
+suvorexant       0.2948 [ 0.1772; 0.4124]  4.91 < 0.0001
+trazodone        0.4762 [ 0.2872; 0.6652]  4.94 < 0.0001
+trimipramine     0.5387 [-0.0207; 1.0981]  1.89   0.0591
+zaleplon         0.2059 [ 0.1121; 0.2998]  4.30 < 0.0001
+zolpidem         0.5201 [ 0.4592; 0.5810] 16.74 < 0.0001
+zopiclone        0.5850 [ 0.4813; 0.6887] 11.06 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD            95%-CI    z  p-value            95%-PI
+BZD-intermediate 0.6233 [ 0.4880; 0.7587] 9.02 < 0.0001 [ 0.1851; 1.0616]
+BZD-long         0.5748 [ 0.4193; 0.7304] 7.24 < 0.0001 [ 0.1297; 1.0200]
+BZD-short        0.8277 [ 0.6096; 1.0458] 7.44 < 0.0001 [ 0.3564; 1.2991]
+daridorexant     0.2843 [ 0.0318; 0.5367] 2.21   0.0273 [-0.2044; 0.7730]
+diphenydramine   0.5274 [-0.0165; 1.0712] 1.90   0.0574 [-0.1638; 1.2185]
+doxepin          0.2916 [-0.0664; 0.6497] 1.60   0.1104 [-0.2608; 0.8441]
+doxylamine       0.5031 [ 0.0763; 0.9299] 2.31   0.0209 [-0.0976; 1.1037]
+eszopiclone      0.5437 [ 0.3836; 0.7038] 6.66 < 0.0001 [ 0.0969; 0.9905]
+lemborexant      0.4096 [ 0.1234; 0.6959] 2.80   0.0050 [-0.0979; 0.9171]
+melatonin        0.1004 [-0.1372; 0.3381] 0.83   0.4076 [-0.3806; 0.5814]
+mirtazapine      0.9459 [ 0.3110; 1.5808] 2.92   0.0035 [ 0.1790; 1.7128]
+placebo               .                 .    .        .                 .
+quetiapine       0.0471 [-1.1181; 1.2123] 0.08   0.9369 [-1.2063; 1.3004]
+ramelteon        0.1175 [-0.1425; 0.3775] 0.89   0.3757 [-0.3752; 0.6102]
+suvorexant       0.2989 [-0.0141; 0.6120] 1.87   0.0613 [-0.2246; 0.8225]
+trazodone        0.4678 [ 0.1631; 0.7724] 3.01   0.0026 [-0.0507; 0.9862]
+trimipramine     0.5240 [-0.1409; 1.1889] 1.54   0.1225 [-0.2687; 1.3167]
+zaleplon         0.2068 [ 0.0081; 0.4055] 2.04   0.0413 [-0.2556; 0.6693]
+zolpidem         0.5129 [ 0.3971; 0.6287] 8.68 < 0.0001 [ 0.0804; 0.9453]
+zopiclone        0.5469 [ 0.3512; 0.7425] 5.48 < 0.0001 [ 0.0858; 1.0080]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0438; tau = 0.2093; I^2 = 65.6% [56.8%; 72.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           246.91   85 < 0.0001
+Within designs  181.24   57 < 0.0001
+Between designs  65.65   28 < 0.0001
+[1] "A total of 20 treatments are included in the network."
+[1] "A total of 89 studies are included in this analysis."
+[1] "A total of 20898 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 4 5 6 7 8 9 11 13 15 18 19 20 23 24 25 27 30 31 32 34 36 39 40 43 44 45 46 47 48 50 58 59 60 62 63 65 67 69 70 71 72 73 74 75 76 77 80 81 87 94 99 100 102 104 106 108 111 112 113 117 119 120 121 123 124 125 127 128 129 130 131 132 136 137 141 142 143 144 145 146 149 153 155 159 160 161 162 164 170"
+[1] "Estimated heterogeneity tau-squared0.04"
+[1] "Global test for inconsistency, p-value 7e-05 (Q=66, d.o.f. 28)"
+[1] "File created on 2022-01-28"

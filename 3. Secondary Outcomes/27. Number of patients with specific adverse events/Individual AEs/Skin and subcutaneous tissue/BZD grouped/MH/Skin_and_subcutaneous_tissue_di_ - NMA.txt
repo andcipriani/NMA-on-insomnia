@@ -1,0 +1,23 @@
+Number of studies: k = 6
+Number of treatments: n = 5
+Number of pairwise comparisons: m = 6
+Number of designs: d = 4
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+daridorexant 0.4979 [0.0444;  5.5843] -0.57  0.5718
+eszopiclone  1.5639 [0.7507;  3.2581]  1.19  0.2324
+lemborexant  1.4083 [0.1177; 16.8458]  0.27  0.7868
+melatonin    1.3473 [0.5612;  3.2343]  0.67  0.5047
+placebo           .                 .     .       .
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2021-12-31"

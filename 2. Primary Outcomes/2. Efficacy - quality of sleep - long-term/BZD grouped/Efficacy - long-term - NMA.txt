@@ -1,0 +1,48 @@
+Number of studies: k = 11
+Number of treatments: n = 9
+Number of pairwise comparisons: m = 11
+Number of designs: d = 8
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                SMD            95%-CI    z  p-value
+daridorexant 0.2418 [ 0.1383; 0.3453] 4.58 < 0.0001
+doxepin      0.4972 [ 0.1451; 0.8494] 2.77   0.0056
+eszopiclone  0.5996 [ 0.4685; 0.7307] 8.97 < 0.0001
+lemborexant  0.6223 [ 0.4682; 0.7764] 7.91 < 0.0001
+melatonin    0.1249 [-0.0909; 0.3407] 1.13   0.2567
+placebo           .                 .    .        .
+ramelteon    0.0000 [-0.1846; 0.1846] 0.00   1.0000
+suvorexant   0.1997 [ 0.0785; 0.3209] 3.23   0.0012
+zolpidem     0.0305 [-0.3807; 0.4417] 0.15   0.8844
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD            95%-CI     z  p-value            95%-PI
+daridorexant  0.2430 [ 0.1139; 0.3721]  3.69   0.0002 [-0.1270; 0.6131]
+doxepin       0.4972 [ 0.1288; 0.8657]  2.65   0.0082 [-0.3458; 1.3403]
+eszopiclone   0.6093 [ 0.4562; 0.7624]  7.80 < 0.0001 [ 0.1976; 1.0210]
+lemborexant   0.6223 [ 0.4339; 0.8107]  6.47 < 0.0001 [ 0.1452; 1.0994]
+melatonin     0.1249 [-0.1166; 0.3664]  1.01   0.3108 [-0.4562; 0.7060]
+placebo            .                 .     .        .                 .
+ramelteon    -0.0000 [-0.2140; 0.2140] -0.00   1.0000 [-0.5267; 0.5267]
+suvorexant    0.1997 [ 0.0563; 0.3431]  2.73   0.0063 [-0.1949; 0.5943]
+zolpidem      0.0305 [-0.3947; 0.4557]  0.14   0.8882 [-0.9328; 0.9938]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0031; tau = 0.0553; I^2 = 29.4% [0.0%; 74.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           4.25    3  0.2359
+Within designs  4.25    3  0.2359
+Between designs 0.00    0      --
+[1] "A total of 9 treatments are included in the network."
+[1] "A total of 11 studies are included in this analysis."
+[1] "A total of 5661 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 45 46 58 60 75 112 130 136 155 159 160"
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-01-28"

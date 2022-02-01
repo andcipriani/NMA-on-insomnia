@@ -1,0 +1,22 @@
+Number of studies: k = 2
+Number of treatments: n = 4
+Number of pairwise comparisons: m = 4
+Number of designs: d = 2
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                OR            95%-CI     z p-value
+placebo          .                 .     .       .
+seltorexant 0.8617 [0.2620;  2.8337] -0.25  0.8063
+zaleplon    1.0154 [0.0888; 11.6116]  0.01  0.9902
+zolpidem    1.8826 [0.5269;  6.7262]  0.97  0.3302
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created by E. G. Ostinelli on 2022-01-01"
