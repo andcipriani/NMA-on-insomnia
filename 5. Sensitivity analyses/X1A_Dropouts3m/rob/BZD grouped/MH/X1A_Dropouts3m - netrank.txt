@@ -1,9 +1,0 @@
-             P-score
-zolpidem      0.9837
-eszopiclone   0.6983
-suvorexant    0.6230
-daridorexant  0.4932
-placebo       0.4853
-lemborexant   0.2164
-melatonin     0.0000
-[1] "File created on 2022-01-30"
