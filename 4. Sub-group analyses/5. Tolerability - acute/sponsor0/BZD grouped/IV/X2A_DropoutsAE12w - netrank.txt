@@ -1,8 +1,0 @@
-                 P-score (fixed) P-score (random)
-placebo                   0.8623           0.8619
-BZD-intermediate          0.6808           0.6804
-BZD-short                 0.5526           0.5528
-zolpidem                  0.3854           0.3852
-BZD-long                  0.3261           0.3263
-zopiclone                 0.1927           0.1934
-[1] "File created on 2022-01-30"
