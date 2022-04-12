@@ -1,12 +1,12 @@
                      comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1       daridorexant vs  placebo                 2 0.75     0.17     3.28   0.00 0.00         NA         NA 0.23 0.6288
+1       daridorexant vs  placebo                 3 1.00     0.28     3.52   0.00 0.00          0        0.9 0.46 0.7962
 2            doxepin vs  placebo                 1 2.52     0.12    53.25     NA   NA         NA         NA 0.00     NA
 3        lemborexant vs  placebo                 1 0.80     0.05    13.03     NA   NA         NA         NA 0.00     NA
-4          ramelteon vs  placebo                 2 1.21     0.18     7.97   1.12 0.58          0        0.9 2.35 0.1250
+4          ramelteon vs  placebo                 2 1.21     0.19     7.84   1.09 0.57          0        0.9 2.32 0.1275
 5        seltorexant vs  placebo                 1 1.40     0.15    12.69     NA   NA         NA         NA 0.00     NA
 6  trazodone vs BZD-intermediate                 1 0.85     0.03    21.33     NA   NA         NA         NA 0.00     NA
 7           zolpidem vs  placebo                 2 1.01     0.18     5.63   0.00 0.00         NA         NA 0.68 0.4090
-8       zolpidem vs daridorexant                 1 0.79     0.09     6.92     NA   NA         NA         NA 0.00     NA
+8       zolpidem vs daridorexant                 1 0.39     0.04     3.44     NA   NA         NA         NA 0.00     NA
 9        zolpidem vs seltorexant                 1 1.49     0.27     8.33     NA   NA         NA         NA 0.00     NA
 10         zopiclone vs zolpidem                 1 2.52     1.14     5.57     NA   NA         NA         NA 0.00     NA
-[1] "File created by E. G. Ostinelli on 2022-01-01"
+[1] "File created on 2022-04-06"

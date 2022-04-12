@@ -1,22 +1,22 @@
                  P-score (fixed) P-score (random)
-BZD-short                 0.9413           0.9307
-mirtazapine               0.9538           0.9038
-BZD-intermediate          0.8314           0.7776
-BZD-long                  0.7270           0.7030
-zopiclone                 0.7123           0.6590
-eszopiclone               0.7336           0.6564
-diphenydramine            0.6193           0.6098
-zolpidem                  0.5945           0.6078
-trimipramine              0.6137           0.5961
-doxylamine                0.5866           0.5928
-trazodone                 0.5475           0.5519
-lemborexant               0.4605           0.4785
-suvorexant                0.3267           0.3519
-doxepin                   0.2921           0.3489
-daridorexant              0.3018           0.3294
-quetiapine                0.2592           0.2784
-zaleplon                  0.2167           0.2457
-ramelteon                 0.1382           0.1690
-melatonin                 0.1157           0.1523
-placebo                   0.0282           0.0572
-[1] "File created on 2022-01-28"
+BZD-short                 0.9417           0.9321
+mirtazapine               0.9549           0.9048
+BZD-intermediate          0.8327           0.7787
+BZD-long                  0.7309           0.7060
+zopiclone                 0.7102           0.6582
+eszopiclone               0.7291           0.6517
+zolpidem                  0.5934           0.6096
+diphenydramine            0.6181           0.6072
+trimipramine              0.6188           0.6003
+doxylamine                0.5866           0.5915
+trazodone                 0.5470           0.5513
+lemborexant               0.4587           0.4751
+suvorexant                0.3221           0.3470
+doxepin                   0.2849           0.3453
+daridorexant              0.2963           0.3255
+quetiapine                0.2573           0.2775
+zaleplon                  0.2037           0.2428
+melatonin                 0.1680           0.1782
+ramelteon                 0.1192           0.1641
+placebo                   0.0264           0.0531
+[1] "File created on 2022-04-11"

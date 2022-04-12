@@ -11,4 +11,4 @@ Details:
 - predictor: standard error
 - weight:    inverse variance
 - reference: Egger et al. (1997), BMJ
-[1] "File created on 2022-01-30"
+[1] "File created on 2022-04-10"

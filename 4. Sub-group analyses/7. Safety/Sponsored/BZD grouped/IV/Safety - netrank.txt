@@ -1,21 +1,21 @@
                  P-score (fixed) P-score (random)
-seltorexant               0.9744           0.9630
-zaleplon                  0.8822           0.8876
-doxepin                   0.8506           0.8308
-placebo                   0.7752           0.7676
-suvorexant                0.7584           0.7370
-ramelteon                 0.6669           0.6646
-melatonin                 0.6268           0.6162
-BZD-intermediate          0.5538           0.5436
-daridorexant              0.4615           0.4765
-zopiclone                 0.5437           0.4282
-zolpidem                  0.3211           0.4033
-propiomazine              0.4533           0.3903
-BZD-short                 0.3808           0.3731
-trazodone                 0.2803           0.3121
-BZD-long                  0.3120           0.2987
-eszopiclone               0.2072           0.2756
-lemborexant               0.1839           0.2278
-diphenydramine            0.1571           0.1841
-trimipramine              0.1107           0.1198
-[1] "File created on 2022-01-31"
+seltorexant               0.9731           0.9616
+zaleplon                  0.8752           0.8833
+doxepin                   0.8432           0.8255
+placebo                   0.7607           0.7590
+suvorexant                0.7474           0.7304
+melatonin                 0.7311           0.6908
+ramelteon                 0.6526           0.6562
+BZD-intermediate          0.5442           0.5370
+daridorexant              0.4543           0.4711
+zopiclone                 0.5341           0.4224
+zolpidem                  0.3189           0.3993
+propiomazine              0.4488           0.3870
+BZD-short                 0.3760           0.3690
+trazodone                 0.2771           0.3095
+BZD-long                  0.3086           0.2956
+eszopiclone               0.2065           0.2738
+lemborexant               0.1833           0.2264
+diphenydramine            0.1556           0.1831
+trimipramine              0.1097           0.1190
+[1] "File created on 2022-04-10"

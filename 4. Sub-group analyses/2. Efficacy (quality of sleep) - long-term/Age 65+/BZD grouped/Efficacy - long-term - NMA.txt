@@ -1,0 +1,58 @@
+Original data:
+
+    treat1    treat2      TE   seTE
+60 doxepin   placebo  0.5002 0.1796
+75 placebo ramelteon -0.0000 0.0942
+
+Number of treatment arms (by study):
+   narms
+60     2
+75     2
+
+Results (fixed effects model):
+
+    treat1    treat2    SMD            95%-CI    Q leverage
+60 doxepin   placebo 0.5002 [ 0.1482; 0.8522] 0.00     1.00
+75 placebo ramelteon 0.0000 [-0.1846; 0.1846] 0.00     1.00
+
+Results (random effects model):
+
+    treat1    treat2    SMD            95%-CI
+60 doxepin   placebo 0.5002 [ 0.1482; 0.8522]
+75 placebo ramelteon 0.0000 [-0.1846; 0.1846]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 579
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+             SMD            95%-CI    z p-value
+doxepin   0.5002 [ 0.1482; 0.8522] 2.79  0.0054
+placebo        .                 .    .       .
+ramelteon 0.0000 [-0.1846; 0.1846] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+             SMD            95%-CI    z p-value
+doxepin   0.5002 [ 0.1482; 0.8522] 2.79  0.0054
+placebo        .                 .    .       .
+ramelteon 0.0000 [-0.1846; 0.1846] 0.00  1.0000
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-04-10"

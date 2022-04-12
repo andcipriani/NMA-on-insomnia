@@ -1,4 +1,0 @@
-                 P-score
-BZD-intermediate  0.7193
-placebo           0.2807
-[1] "File created by E. G. Ostinelli on 2022-01-01"

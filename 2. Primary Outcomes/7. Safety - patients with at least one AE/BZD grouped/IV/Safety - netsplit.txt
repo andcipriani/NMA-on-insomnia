@@ -3,32 +3,32 @@ Separate indirect from direct evidence (SIDE) using back-calculation method
 Fixed effects model: 
 
                       comparison  k prop  nma direct indir.   RoR     z p-value
-       BZD-intermediate:BZD-long  5 0.40 0.72   0.69   0.75  0.93 -0.30  0.7675
-      BZD-intermediate:BZD-short  3 0.39 0.83   0.97   0.74  1.30  1.05  0.2959
-   BZD-intermediate:daridorexant  0    0 1.06      .   1.06     .     .       .
- BZD-intermediate:diphenydramine  0    0 0.70      .   0.70     .     .       .
-        BZD-intermediate:doxepin  0    0 1.46      .   1.46     .     .       .
-    BZD-intermediate:eszopiclone  1 0.04 0.87   5.22   0.80  6.53  2.98  0.0028
-    BZD-intermediate:lemborexant  0    0 0.85      .   0.85     .     .       .
-      BZD-intermediate:melatonin  0    0 1.20      .   1.20     .     .       .
-    BZD-intermediate:mirtazapine  1 1.00 1.23   1.23      .     .     .       .
-        BZD-intermediate:placebo 12 0.71 1.32   1.24   1.51  0.82 -0.88  0.3783
-   BZD-intermediate:propiomazine  0    0 0.79      .   0.79     .     .       .
-      BZD-intermediate:ramelteon  0    0 1.22      .   1.22     .     .       .
-    BZD-intermediate:seltorexant  0    0 2.10      .   2.10     .     .       .
-     BZD-intermediate:suvorexant  0    0 1.32      .   1.32     .     .       .
-      BZD-intermediate:trazodone  1 0.24 0.86   0.67   0.93  0.73 -0.53  0.5989
-   BZD-intermediate:trimipramine  1 0.74 0.48   0.17   7.96  0.02 -2.96  0.0031
-       BZD-intermediate:zaleplon  0    0 1.48      .   1.48     .     .       .
-       BZD-intermediate:zolpidem  1 0.12 0.97   1.15   0.94  1.22  0.58  0.5604
-      BZD-intermediate:zopiclone  1 0.02 0.86   1.35   0.85  1.58  0.58  0.5623
+       BZD-long:BZD-intermediate  5 0.40 1.38   1.45   1.34  1.08  0.30  0.7675
+      BZD-short:BZD-intermediate  3 0.39 1.21   1.03   1.34  0.77 -1.05  0.2959
+   daridorexant:BZD-intermediate  0    0 0.94      .   0.94     .     .       .
+ diphenydramine:BZD-intermediate  0    0 1.44      .   1.44     .     .       .
+        doxepin:BZD-intermediate  0    0 0.68      .   0.68     .     .       .
+    eszopiclone:BZD-intermediate  1 0.04 1.15   0.19   1.25  0.15 -2.98  0.0028
+    lemborexant:BZD-intermediate  0    0 1.18      .   1.18     .     .       .
+      melatonin:BZD-intermediate  0    0 0.76      .   0.76     .     .       .
+    mirtazapine:BZD-intermediate  1 1.00 0.81   0.81      .     .     .       .
+        placebo:BZD-intermediate 12 0.71 0.76   0.80   0.66  1.21  0.88  0.3783
+   propiomazine:BZD-intermediate  0    0 1.26      .   1.26     .     .       .
+      ramelteon:BZD-intermediate  0    0 0.82      .   0.82     .     .       .
+    seltorexant:BZD-intermediate  0    0 0.48      .   0.48     .     .       .
+     suvorexant:BZD-intermediate  0    0 0.76      .   0.76     .     .       .
+      trazodone:BZD-intermediate  1 0.24 1.17   1.48   1.08  1.37  0.53  0.5989
+   trimipramine:BZD-intermediate  1 0.74 2.09   5.71   0.13 45.49  2.96  0.0031
+       zaleplon:BZD-intermediate  0    0 0.68      .   0.68     .     .       .
+       zolpidem:BZD-intermediate  1 0.12 1.04   0.87   1.06  0.82 -0.58  0.5604
+      zopiclone:BZD-intermediate  1 0.02 1.16   0.74   1.17  0.63 -0.58  0.5623
               BZD-long:BZD-short  4 0.61 1.14   1.08   1.24  0.87 -0.55  0.5837
            BZD-long:daridorexant  0    0 1.47      .   1.47     .     .       .
          BZD-long:diphenydramine  0    0 0.96      .   0.96     .     .       .
                 BZD-long:doxepin  0    0 2.03      .   2.03     .     .       .
             BZD-long:eszopiclone  0    0 1.20      .   1.20     .     .       .
             BZD-long:lemborexant  0    0 1.17      .   1.17     .     .       .
-              BZD-long:melatonin  0    0 1.65      .   1.65     .     .       .
+              BZD-long:melatonin  0    0 1.81      .   1.81     .     .       .
             BZD-long:mirtazapine  0    0 1.70      .   1.70     .     .       .
                 BZD-long:placebo 10 0.68 1.82   1.62   2.34  0.69 -1.62  0.1060
            BZD-long:propiomazine  0    0 1.10      .   1.10     .     .       .
@@ -45,7 +45,7 @@ Fixed effects model:
                BZD-short:doxepin  0    0 1.77      .   1.77     .     .       .
            BZD-short:eszopiclone  0    0 1.05      .   1.05     .     .       .
            BZD-short:lemborexant  0    0 1.03      .   1.03     .     .       .
-             BZD-short:melatonin  0    0 1.45      .   1.45     .     .       .
+             BZD-short:melatonin  0    0 1.58      .   1.58     .     .       .
            BZD-short:mirtazapine  0    0 1.49      .   1.49     .     .       .
                BZD-short:placebo  7 0.58 1.60   1.22   2.31  0.53 -3.13  0.0017
           BZD-short:propiomazine  0    0 0.96      .   0.96     .     .       .
@@ -61,7 +61,7 @@ Fixed effects model:
             daridorexant:doxepin  0    0 1.38      .   1.38     .     .       .
         daridorexant:eszopiclone  0    0 0.82      .   0.82     .     .       .
         daridorexant:lemborexant  0    0 0.80      .   0.80     .     .       .
-          daridorexant:melatonin  0    0 1.13      .   1.13     .     .       .
+          daridorexant:melatonin  0    0 1.23      .   1.23     .     .       .
         daridorexant:mirtazapine  0    0 1.16      .   1.16     .     .       .
             daridorexant:placebo  3 0.95 1.24   1.25   1.10  1.14  0.28  0.7772
        daridorexant:propiomazine  0    0 0.75      .   0.75     .     .       .
@@ -76,7 +76,7 @@ Fixed effects model:
           diphenydramine:doxepin  0    0 2.10      .   2.10     .     .       .
       diphenydramine:eszopiclone  0    0 1.25      .   1.25     .     .       .
       diphenydramine:lemborexant  0    0 1.22      .   1.22     .     .       .
-        diphenydramine:melatonin  0    0 1.72      .   1.72     .     .       .
+        diphenydramine:melatonin  0    0 1.88      .   1.88     .     .       .
       diphenydramine:mirtazapine  0    0 1.77      .   1.77     .     .       .
           diphenydramine:placebo  1 1.00 1.89   1.89      .     .     .       .
      diphenydramine:propiomazine  0    0 1.14      .   1.14     .     .       .
@@ -90,7 +90,7 @@ Fixed effects model:
         diphenydramine:zopiclone  0    0 1.24      .   1.24     .     .       .
              doxepin:eszopiclone  0    0 0.59      .   0.59     .     .       .
              doxepin:lemborexant  0    0 0.58      .   0.58     .     .       .
-               doxepin:melatonin  0    0 0.82      .   0.82     .     .       .
+               doxepin:melatonin  0    0 0.89      .   0.89     .     .       .
              doxepin:mirtazapine  0    0 0.84      .   0.84     .     .       .
                  doxepin:placebo  4 0.92 0.90   0.89   0.97  0.92 -0.14  0.8853
             doxepin:propiomazine  0    0 0.54      .   0.54     .     .       .
@@ -103,7 +103,7 @@ Fixed effects model:
                 doxepin:zolpidem  0    0 0.66      .   0.66     .     .       .
                doxepin:zopiclone  0    0 0.59      .   0.59     .     .       .
          eszopiclone:lemborexant  0    0 0.98      .   0.98     .     .       .
-           eszopiclone:melatonin  0    0 1.38      .   1.38     .     .       .
+           eszopiclone:melatonin  0    0 1.51      .   1.51     .     .       .
          eszopiclone:mirtazapine  0    0 1.42      .   1.42     .     .       .
              eszopiclone:placebo  5 0.87 1.52   1.61   1.03  1.56  1.80  0.0716
         eszopiclone:propiomazine  0    0 0.91      .   0.91     .     .       .
@@ -119,34 +119,34 @@ Fixed effects model:
 Random effects model: 
 
                       comparison  k prop  nma direct indir.   RoR     z p-value
-       BZD-intermediate:BZD-long  5 0.45 0.71   0.70   0.72  0.98 -0.07  0.9423
-      BZD-intermediate:BZD-short  3 0.42 0.83   0.97   0.74  1.31  0.89  0.3760
-   BZD-intermediate:daridorexant  0    0 1.08      .   1.08     .     .       .
- BZD-intermediate:diphenydramine  0    0 0.71      .   0.71     .     .       .
-        BZD-intermediate:doxepin  0    0 1.49      .   1.49     .     .       .
-    BZD-intermediate:eszopiclone  1 0.07 0.95   5.22   0.85  6.18  2.70  0.0069
-    BZD-intermediate:lemborexant  0    0 0.87      .   0.87     .     .       .
-      BZD-intermediate:melatonin  0    0 1.21      .   1.21     .     .       .
-    BZD-intermediate:mirtazapine  1 1.00 1.23   1.23      .     .     .       .
-        BZD-intermediate:placebo 12 0.70 1.35   1.25   1.62  0.77 -0.99  0.3209
-   BZD-intermediate:propiomazine  0    0 0.75      .   0.75     .     .       .
-      BZD-intermediate:ramelteon  0    0 1.24      .   1.24     .     .       .
-    BZD-intermediate:seltorexant  0    0 2.18      .   2.18     .     .       .
-     BZD-intermediate:suvorexant  0    0 1.35      .   1.35     .     .       .
-      BZD-intermediate:trazodone  1 0.28 0.87   0.67   0.97  0.70 -0.54  0.5897
-   BZD-intermediate:trimipramine  1 0.74 0.48   0.17   8.69  0.02 -2.86  0.0042
-       BZD-intermediate:zaleplon  0    0 1.56      .   1.56     .     .       .
-       BZD-intermediate:zolpidem  1 0.12 1.02   1.15   1.00  1.15  0.34  0.7329
-      BZD-intermediate:zopiclone  1 0.04 0.82   1.35   0.80  1.68  0.63  0.5283
-              BZD-long:BZD-short  4 0.50 1.16   1.09   1.23  0.89 -0.38  0.7028
+       BZD-long:BZD-intermediate  5 0.45 1.40   1.42   1.39  1.02  0.07  0.9434
+      BZD-short:BZD-intermediate  3 0.42 1.21   1.04   1.36  0.76 -0.88  0.3768
+   daridorexant:BZD-intermediate  0    0 0.92      .   0.92     .     .       .
+ diphenydramine:BZD-intermediate  0    0 1.40      .   1.40     .     .       .
+        doxepin:BZD-intermediate  0    0 0.67      .   0.67     .     .       .
+    eszopiclone:BZD-intermediate  1 0.07 1.05   0.19   1.18  0.16 -2.70  0.0070
+    lemborexant:BZD-intermediate  0    0 1.15      .   1.15     .     .       .
+      melatonin:BZD-intermediate  0    0 0.77      .   0.77     .     .       .
+    mirtazapine:BZD-intermediate  1 1.00 0.81   0.81      .     .     .       .
+        placebo:BZD-intermediate 12 0.70 0.74   0.80   0.62  1.30  0.99  0.3206
+   propiomazine:BZD-intermediate  0    0 1.33      .   1.33     .     .       .
+      ramelteon:BZD-intermediate  0    0 0.81      .   0.81     .     .       .
+    seltorexant:BZD-intermediate  0    0 0.46      .   0.46     .     .       .
+     suvorexant:BZD-intermediate  0    0 0.74      .   0.74     .     .       .
+      trazodone:BZD-intermediate  1 0.28 1.14   1.48   1.03  1.44  0.54  0.5898
+   trimipramine:BZD-intermediate  1 0.74 2.07   5.71   0.11 49.72  2.86  0.0043
+       zaleplon:BZD-intermediate  0    0 0.64      .   0.64     .     .       .
+       zolpidem:BZD-intermediate  1 0.12 0.98   0.87   1.00  0.87 -0.34  0.7339
+      zopiclone:BZD-intermediate  1 0.04 1.22   0.74   1.25  0.59 -0.63  0.5283
+              BZD-long:BZD-short  4 0.49 1.16   1.09   1.23  0.89 -0.38  0.7035
            BZD-long:daridorexant  0    0 1.52      .   1.52     .     .       .
          BZD-long:diphenydramine  0    0 1.00      .   1.00     .     .       .
                 BZD-long:doxepin  0    0 2.09      .   2.09     .     .       .
-            BZD-long:eszopiclone  0    0 1.33      .   1.33     .     .       .
+            BZD-long:eszopiclone  0    0 1.34      .   1.34     .     .       .
             BZD-long:lemborexant  0    0 1.22      .   1.22     .     .       .
-              BZD-long:melatonin  0    0 1.70      .   1.70     .     .       .
+              BZD-long:melatonin  0    0 1.82      .   1.82     .     .       .
             BZD-long:mirtazapine  0    0 1.73      .   1.73     .     .       .
-                BZD-long:placebo 10 0.65 1.89   1.88   1.91  0.99 -0.05  0.9616
+                BZD-long:placebo 10 0.65 1.89   1.88   1.90  0.99 -0.04  0.9665
            BZD-long:propiomazine  0    0 1.05      .   1.05     .     .       .
               BZD-long:ramelteon  0    0 1.73      .   1.73     .     .       .
             BZD-long:seltorexant  0    0 3.06      .   3.06     .     .       .
@@ -154,32 +154,32 @@ Random effects model:
               BZD-long:trazodone  0    0 1.23      .   1.23     .     .       .
            BZD-long:trimipramine  0    0 0.68      .   0.68     .     .       .
                BZD-long:zaleplon  0    0 2.19      .   2.19     .     .       .
-               BZD-long:zolpidem  1 0.10 1.43   1.13   1.46  0.77 -0.51  0.6099
-              BZD-long:zopiclone  3 0.46 1.15   1.20   1.10  1.09  0.27  0.7870
+               BZD-long:zolpidem  1 0.10 1.43   1.13   1.46  0.77 -0.51  0.6098
+              BZD-long:zopiclone  3 0.46 1.15   1.20   1.10  1.09  0.27  0.7886
           BZD-short:daridorexant  0    0 1.31      .   1.31     .     .       .
         BZD-short:diphenydramine  0    0 0.86      .   0.86     .     .       .
                BZD-short:doxepin  0    0 1.81      .   1.81     .     .       .
            BZD-short:eszopiclone  0    0 1.15      .   1.15     .     .       .
            BZD-short:lemborexant  0    0 1.05      .   1.05     .     .       .
-             BZD-short:melatonin  0    0 1.47      .   1.47     .     .       .
+             BZD-short:melatonin  0    0 1.57      .   1.57     .     .       .
            BZD-short:mirtazapine  0    0 1.49      .   1.49     .     .       .
-               BZD-short:placebo  7 0.53 1.63   1.36   2.01  0.67 -1.53  0.1269
+               BZD-short:placebo  7 0.53 1.63   1.36   2.01  0.67 -1.52  0.1288
           BZD-short:propiomazine  0    0 0.91      .   0.91     .     .       .
              BZD-short:ramelteon  0    0 1.50      .   1.50     .     .       .
            BZD-short:seltorexant  0    0 2.64      .   2.64     .     .       .
             BZD-short:suvorexant  0    0 1.64      .   1.64     .     .       .
              BZD-short:trazodone  0    0 1.06      .   1.06     .     .       .
           BZD-short:trimipramine  0    0 0.59      .   0.59     .     .       .
-              BZD-short:zaleplon  1 0.12 1.89   1.91   1.89  1.02  0.03  0.9772
-              BZD-short:zolpidem  2 0.24 1.23   1.28   1.22  1.05  0.15  0.8835
-             BZD-short:zopiclone  2 0.45 0.99   1.10   0.91  1.22  0.63  0.5301
+              BZD-short:zaleplon  1 0.12 1.89   1.91   1.89  1.01  0.03  0.9778
+              BZD-short:zolpidem  2 0.24 1.23   1.28   1.22  1.05  0.15  0.8843
+             BZD-short:zopiclone  2 0.45 0.99   1.10   0.91  1.22  0.62  0.5324
      daridorexant:diphenydramine  0    0 0.66      .   0.66     .     .       .
             daridorexant:doxepin  0    0 1.38      .   1.38     .     .       .
         daridorexant:eszopiclone  0    0 0.88      .   0.88     .     .       .
         daridorexant:lemborexant  0    0 0.80      .   0.80     .     .       .
-          daridorexant:melatonin  0    0 1.12      .   1.12     .     .       .
+          daridorexant:melatonin  0    0 1.20      .   1.20     .     .       .
         daridorexant:mirtazapine  0    0 1.14      .   1.14     .     .       .
-            daridorexant:placebo  3 0.92 1.24   1.26   1.02  1.24  0.35  0.7275
+            daridorexant:placebo  3 0.92 1.24   1.27   1.02  1.24  0.35  0.7275
        daridorexant:propiomazine  0    0 0.69      .   0.69     .     .       .
           daridorexant:ramelteon  0    0 1.14      .   1.14     .     .       .
         daridorexant:seltorexant  0    0 2.01      .   2.01     .     .       .
@@ -187,12 +187,12 @@ Random effects model:
           daridorexant:trazodone  0    0 0.81      .   0.81     .     .       .
        daridorexant:trimipramine  0    0 0.45      .   0.45     .     .       .
            daridorexant:zaleplon  0    0 1.44      .   1.44     .     .       .
-           daridorexant:zolpidem  1 0.21 0.94   0.86   0.96  0.89 -0.27  0.7898
+           daridorexant:zolpidem  1 0.21 0.94   0.86   0.96  0.89 -0.27  0.7899
           daridorexant:zopiclone  0    0 0.76      .   0.76     .     .       .
           diphenydramine:doxepin  0    0 2.10      .   2.10     .     .       .
       diphenydramine:eszopiclone  0    0 1.34      .   1.34     .     .       .
       diphenydramine:lemborexant  0    0 1.22      .   1.22     .     .       .
-        diphenydramine:melatonin  0    0 1.70      .   1.70     .     .       .
+        diphenydramine:melatonin  0    0 1.82      .   1.82     .     .       .
       diphenydramine:mirtazapine  0    0 1.73      .   1.73     .     .       .
           diphenydramine:placebo  1 1.00 1.89   1.89      .     .     .       .
      diphenydramine:propiomazine  0    0 1.05      .   1.05     .     .       .
@@ -206,22 +206,22 @@ Random effects model:
         diphenydramine:zopiclone  0    0 1.15      .   1.15     .     .       .
              doxepin:eszopiclone  0    0 0.64      .   0.64     .     .       .
              doxepin:lemborexant  0    0 0.58      .   0.58     .     .       .
-               doxepin:melatonin  0    0 0.81      .   0.81     .     .       .
+               doxepin:melatonin  0    0 0.87      .   0.87     .     .       .
              doxepin:mirtazapine  0    0 0.82      .   0.82     .     .       .
                  doxepin:placebo  4 0.93 0.90   0.90   0.99  0.91 -0.14  0.8863
             doxepin:propiomazine  0    0 0.50      .   0.50     .     .       .
-               doxepin:ramelteon  1 0.30 0.83   0.79   0.84  0.94 -0.14  0.8860
+               doxepin:ramelteon  1 0.30 0.83   0.79   0.84  0.94 -0.14  0.8865
              doxepin:seltorexant  0    0 1.46      .   1.46     .     .       .
               doxepin:suvorexant  0    0 0.91      .   0.91     .     .       .
                doxepin:trazodone  0    0 0.59      .   0.59     .     .       .
             doxepin:trimipramine  0    0 0.32      .   0.32     .     .       .
-                doxepin:zaleplon  0    0 1.04      .   1.04     .     .       .
+                doxepin:zaleplon  0    0 1.05      .   1.05     .     .       .
                 doxepin:zolpidem  0    0 0.68      .   0.68     .     .       .
                doxepin:zopiclone  0    0 0.55      .   0.55     .     .       .
-         eszopiclone:lemborexant  0    0 0.92      .   0.92     .     .       .
-           eszopiclone:melatonin  0    0 1.28      .   1.28     .     .       .
+         eszopiclone:lemborexant  0    0 0.91      .   0.91     .     .       .
+           eszopiclone:melatonin  0    0 1.36      .   1.36     .     .       .
          eszopiclone:mirtazapine  0    0 1.29      .   1.29     .     .       .
-             eszopiclone:placebo  5 0.81 1.42   1.52   1.02  1.49  1.28  0.2015
+             eszopiclone:placebo  5 0.81 1.41   1.52   1.02  1.49  1.28  0.2022
         eszopiclone:propiomazine  0    0 0.79      .   0.79     .     .       .
            eszopiclone:ramelteon  0    0 1.30      .   1.30     .     .       .
          eszopiclone:seltorexant  0    0 2.29      .   2.29     .     .       .
@@ -242,5 +242,5 @@ Legend:
  RoR        - Ratio of Ratios (direct versus indirect)
  z          - z-value of test for disagreement (direct versus indirect)
  p-value    - p-value of test for disagreement (direct versus indirect)
-[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.11. (4 out of 36 comparisons)."
-[1] "File created on 2022-01-25"
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.11 (4 out of 36 comparisons)."
+[1] "File created on 2022-04-09"

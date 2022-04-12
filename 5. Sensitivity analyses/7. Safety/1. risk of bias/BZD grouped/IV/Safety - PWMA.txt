@@ -9,7 +9,7 @@
 8            doxepin vs  placebo                 4 0.90     0.63     1.28   0.04 0.34       0.00       0.77  4.52 0.2107
 9        eszopiclone vs  placebo                 3 1.34     0.95     1.88   0.04 0.38       0.00       0.80  3.20 0.2018
 10       lemborexant vs  placebo                 3 1.70     1.08     2.69   0.11 0.75       0.17       0.92  8.03 0.0181
-11         melatonin vs  placebo                 3 1.10     0.86     1.41   0.00 0.00       0.00       0.90  0.20 0.9047
+11         melatonin vs  placebo                 3 1.00     0.78     1.28   0.00 0.00       0.00       0.90  0.76 0.6849
 12         ramelteon vs  placebo                 5 1.32     1.10     1.59   0.00 0.31       0.00       0.74  5.82 0.2129
 13          ramelteon vs doxepin                 1 1.26     0.73     2.17     NA   NA         NA         NA  0.00     NA
 14       seltorexant vs  placebo                 1 0.53     0.29     0.97     NA   NA         NA         NA  0.00     NA
@@ -30,4 +30,4 @@
 29        zopiclone vs BZD-short                 1 0.84     0.63     1.12     NA   NA         NA         NA  0.00     NA
 30      zopiclone vs eszopiclone                 1 1.01     0.58     1.76     NA   NA         NA         NA  0.00     NA
 31         zopiclone vs zolpidem                 1 1.75     1.19     2.56     NA   NA         NA         NA  0.00     NA
-[1] "File created on 2022-01-30"
+[1] "File created on 2022-04-11"

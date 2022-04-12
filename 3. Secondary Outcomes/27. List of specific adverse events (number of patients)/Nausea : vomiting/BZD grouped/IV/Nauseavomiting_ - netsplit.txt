@@ -3,90 +3,90 @@ Separate indirect from direct evidence (SIDE) using back-calculation method
 Fixed effects model: 
 
                     comparison  k prop   nma direct indir.     RoR     z p-value
-     BZD-intermediate:BZD-long  2 0.20  0.89   4.56   0.59    7.72  2.00  0.0455
-    BZD-intermediate:BZD-short  1 0.36  0.68   0.66   0.69    0.96 -0.05  0.9592
- BZD-intermediate:daridorexant  0    0  1.95      .   1.95       .     .       .
-      BZD-intermediate:doxepin  0    0  0.25      .   0.25       .     .       .
-   BZD-intermediate:doxylamine  0    0  1.08      .   1.08       .     .       .
-  BZD-intermediate:eszopiclone  0    0  0.52      .   0.52       .     .       .
-  BZD-intermediate:lemborexant  0    0  8.17      .   8.17       .     .       .
-      BZD-intermediate:placebo  3 0.82  0.89   0.64   3.69    0.17 -1.79  0.0728
-    BZD-intermediate:ramelteon  0    0  0.46      .   0.46       .     .       .
-  BZD-intermediate:seltorexant  0    0  2.53      .   2.53       .     .       .
-   BZD-intermediate:suvorexant  0    0  0.91      .   0.91       .     .       .
-    BZD-intermediate:trazodone  1 1.00  0.38   0.38      .       .     .       .
-     BZD-intermediate:zaleplon  0    0  3.85      .   3.85       .     .       .
-     BZD-intermediate:zolpidem  1 0.40  0.57   0.63   0.53    1.19  0.21  0.8354
-    BZD-intermediate:zopiclone  0    0  0.67      .   0.67       .     .       .
-            BZD-long:BZD-short  2 0.94  0.76   0.83   0.19    4.31  1.87  0.0611
-         BZD-long:daridorexant  0    0  2.20      .   2.20       .     .       .
+     BZD-long:BZD-intermediate  2 0.20  1.13   0.22   1.69    0.13 -2.00  0.0458
+    BZD-short:BZD-intermediate  1 0.36  1.48   1.52   1.45    1.05  0.05  0.9565
+ daridorexant:BZD-intermediate  0    0  1.25      .   1.25       .     .       .
+      doxepin:BZD-intermediate  0    0  4.05      .   4.05       .     .       .
+   doxylamine:BZD-intermediate  0    0  0.93      .   0.93       .     .       .
+  eszopiclone:BZD-intermediate  0    0  1.93      .   1.93       .     .       .
+  lemborexant:BZD-intermediate  0    0  0.12      .   0.12       .     .       .
+      placebo:BZD-intermediate  3 0.82  1.13   1.56   0.27    5.83  1.81  0.0707
+    ramelteon:BZD-intermediate  0    0  2.18      .   2.18       .     .       .
+  seltorexant:BZD-intermediate  0    0  0.40      .   0.40       .     .       .
+   suvorexant:BZD-intermediate  0    0  1.10      .   1.10       .     .       .
+    trazodone:BZD-intermediate  1 1.00  2.61   2.61      .       .     .       .
+     zaleplon:BZD-intermediate  0    0  0.26      .   0.26       .     .       .
+     zolpidem:BZD-intermediate  1 0.39  1.78   1.58   1.93    0.82 -0.24  0.8139
+    zopiclone:BZD-intermediate  0    0  1.49      .   1.49       .     .       .
+            BZD-long:BZD-short  2 0.94  0.76   0.83   0.19    4.34  1.88  0.0601
+         BZD-long:daridorexant  0    0  0.90      .   0.90       .     .       .
               BZD-long:doxepin  0    0  0.28      .   0.28       .     .       .
-           BZD-long:doxylamine  0    0  1.22      .   1.22       .     .       .
+           BZD-long:doxylamine  0    0  1.20      .   1.20       .     .       .
           BZD-long:eszopiclone  0    0  0.58      .   0.58       .     .       .
           BZD-long:lemborexant  0    0  9.22      .   9.22       .     .       .
-              BZD-long:placebo  3 0.90  1.00   0.98   1.18    0.83 -0.29  0.7712
+              BZD-long:placebo  3 0.90  1.00   0.98   1.19    0.82 -0.30  0.7645
             BZD-long:ramelteon  0    0  0.52      .   0.52       .     .       .
-          BZD-long:seltorexant  0    0  2.85      .   2.85       .     .       .
+          BZD-long:seltorexant  0    0  2.82      .   2.82       .     .       .
            BZD-long:suvorexant  0    0  1.03      .   1.03       .     .       .
             BZD-long:trazodone  0    0  0.43      .   0.43       .     .       .
              BZD-long:zaleplon  0    0  4.34      .   4.34       .     .       .
-             BZD-long:zolpidem  0    0  0.64      .   0.64       .     .       .
-            BZD-long:zopiclone  2 0.95  0.75   0.80   0.26    3.05  1.52  0.1288
-        BZD-short:daridorexant  0    0  2.89      .   2.89       .     .       .
+             BZD-long:zolpidem  0    0  0.63      .   0.63       .     .       .
+            BZD-long:zopiclone  2 0.95  0.75   0.80   0.26    3.05  1.52  0.1291
+        BZD-short:daridorexant  0    0  1.18      .   1.18       .     .       .
              BZD-short:doxepin  0    0  0.36      .   0.36       .     .       .
-          BZD-short:doxylamine  0    0  1.60      .   1.60       .     .       .
-         BZD-short:eszopiclone  0    0  0.76      .   0.76       .     .       .
-         BZD-short:lemborexant  0    0 12.07      .  12.07       .     .       .
-             BZD-short:placebo  3 0.91  1.31   1.27   1.75    0.73 -0.52  0.6063
+          BZD-short:doxylamine  0    0  1.58      .   1.58       .     .       .
+         BZD-short:eszopiclone  0    0  0.77      .   0.77       .     .       .
+         BZD-short:lemborexant  0    0 12.08      .  12.08       .     .       .
+             BZD-short:placebo  3 0.91  1.31   1.27   1.77    0.72 -0.53  0.5949
            BZD-short:ramelteon  0    0  0.68      .   0.68       .     .       .
-         BZD-short:seltorexant  0    0  3.74      .   3.74       .     .       .
+         BZD-short:seltorexant  0    0  3.70      .   3.70       .     .       .
           BZD-short:suvorexant  0    0  1.35      .   1.35       .     .       .
-           BZD-short:trazodone  0    0  0.57      .   0.57       .     .       .
-            BZD-short:zaleplon  1 0.97  5.69   7.25   0.00 2821.91  1.43  0.1514
-            BZD-short:zolpidem  1 0.20  0.84   0.96   0.81    1.18  0.25  0.8015
-           BZD-short:zopiclone  2 0.93  0.99   0.99   0.93    1.06  0.10  0.9169
-          daridorexant:doxepin  0    0  0.13      .   0.13       .     .       .
-       daridorexant:doxylamine  0    0  0.55      .   0.55       .     .       .
-      daridorexant:eszopiclone  0    0  0.26      .   0.26       .     .       .
-      daridorexant:lemborexant  0    0  4.18      .   4.18       .     .       .
-          daridorexant:placebo  1 0.21  0.45   2.31   0.29    7.94  1.23  0.2199
-        daridorexant:ramelteon  0    0  0.23      .   0.23       .     .       .
-      daridorexant:seltorexant  0    0  1.29      .   1.29       .     .       .
-       daridorexant:suvorexant  0    0  0.47      .   0.47       .     .       .
-        daridorexant:trazodone  0    0  0.20      .   0.20       .     .       .
-         daridorexant:zaleplon  0    0  1.97      .   1.97       .     .       .
-         daridorexant:zolpidem  1 0.95  0.29   0.24   8.96    0.03 -1.23  0.2199
-        daridorexant:zopiclone  0    0  0.34      .   0.34       .     .       .
-            doxepin:doxylamine  0    0  4.39      .   4.39       .     .       .
+           BZD-short:trazodone  0    0  0.56      .   0.56       .     .       .
+            BZD-short:zaleplon  1 0.97  5.69   7.25   0.00 2812.20  1.43  0.1515
+            BZD-short:zolpidem  1 0.20  0.83   0.96   0.80    1.21  0.28  0.7785
+           BZD-short:zopiclone  2 0.93  0.99   0.99   0.94    1.06  0.09  0.9248
+          daridorexant:doxepin  0    0  0.31      .   0.31       .     .       .
+       daridorexant:doxylamine  0    0  1.33      .   1.33       .     .       .
+      daridorexant:eszopiclone  0    0  0.65      .   0.65       .     .       .
+      daridorexant:lemborexant  0    0 10.21      .  10.21       .     .       .
+          daridorexant:placebo  2 0.62  1.11   1.65   0.58    2.85  1.05  0.2955
+        daridorexant:ramelteon  0    0  0.57      .   0.57       .     .       .
+      daridorexant:seltorexant  0    0  3.12      .   3.12       .     .       .
+       daridorexant:suvorexant  0    0  1.14      .   1.14       .     .       .
+        daridorexant:trazodone  0    0  0.48      .   0.48       .     .       .
+         daridorexant:zaleplon  0    0  4.80      .   4.80       .     .       .
+         daridorexant:zolpidem  1 0.51  0.70   0.48   1.03    0.47 -0.78  0.4354
+        daridorexant:zopiclone  0    0  0.84      .   0.84       .     .       .
+            doxepin:doxylamine  0    0  4.33      .   4.33       .     .       .
            doxepin:eszopiclone  0    0  2.10      .   2.10       .     .       .
            doxepin:lemborexant  0    0 33.17      .  33.17       .     .       .
                doxepin:placebo  1 1.00  3.60   3.60      .       .     .       .
              doxepin:ramelteon  0    0  1.86      .   1.86       .     .       .
-           doxepin:seltorexant  0    0 10.27      .  10.27       .     .       .
+           doxepin:seltorexant  0    0 10.15      .  10.15       .     .       .
             doxepin:suvorexant  0    0  3.70      .   3.70       .     .       .
              doxepin:trazodone  0    0  1.55      .   1.55       .     .       .
-              doxepin:zaleplon  0    0 15.62      .  15.62       .     .       .
-              doxepin:zolpidem  0    0  2.31      .   2.31       .     .       .
-             doxepin:zopiclone  0    0  2.72      .   2.72       .     .       .
+              doxepin:zaleplon  0    0 15.61      .  15.61       .     .       .
+              doxepin:zolpidem  0    0  2.27      .   2.27       .     .       .
+             doxepin:zopiclone  0    0  2.71      .   2.71       .     .       .
         doxylamine:eszopiclone  0    0  0.48      .   0.48       .     .       .
-        doxylamine:lemborexant  0    0  7.55      .   7.55       .     .       .
-            doxylamine:placebo  1 0.57  0.82   1.49   0.37    4.03  0.99  0.3232
-          doxylamine:ramelteon  0    0  0.42      .   0.42       .     .       .
+        doxylamine:lemborexant  0    0  7.65      .   7.65       .     .       .
+            doxylamine:placebo  1 0.57  0.83   1.49   0.38    3.89  0.96  0.3349
+          doxylamine:ramelteon  0    0  0.43      .   0.43       .     .       .
         doxylamine:seltorexant  0    0  2.34      .   2.34       .     .       .
-         doxylamine:suvorexant  0    0  0.84      .   0.84       .     .       .
-          doxylamine:trazodone  0    0  0.35      .   0.35       .     .       .
-           doxylamine:zaleplon  0    0  3.56      .   3.56       .     .       .
-           doxylamine:zolpidem  1 0.93  0.53   0.44   6.65    0.07 -0.99  0.3232
-          doxylamine:zopiclone  0    0  0.62      .   0.62       .     .       .
-       eszopiclone:lemborexant  0    0 15.78      .  15.78       .     .       .
-           eszopiclone:placebo  1 0.64  1.71   2.13   1.16    1.85  1.09  0.2737
+         doxylamine:suvorexant  0    0  0.85      .   0.85       .     .       .
+          doxylamine:trazodone  0    0  0.36      .   0.36       .     .       .
+           doxylamine:zaleplon  0    0  3.60      .   3.60       .     .       .
+           doxylamine:zolpidem  1 0.93  0.52   0.44   6.21    0.07 -0.96  0.3349
+          doxylamine:zopiclone  0    0  0.63      .   0.63       .     .       .
+       eszopiclone:lemborexant  0    0 15.79      .  15.79       .     .       .
+           eszopiclone:placebo  1 0.64  1.71   2.13   1.16    1.85  1.09  0.2741
          eszopiclone:ramelteon  0    0  0.88      .   0.88       .     .       .
-       eszopiclone:seltorexant  0    0  4.89      .   4.89       .     .       .
+       eszopiclone:seltorexant  0    0  4.83      .   4.83       .     .       .
         eszopiclone:suvorexant  0    0  1.76      .   1.76       .     .       .
          eszopiclone:trazodone  0    0  0.74      .   0.74       .     .       .
           eszopiclone:zaleplon  0    0  7.43      .   7.43       .     .       .
-          eszopiclone:zolpidem  0    0  1.10      .   1.10       .     .       .
-         eszopiclone:zopiclone  2 0.45  1.29   0.92   1.70    0.54 -1.09  0.2737
+          eszopiclone:zolpidem  0    0  1.08      .   1.08       .     .       .
+         eszopiclone:zopiclone  2 0.45  1.29   0.92   1.70    0.54 -1.09  0.2741
            lemborexant:placebo  1 1.00  0.11   0.11      .       .     .       .
          lemborexant:ramelteon  0    0  0.06      .   0.06       .     .       .
        lemborexant:seltorexant  0    0  0.31      .   0.31       .     .       .
@@ -96,113 +96,113 @@ Fixed effects model:
           lemborexant:zolpidem  0    0  0.07      .   0.07       .     .       .
          lemborexant:zopiclone  0    0  0.08      .   0.08       .     .       .
              placebo:ramelteon  2 1.00  0.52   0.52      .       .     .       .
-           placebo:seltorexant  1 0.60  2.86   1.95   5.11    0.38 -0.66  0.5089
+           placebo:seltorexant  1 0.60  2.82   1.95   4.95    0.39 -0.64  0.5230
             placebo:suvorexant  2 1.00  1.03   1.03      .       .     .       .
              placebo:trazodone  0    0  0.43      .   0.43       .     .       .
-              placebo:zaleplon  1 0.35  4.35   0.64  11.90    0.05 -1.43  0.1514
-              placebo:zolpidem 11 0.95  0.64   0.65   0.52    1.25  0.22  0.8272
-             placebo:zopiclone  1 0.85  0.76   0.76   0.71    1.07  0.15  0.8797
-         ramelteon:seltorexant  0    0  5.53      .   5.53       .     .       .
+              placebo:zaleplon  1 0.35  4.34   0.64  11.89    0.05 -1.43  0.1515
+              placebo:zolpidem 11 0.91  0.63   0.65   0.47    1.38  0.43  0.6692
+             placebo:zopiclone  1 0.85  0.75   0.76   0.71    1.07  0.16  0.8740
+         ramelteon:seltorexant  0    0  5.47      .   5.47       .     .       .
           ramelteon:suvorexant  0    0  1.99      .   1.99       .     .       .
            ramelteon:trazodone  0    0  0.84      .   0.84       .     .       .
-            ramelteon:zaleplon  0    0  8.42      .   8.42       .     .       .
-            ramelteon:zolpidem  0    0  1.24      .   1.24       .     .       .
+            ramelteon:zaleplon  0    0  8.41      .   8.41       .     .       .
+            ramelteon:zolpidem  0    0  1.22      .   1.22       .     .       .
            ramelteon:zopiclone  0    0  1.46      .   1.46       .     .       .
         seltorexant:suvorexant  0    0  0.36      .   0.36       .     .       .
          seltorexant:trazodone  0    0  0.15      .   0.15       .     .       .
-          seltorexant:zaleplon  0    0  1.52      .   1.52       .     .       .
-          seltorexant:zolpidem  1 0.89  0.22   0.19   0.86    0.22 -0.66  0.5089
-         seltorexant:zopiclone  0    0  0.26      .   0.26       .     .       .
+          seltorexant:zaleplon  0    0  1.54      .   1.54       .     .       .
+          seltorexant:zolpidem  1 0.89  0.22   0.19   0.82    0.23 -0.64  0.5230
+         seltorexant:zopiclone  0    0  0.27      .   0.27       .     .       .
           suvorexant:trazodone  0    0  0.42      .   0.42       .     .       .
  [ reached getOption("max.print") -- omitted 9 rows ]
 
 Random effects model: 
 
                     comparison  k prop   nma direct indir.     RoR     z p-value
-     BZD-intermediate:BZD-long  2 0.20  0.89   4.56   0.59    7.72  2.00  0.0455
-    BZD-intermediate:BZD-short  1 0.36  0.68   0.66   0.69    0.96 -0.05  0.9592
- BZD-intermediate:daridorexant  0    0  1.95      .   1.95       .     .       .
-      BZD-intermediate:doxepin  0    0  0.25      .   0.25       .     .       .
-   BZD-intermediate:doxylamine  0    0  1.08      .   1.08       .     .       .
-  BZD-intermediate:eszopiclone  0    0  0.52      .   0.52       .     .       .
-  BZD-intermediate:lemborexant  0    0  8.17      .   8.17       .     .       .
-      BZD-intermediate:placebo  3 0.82  0.89   0.64   3.69    0.17 -1.79  0.0728
-    BZD-intermediate:ramelteon  0    0  0.46      .   0.46       .     .       .
-  BZD-intermediate:seltorexant  0    0  2.53      .   2.53       .     .       .
-   BZD-intermediate:suvorexant  0    0  0.91      .   0.91       .     .       .
-    BZD-intermediate:trazodone  1 1.00  0.38   0.38      .       .     .       .
-     BZD-intermediate:zaleplon  0    0  3.85      .   3.85       .     .       .
-     BZD-intermediate:zolpidem  1 0.40  0.57   0.63   0.53    1.19  0.21  0.8354
-    BZD-intermediate:zopiclone  0    0  0.67      .   0.67       .     .       .
-            BZD-long:BZD-short  2 0.94  0.76   0.83   0.19    4.31  1.87  0.0611
-         BZD-long:daridorexant  0    0  2.20      .   2.20       .     .       .
+     BZD-long:BZD-intermediate  2 0.20  1.13   0.22   1.69    0.13 -2.00  0.0458
+    BZD-short:BZD-intermediate  1 0.36  1.48   1.52   1.45    1.05  0.05  0.9565
+ daridorexant:BZD-intermediate  0    0  1.25      .   1.25       .     .       .
+      doxepin:BZD-intermediate  0    0  4.05      .   4.05       .     .       .
+   doxylamine:BZD-intermediate  0    0  0.93      .   0.93       .     .       .
+  eszopiclone:BZD-intermediate  0    0  1.93      .   1.93       .     .       .
+  lemborexant:BZD-intermediate  0    0  0.12      .   0.12       .     .       .
+      placebo:BZD-intermediate  3 0.82  1.13   1.56   0.27    5.83  1.81  0.0707
+    ramelteon:BZD-intermediate  0    0  2.18      .   2.18       .     .       .
+  seltorexant:BZD-intermediate  0    0  0.40      .   0.40       .     .       .
+   suvorexant:BZD-intermediate  0    0  1.10      .   1.10       .     .       .
+    trazodone:BZD-intermediate  1 1.00  2.61   2.61      .       .     .       .
+     zaleplon:BZD-intermediate  0    0  0.26      .   0.26       .     .       .
+     zolpidem:BZD-intermediate  1 0.39  1.78   1.58   1.93    0.82 -0.24  0.8139
+    zopiclone:BZD-intermediate  0    0  1.49      .   1.49       .     .       .
+            BZD-long:BZD-short  2 0.94  0.76   0.83   0.19    4.34  1.88  0.0601
+         BZD-long:daridorexant  0    0  0.90      .   0.90       .     .       .
               BZD-long:doxepin  0    0  0.28      .   0.28       .     .       .
-           BZD-long:doxylamine  0    0  1.22      .   1.22       .     .       .
+           BZD-long:doxylamine  0    0  1.20      .   1.20       .     .       .
           BZD-long:eszopiclone  0    0  0.58      .   0.58       .     .       .
           BZD-long:lemborexant  0    0  9.22      .   9.22       .     .       .
-              BZD-long:placebo  3 0.90  1.00   0.98   1.18    0.83 -0.29  0.7712
+              BZD-long:placebo  3 0.90  1.00   0.98   1.19    0.82 -0.30  0.7645
             BZD-long:ramelteon  0    0  0.52      .   0.52       .     .       .
-          BZD-long:seltorexant  0    0  2.85      .   2.85       .     .       .
+          BZD-long:seltorexant  0    0  2.82      .   2.82       .     .       .
            BZD-long:suvorexant  0    0  1.03      .   1.03       .     .       .
             BZD-long:trazodone  0    0  0.43      .   0.43       .     .       .
              BZD-long:zaleplon  0    0  4.34      .   4.34       .     .       .
-             BZD-long:zolpidem  0    0  0.64      .   0.64       .     .       .
-            BZD-long:zopiclone  2 0.95  0.75   0.80   0.26    3.05  1.52  0.1288
-        BZD-short:daridorexant  0    0  2.89      .   2.89       .     .       .
+             BZD-long:zolpidem  0    0  0.63      .   0.63       .     .       .
+            BZD-long:zopiclone  2 0.95  0.75   0.80   0.26    3.05  1.52  0.1291
+        BZD-short:daridorexant  0    0  1.18      .   1.18       .     .       .
              BZD-short:doxepin  0    0  0.36      .   0.36       .     .       .
-          BZD-short:doxylamine  0    0  1.60      .   1.60       .     .       .
-         BZD-short:eszopiclone  0    0  0.76      .   0.76       .     .       .
-         BZD-short:lemborexant  0    0 12.07      .  12.07       .     .       .
-             BZD-short:placebo  3 0.91  1.31   1.27   1.75    0.73 -0.52  0.6063
+          BZD-short:doxylamine  0    0  1.58      .   1.58       .     .       .
+         BZD-short:eszopiclone  0    0  0.77      .   0.77       .     .       .
+         BZD-short:lemborexant  0    0 12.08      .  12.08       .     .       .
+             BZD-short:placebo  3 0.91  1.31   1.27   1.77    0.72 -0.53  0.5949
            BZD-short:ramelteon  0    0  0.68      .   0.68       .     .       .
-         BZD-short:seltorexant  0    0  3.74      .   3.74       .     .       .
+         BZD-short:seltorexant  0    0  3.70      .   3.70       .     .       .
           BZD-short:suvorexant  0    0  1.35      .   1.35       .     .       .
-           BZD-short:trazodone  0    0  0.57      .   0.57       .     .       .
-            BZD-short:zaleplon  1 0.97  5.69   7.25   0.00 2821.91  1.43  0.1514
-            BZD-short:zolpidem  1 0.20  0.84   0.96   0.81    1.18  0.25  0.8015
-           BZD-short:zopiclone  2 0.93  0.99   0.99   0.93    1.06  0.10  0.9169
-          daridorexant:doxepin  0    0  0.13      .   0.13       .     .       .
-       daridorexant:doxylamine  0    0  0.55      .   0.55       .     .       .
-      daridorexant:eszopiclone  0    0  0.26      .   0.26       .     .       .
-      daridorexant:lemborexant  0    0  4.18      .   4.18       .     .       .
-          daridorexant:placebo  1 0.21  0.45   2.31   0.29    7.94  1.23  0.2199
-        daridorexant:ramelteon  0    0  0.23      .   0.23       .     .       .
-      daridorexant:seltorexant  0    0  1.29      .   1.29       .     .       .
-       daridorexant:suvorexant  0    0  0.47      .   0.47       .     .       .
-        daridorexant:trazodone  0    0  0.20      .   0.20       .     .       .
-         daridorexant:zaleplon  0    0  1.97      .   1.97       .     .       .
-         daridorexant:zolpidem  1 0.95  0.29   0.24   8.96    0.03 -1.23  0.2199
-        daridorexant:zopiclone  0    0  0.34      .   0.34       .     .       .
-            doxepin:doxylamine  0    0  4.39      .   4.39       .     .       .
+           BZD-short:trazodone  0    0  0.56      .   0.56       .     .       .
+            BZD-short:zaleplon  1 0.97  5.69   7.25   0.00 2812.20  1.43  0.1515
+            BZD-short:zolpidem  1 0.20  0.83   0.96   0.80    1.21  0.28  0.7785
+           BZD-short:zopiclone  2 0.93  0.99   0.99   0.94    1.06  0.09  0.9248
+          daridorexant:doxepin  0    0  0.31      .   0.31       .     .       .
+       daridorexant:doxylamine  0    0  1.33      .   1.33       .     .       .
+      daridorexant:eszopiclone  0    0  0.65      .   0.65       .     .       .
+      daridorexant:lemborexant  0    0 10.21      .  10.21       .     .       .
+          daridorexant:placebo  2 0.62  1.11   1.65   0.58    2.85  1.05  0.2955
+        daridorexant:ramelteon  0    0  0.57      .   0.57       .     .       .
+      daridorexant:seltorexant  0    0  3.12      .   3.12       .     .       .
+       daridorexant:suvorexant  0    0  1.14      .   1.14       .     .       .
+        daridorexant:trazodone  0    0  0.48      .   0.48       .     .       .
+         daridorexant:zaleplon  0    0  4.80      .   4.80       .     .       .
+         daridorexant:zolpidem  1 0.51  0.70   0.48   1.03    0.47 -0.78  0.4354
+        daridorexant:zopiclone  0    0  0.84      .   0.84       .     .       .
+            doxepin:doxylamine  0    0  4.33      .   4.33       .     .       .
            doxepin:eszopiclone  0    0  2.10      .   2.10       .     .       .
            doxepin:lemborexant  0    0 33.17      .  33.17       .     .       .
                doxepin:placebo  1 1.00  3.60   3.60      .       .     .       .
              doxepin:ramelteon  0    0  1.86      .   1.86       .     .       .
-           doxepin:seltorexant  0    0 10.27      .  10.27       .     .       .
+           doxepin:seltorexant  0    0 10.15      .  10.15       .     .       .
             doxepin:suvorexant  0    0  3.70      .   3.70       .     .       .
              doxepin:trazodone  0    0  1.55      .   1.55       .     .       .
-              doxepin:zaleplon  0    0 15.62      .  15.62       .     .       .
-              doxepin:zolpidem  0    0  2.31      .   2.31       .     .       .
-             doxepin:zopiclone  0    0  2.72      .   2.72       .     .       .
+              doxepin:zaleplon  0    0 15.61      .  15.61       .     .       .
+              doxepin:zolpidem  0    0  2.27      .   2.27       .     .       .
+             doxepin:zopiclone  0    0  2.71      .   2.71       .     .       .
         doxylamine:eszopiclone  0    0  0.48      .   0.48       .     .       .
-        doxylamine:lemborexant  0    0  7.55      .   7.55       .     .       .
-            doxylamine:placebo  1 0.57  0.82   1.49   0.37    4.03  0.99  0.3232
-          doxylamine:ramelteon  0    0  0.42      .   0.42       .     .       .
+        doxylamine:lemborexant  0    0  7.65      .   7.65       .     .       .
+            doxylamine:placebo  1 0.57  0.83   1.49   0.38    3.89  0.96  0.3349
+          doxylamine:ramelteon  0    0  0.43      .   0.43       .     .       .
         doxylamine:seltorexant  0    0  2.34      .   2.34       .     .       .
-         doxylamine:suvorexant  0    0  0.84      .   0.84       .     .       .
-          doxylamine:trazodone  0    0  0.35      .   0.35       .     .       .
-           doxylamine:zaleplon  0    0  3.56      .   3.56       .     .       .
-           doxylamine:zolpidem  1 0.93  0.53   0.44   6.65    0.07 -0.99  0.3232
-          doxylamine:zopiclone  0    0  0.62      .   0.62       .     .       .
-       eszopiclone:lemborexant  0    0 15.78      .  15.78       .     .       .
-           eszopiclone:placebo  1 0.64  1.71   2.13   1.16    1.85  1.09  0.2737
+         doxylamine:suvorexant  0    0  0.85      .   0.85       .     .       .
+          doxylamine:trazodone  0    0  0.36      .   0.36       .     .       .
+           doxylamine:zaleplon  0    0  3.60      .   3.60       .     .       .
+           doxylamine:zolpidem  1 0.93  0.52   0.44   6.21    0.07 -0.96  0.3349
+          doxylamine:zopiclone  0    0  0.63      .   0.63       .     .       .
+       eszopiclone:lemborexant  0    0 15.79      .  15.79       .     .       .
+           eszopiclone:placebo  1 0.64  1.71   2.13   1.16    1.85  1.09  0.2741
          eszopiclone:ramelteon  0    0  0.88      .   0.88       .     .       .
-       eszopiclone:seltorexant  0    0  4.89      .   4.89       .     .       .
+       eszopiclone:seltorexant  0    0  4.83      .   4.83       .     .       .
         eszopiclone:suvorexant  0    0  1.76      .   1.76       .     .       .
          eszopiclone:trazodone  0    0  0.74      .   0.74       .     .       .
           eszopiclone:zaleplon  0    0  7.43      .   7.43       .     .       .
-          eszopiclone:zolpidem  0    0  1.10      .   1.10       .     .       .
-         eszopiclone:zopiclone  2 0.45  1.29   0.92   1.70    0.54 -1.09  0.2737
+          eszopiclone:zolpidem  0    0  1.08      .   1.08       .     .       .
+         eszopiclone:zopiclone  2 0.45  1.29   0.92   1.70    0.54 -1.09  0.2741
            lemborexant:placebo  1 1.00  0.11   0.11      .       .     .       .
          lemborexant:ramelteon  0    0  0.06      .   0.06       .     .       .
        lemborexant:seltorexant  0    0  0.31      .   0.31       .     .       .
@@ -212,23 +212,23 @@ Random effects model:
           lemborexant:zolpidem  0    0  0.07      .   0.07       .     .       .
          lemborexant:zopiclone  0    0  0.08      .   0.08       .     .       .
              placebo:ramelteon  2 1.00  0.52   0.52      .       .     .       .
-           placebo:seltorexant  1 0.60  2.86   1.95   5.11    0.38 -0.66  0.5089
+           placebo:seltorexant  1 0.60  2.82   1.95   4.95    0.39 -0.64  0.5230
             placebo:suvorexant  2 1.00  1.03   1.03      .       .     .       .
              placebo:trazodone  0    0  0.43      .   0.43       .     .       .
-              placebo:zaleplon  1 0.35  4.35   0.64  11.90    0.05 -1.43  0.1514
-              placebo:zolpidem 11 0.95  0.64   0.65   0.52    1.25  0.22  0.8272
-             placebo:zopiclone  1 0.85  0.76   0.76   0.71    1.07  0.15  0.8797
-         ramelteon:seltorexant  0    0  5.53      .   5.53       .     .       .
+              placebo:zaleplon  1 0.35  4.34   0.64  11.89    0.05 -1.43  0.1515
+              placebo:zolpidem 11 0.91  0.63   0.65   0.47    1.38  0.43  0.6692
+             placebo:zopiclone  1 0.85  0.75   0.76   0.71    1.07  0.16  0.8740
+         ramelteon:seltorexant  0    0  5.47      .   5.47       .     .       .
           ramelteon:suvorexant  0    0  1.99      .   1.99       .     .       .
            ramelteon:trazodone  0    0  0.84      .   0.84       .     .       .
-            ramelteon:zaleplon  0    0  8.42      .   8.42       .     .       .
-            ramelteon:zolpidem  0    0  1.24      .   1.24       .     .       .
+            ramelteon:zaleplon  0    0  8.41      .   8.41       .     .       .
+            ramelteon:zolpidem  0    0  1.22      .   1.22       .     .       .
            ramelteon:zopiclone  0    0  1.46      .   1.46       .     .       .
         seltorexant:suvorexant  0    0  0.36      .   0.36       .     .       .
          seltorexant:trazodone  0    0  0.15      .   0.15       .     .       .
-          seltorexant:zaleplon  0    0  1.52      .   1.52       .     .       .
-          seltorexant:zolpidem  1 0.89  0.22   0.19   0.86    0.22 -0.66  0.5089
-         seltorexant:zopiclone  0    0  0.26      .   0.26       .     .       .
+          seltorexant:zaleplon  0    0  1.54      .   1.54       .     .       .
+          seltorexant:zolpidem  1 0.89  0.22   0.19   0.82    0.23 -0.64  0.5230
+         seltorexant:zopiclone  0    0  0.27      .   0.27       .     .       .
           suvorexant:trazodone  0    0  0.42      .   0.42       .     .       .
  [ reached getOption("max.print") -- omitted 9 rows ]
 
@@ -242,5 +242,5 @@ Legend:
  RoR        - Ratio of Ratios (direct versus indirect)
  z          - z-value of test for disagreement (direct versus indirect)
  p-value    - p-value of test for disagreement (direct versus indirect)
-[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.05. (1 out of 22 comparisons)."
-[1] "File created by E. G. Ostinelli on 2022-01-08"
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.05 (1 out of 22 comparisons)."
+[1] "File created on 2022-04-06"

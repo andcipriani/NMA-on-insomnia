@@ -1,9 +1,0 @@
-                      comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1        daridorexant vs  placebo                 2 0.55     0.25     1.18   0.00 0.00         NA         NA 0.22 0.6412
-2         eszopiclone vs  placebo                 2 1.43     0.85     2.41   0.06 0.41         NA         NA 1.71 0.1915
-3         lemborexant vs  placebo                 1 1.60     0.71     3.58     NA   NA         NA         NA 0.00     NA
-4           melatonin vs  placebo                 1 2.72     1.29     5.72     NA   NA         NA         NA 0.00     NA
-5 mirtazapine vs BZD-intermediate                 1 1.67     0.26    10.59     NA   NA         NA         NA 0.00     NA
-6          suvorexant vs  placebo                 2 0.58     0.27     1.27   0.12 0.39         NA         NA 1.63 0.2021
-7            zolpidem vs  placebo                 2 1.94     1.10     3.40   0.00 0.00         NA         NA 0.48 0.4883
-[1] "File created on 2022-01-30"

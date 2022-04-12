@@ -1,0 +1,8 @@
+             P-score (fixed) P-score (random)
+lemborexant           0.9185           0.9185
+eszopiclone           0.7270           0.7270
+doxepin               0.7245           0.7245
+daridorexant          0.3572           0.3572
+suvorexant            0.2722           0.2722
+placebo               0.0007           0.0007
+[1] "File created on 2022-04-11"

@@ -1,6 +1,7 @@
 Number of studies: k = 4
-Number of treatments: n = 3
 Number of pairwise comparisons: m = 4
+Number of observations: o = 1919
+Number of treatments: n = 3
 Number of designs: d = 2
 
 Fixed effects model (Mantel-Haenszel method)
@@ -16,6 +17,8 @@ Test of inconsistency (between designs):
  0    0      --
 [1] "A total of 3 treatments are included in the network."
 [1] "A total of 4 studies are included in this analysis."
+[1] "A total of 1919 participants are included in this analysis, with 175 events (9.12%)."
+[1] "The following studies were included in this analysis: 58 77 87 136"
 [1] "Estimated heterogeneity tau-squaredNA"
 [1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
-[1] "File created by E. G. Ostinelli on 2021-12-31"
+[1] "File created on 2022-04-06"

@@ -1,0 +1,19 @@
+                       comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1     BZD-intermediate vs  placebo                 2  1.00     0.43     1.56   0.12 0.68       0.00       0.93  3.16 0.0757
+2             BZD-long vs  placebo                 3  0.57     0.23     0.91   0.00 0.15       0.00       0.91  2.35 0.3087
+3            BZD-short vs  placebo                 2  0.61    -0.53     1.75   0.54 0.80       0.16       0.95  5.10 0.0239
+4    BZD-short vs BZD-intermediate                 1  0.16    -0.09     0.41     NA   NA         NA         NA  0.00     NA
+5            BZD-short vs BZD-long                 3  0.24    -0.11     0.59   0.00 0.00       0.00       0.90  0.43 0.8050
+6              doxepin vs  placebo                 1  0.42     0.07     0.77     NA   NA         NA         NA  0.00     NA
+7          eszopiclone vs  placebo                 4  0.56     0.34     0.78   0.04 0.79       0.43       0.92 14.07 0.0028
+8            melatonin vs  placebo                 4  0.17     0.05     0.28   0.00 0.38       0.00       0.79  4.87 0.1818
+9  mirtazapine vs BZD-intermediate                 1  0.32    -0.14     0.79     NA   NA         NA         NA  0.00     NA
+10          quetiapine vs  placebo                 1  0.05    -1.04     1.14     NA   NA         NA         NA  0.00     NA
+11           ramelteon vs  placebo                 2  0.18     0.07     0.30   0.00 0.00         NA         NA  0.15 0.7025
+12            zaleplon vs  placebo                 2  0.13    -0.18     0.43   0.03 0.71       0.00       0.94  3.47 0.0624
+13            zolpidem vs  placebo                 6  0.39     0.24     0.55   0.00 0.00       0.00       0.75  3.88 0.5662
+14    zolpidem vs BZD-intermediate                 1  0.66     0.03     1.29     NA   NA         NA         NA  0.00     NA
+15            zolpidem vs zaleplon                 3  0.20     0.06     0.33   0.00 0.00       0.00       0.90  1.27 0.5291
+16           zopiclone vs  placebo                 1  0.79     0.60     0.98     NA   NA         NA         NA  0.00     NA
+17          zopiclone vs BZD-short                 1 -0.26    -0.81     0.30     NA   NA         NA         NA  0.00     NA
+[1] "File created on 2022-04-11"

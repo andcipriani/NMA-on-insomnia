@@ -9,11 +9,11 @@ Original data (with adjusted standard errors for multi-arm studies):
 15  BZD-intermediate     BZD-long -0.4846 0.3536     0.4103     0.5184     3        *
 19          BZD-long    BZD-short  0.7841 0.5703     0.5703     0.6254     2         
 21         BZD-short      placebo  1.5021 0.4865     0.4865     0.5501     2         
-23  BZD-intermediate     BZD-long -0.5842 0.3336     0.4140     0.5200     3        *
+23  BZD-intermediate     BZD-long -0.5842 0.3336     0.4140     0.5199     3        *
 23  BZD-intermediate      placebo  0.6770 0.3198     0.3818     0.4942     3        *
 23          BZD-long      placebo  1.2611 0.3336     0.4141     0.5200     3        *
 24         BZD-short      placebo  0.7850 0.4986     0.4986     0.5609     2         
-25           placebo     zaleplon -0.0666 0.2288     0.2641     0.4104     3        *
+25           placebo     zaleplon -0.0666 0.2288     0.2641     0.4103     3        *
 25           placebo     zolpidem -0.0191 0.2642     0.3702     0.4753     3        *
 25          zaleplon     zolpidem  0.0474 0.2316     0.2691     0.4143     3        *
 30  BZD-intermediate      placebo -0.7138 0.7043     0.7043     0.7497     2         
@@ -66,14 +66,14 @@ Original data (with adjusted standard errors for multi-arm studies):
 125         zolpidem    zopiclone -0.5577 0.1946     0.1946     0.3222     2         
 126          placebo    ramelteon  0.1269 0.1633     0.1633     0.3043     2         
 127          placebo    ramelteon -0.3359 0.1521     0.1521     0.2985     2         
-130        melatonin      placebo  0.0705 0.1490     0.1490     0.2969     2         
+130        melatonin      placebo -0.0627 0.1490     0.1490     0.2969     2         
 131 BZD-intermediate      placebo  0.1100 0.2297     0.2297     0.3445     2         
-132          placebo    trazodone -0.4626 0.3095     0.3707     0.4861     3        *
+132          placebo    trazodone -0.4626 0.3095     0.3707     0.4860     3        *
 132        trazodone     zolpidem -0.0800 0.3284     0.4198     0.5233     3        *
 132          placebo     zolpidem -0.5427 0.3114     0.3747     0.4893     3        *
 133        BZD-short     zaleplon  0.6496 0.4394     0.5040     0.5937     3        *
 133          placebo     zaleplon  1.1931 0.4441     0.5119     0.6012     3        *
-133        BZD-short      placebo -0.5434 0.5144     0.7370     0.7847     3        *
+133        BZD-short      placebo -0.5434 0.5144     0.7370     0.7846     3        *
 134          placebo     zaleplon  0.3747 0.4879     0.4879     0.5513     2         
 136      eszopiclone      placebo  0.7620 0.1568     0.1568     0.3009     2         
 139          placebo    ramelteon -0.0713 0.2326     0.2326     0.3465     2         
@@ -207,7 +207,7 @@ Results (fixed effects model):
 62           placebo     zolpidem 0.6997 [0.6157; 0.7952]  0.16     0.03
 68  BZD-intermediate    zopiclone 0.7933 [0.6109; 1.0302]  0.47     0.03
 69          BZD-long    zopiclone 1.2089 [0.9527; 1.5341]  0.77     0.05
-70         melatonin      placebo 1.0691 [0.8045; 1.4206]  0.01     0.05
+70         melatonin      placebo 0.9423 [0.7092; 1.2522]  0.01     0.05
 83  BZD-intermediate      placebo 1.2306 [0.9857; 1.5364]  0.47     0.01
 86           placebo    ramelteon 0.9741 [0.8568; 1.1074]  0.11        .
 86           placebo    zopiclone 0.6446 [0.5422; 0.7664]  0.34        .
@@ -232,7 +232,7 @@ Results (fixed effects model):
 125         zolpidem    zopiclone 0.9212 [0.7553; 1.1236]  5.97     0.27
 126          placebo    ramelteon 0.9741 [0.8568; 1.1074]  0.88     0.16
 127          placebo    ramelteon 0.9741 [0.8568; 1.1074]  4.14     0.19
-130        melatonin      placebo 1.0691 [0.8045; 1.4206]  0.00     0.95
+130        melatonin      placebo 0.9423 [0.7092; 1.2522]  0.00     0.95
 131 BZD-intermediate      placebo 1.2306 [0.9857; 1.5364]  0.18     0.24
 132          placebo    trazodone 0.6510 [0.4003; 1.0585]  0.01        .
 132        trazodone     zolpidem 1.0750 [0.6579; 1.7564]  0.13        .
@@ -272,11 +272,11 @@ Results (random effects model):
 15          BZD-long      placebo 2.0229 [1.4425; 2.8368]
 15  BZD-intermediate     BZD-long 0.6251 [0.4259; 0.9176]
 19          BZD-long    BZD-short 1.2279 [0.8350; 1.8059]
-21         BZD-short      placebo 1.6474 [1.1845; 2.2913]
+21         BZD-short      placebo 1.6474 [1.1845; 2.2912]
 23  BZD-intermediate     BZD-long 0.6251 [0.4259; 0.9176]
 23  BZD-intermediate      placebo 1.2646 [0.9489; 1.6854]
 23          BZD-long      placebo 2.0229 [1.4425; 2.8368]
-24         BZD-short      placebo 1.6474 [1.1845; 2.2913]
+24         BZD-short      placebo 1.6474 [1.1845; 2.2912]
 25           placebo     zaleplon 1.1511 [0.8307; 1.5951]
 25           placebo     zolpidem 0.7269 [0.5981; 0.8834]
 25          zaleplon     zolpidem 0.6315 [0.4564; 0.8738]
@@ -289,7 +289,7 @@ Results (random effects model):
 37          BZD-long    BZD-short 1.2279 [0.8350; 1.8059]
 37          BZD-long      placebo 2.0229 [1.4425; 2.8368]
 37          BZD-long    zopiclone 1.1961 [0.8218; 1.7408]
-37         BZD-short      placebo 1.6474 [1.1845; 2.2913]
+37         BZD-short      placebo 1.6474 [1.1845; 2.2912]
 37         BZD-short    zopiclone 0.9741 [0.6648; 1.4272]
 37           placebo    zopiclone 0.5913 [0.4483; 0.7799]
 39           placebo     zolpidem 0.7269 [0.5981; 0.8834]
@@ -305,7 +305,7 @@ Results (random effects model):
 62           placebo     zolpidem 0.7269 [0.5981; 0.8834]
 68  BZD-intermediate    zopiclone 0.7477 [0.5162; 1.0831]
 69          BZD-long    zopiclone 1.1961 [0.8218; 1.7408]
-70         melatonin      placebo 1.0611 [0.6221; 1.8100]
+70         melatonin      placebo 0.9486 [0.5561; 1.6180]
 83  BZD-intermediate      placebo 1.2646 [0.9489; 1.6854]
 86           placebo    ramelteon 0.9734 [0.7862; 1.2052]
 86           placebo    zopiclone 0.5913 [0.4483; 0.7799]
@@ -330,14 +330,14 @@ Results (random effects model):
 125         zolpidem    zopiclone 0.8134 [0.5933; 1.1153]
 126          placebo    ramelteon 0.9734 [0.7862; 1.2052]
 127          placebo    ramelteon 0.9734 [0.7862; 1.2052]
-130        melatonin      placebo 1.0611 [0.6221; 1.8100]
+130        melatonin      placebo 0.9486 [0.5561; 1.6180]
 131 BZD-intermediate      placebo 1.2646 [0.9489; 1.6854]
 132          placebo    trazodone 0.6493 [0.3544; 1.1894]
 132        trazodone     zolpidem 1.1195 [0.6056; 2.0696]
 132          placebo     zolpidem 0.7269 [0.5981; 0.8834]
 133        BZD-short     zaleplon 1.8963 [1.2177; 2.9529]
 133          placebo     zaleplon 1.1511 [0.8307; 1.5951]
-133        BZD-short      placebo 1.6474 [1.1845; 2.2913]
+133        BZD-short      placebo 1.6474 [1.1845; 2.2912]
 134          placebo     zaleplon 1.1511 [0.8307; 1.5951]
 136      eszopiclone      placebo 1.5402 [1.0885; 2.1793]
 139          placebo    ramelteon 0.9734 [0.7862; 1.2052]
@@ -378,7 +378,7 @@ diphenydramine   1.5369 [0.7587; 3.1135]  1.19  0.2328
 doxepin          0.7781 [0.5027; 1.2044] -1.13  0.2604
 eszopiclone      1.3929 [1.0354; 1.8737]  2.19  0.0285
 lemborexant      1.2819 [0.9530; 1.7241]  1.64  0.1006
-melatonin        0.8687 [0.6057; 1.2460] -0.76  0.4444
+melatonin        0.7657 [0.5339; 1.0983] -1.45  0.1469
 mirtazapine      0.8123 [0.3075; 2.1461] -0.42  0.6749
 placebo          0.8126 [0.6509; 1.0145] -1.83  0.0668
 propiomazine     1.3743 [0.6591; 2.8656]  0.85  0.3964
@@ -396,24 +396,24 @@ Random effects model
 Treatment estimate (sm = 'OR', comparison: other treatments vs 'BZD-intermediate'):
                      OR           95%-CI     z p-value
 BZD-intermediate      .                .     .       .
-BZD-long         1.5996 [1.0897; 2.3481]  2.40  0.0164
+BZD-long         1.5996 [1.0897; 2.3480]  2.40  0.0164
 BZD-short        1.3027 [0.9025; 1.8803]  1.41  0.1579
 daridorexant     0.9892 [0.6258; 1.5637] -0.05  0.9631
-diphenydramine   1.4956 [0.6166; 3.6276]  0.89  0.3732
+diphenydramine   1.4956 [0.6167; 3.6275]  0.89  0.3732
 doxepin          0.7668 [0.4296; 1.3688] -0.90  0.3691
 eszopiclone      1.2179 [0.7921; 1.8726]  0.90  0.3691
 lemborexant      1.2370 [0.7831; 1.9539]  0.91  0.3619
-melatonin        0.8391 [0.4576; 1.5387] -0.57  0.5707
+melatonin        0.7501 [0.4091; 1.3755] -0.93  0.3527
 mirtazapine      0.8123 [0.2720; 2.4262] -0.37  0.7096
 placebo          0.7908 [0.5933; 1.0539] -1.60  0.1092
 propiomazine     1.4580 [0.5761; 3.6903]  0.80  0.4261
 ramelteon        0.8124 [0.5688; 1.1603] -1.14  0.2533
 seltorexant      0.4980 [0.2412; 1.0284] -1.88  0.0595
 suvorexant       0.7869 [0.4723; 1.3113] -0.92  0.3577
-trazodone        1.2179 [0.6455; 2.2976]  0.61  0.5428
+trazodone        1.2179 [0.6455; 2.2975]  0.61  0.5428
 trimipramine     2.1398 [0.6439; 7.1110]  1.24  0.2144
 zaleplon         0.6870 [0.4480; 1.0533] -1.72  0.0851
-zolpidem         1.0878 [0.7737; 1.5296]  0.48  0.6282
+zolpidem         1.0878 [0.7737; 1.5295]  0.48  0.6282
 zopiclone        1.3374 [0.9232; 1.9373]  1.54  0.1242
 
 Quantifying heterogeneity / inconsistency:
@@ -422,10 +422,10 @@ tau^2 = 0.0660; tau = 0.2568; I^2 = 47.9% [29.7%; 61.4%]
 Tests of heterogeneity (within designs) and inconsistency (between designs):
                      Q d.f.  p-value
 Total           115.11   60 < 0.0001
-Within designs   28.04   31   0.6191
+Within designs   28.04   31   0.6192
 Between designs  87.07   29 < 0.0001
 [1] "A total of 20 treatments are included in the network."
 [1] "A total of 65 studies are included in this analysis."
 [1] "Estimated heterogeneity tau-squared0.07"
 [1] "Global test for inconsistency, p-value 0 (Q=87, d.o.f. 29)"
-[1] "File created on 2022-01-30"
+[1] "File created on 2022-04-10"

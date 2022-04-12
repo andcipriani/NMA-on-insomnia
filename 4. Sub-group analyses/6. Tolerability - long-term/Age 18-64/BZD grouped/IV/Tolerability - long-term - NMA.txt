@@ -1,0 +1,98 @@
+Original data:
+
+          treat1     treat2      TE   seTE
+45       placebo suvorexant  0.9655 0.4658
+46       placebo suvorexant  0.1649 0.4207
+58   eszopiclone    placebo  0.6438 0.3033
+59       placebo   zolpidem -0.6229 0.2921
+112      placebo   zolpidem -1.7225 1.5596
+130    melatonin    placebo -0.1570 0.3826
+136  eszopiclone    placebo  0.1145 0.2686
+155  lemborexant    placebo  0.4670 0.4120
+159 daridorexant    placebo -0.7097 0.4527
+160 daridorexant    placebo -0.2942 0.7680
+
+Number of treatment arms (by study):
+    narms
+45      2
+46      2
+58      2
+59      2
+112     2
+130     2
+136     2
+155     2
+159     2
+160     2
+
+Results (fixed effects model):
+
+          treat1     treat2     OR           95%-CI    Q leverage
+45       placebo suvorexant 1.6898 [0.9164; 3.1157] 0.90     0.45
+46       placebo suvorexant 1.6898 [0.9164; 3.1157] 0.73     0.55
+58   eszopiclone    placebo 1.4150 [0.9541; 2.0986] 0.96     0.44
+59       placebo   zolpidem 0.5168 [0.2944; 0.9071] 0.02     0.97
+112      placebo   zolpidem 0.5168 [0.2944; 0.9071] 0.46     0.03
+130    melatonin    placebo 0.8547 [0.4038; 1.8094] 0.00     1.00
+136  eszopiclone    placebo 1.4150 [0.9541; 2.0986] 0.75     0.56
+155  lemborexant    placebo 1.5952 [0.7114; 3.5771] 0.00     1.00
+159 daridorexant    placebo 0.5474 [0.2549; 1.1757] 0.06     0.74
+160 daridorexant    placebo 0.5474 [0.2549; 1.1757] 0.16     0.26
+
+Results (random effects model):
+
+          treat1     treat2     OR           95%-CI
+45       placebo suvorexant 1.6903 [0.9145; 3.1241]
+46       placebo suvorexant 1.6903 [0.9145; 3.1241]
+58   eszopiclone    placebo 1.4158 [0.9511; 2.1076]
+59       placebo   zolpidem 0.5165 [0.2928; 0.9109]
+112      placebo   zolpidem 0.5165 [0.2928; 0.9109]
+130    melatonin    placebo 0.8547 [0.4022; 1.8164]
+136  eszopiclone    placebo 1.4158 [0.9511; 2.1076]
+155  lemborexant    placebo 1.5952 [0.7088; 3.5899]
+159 daridorexant    placebo 0.5476 [0.2544; 1.1789]
+160 daridorexant    placebo 0.5476 [0.2544; 1.1789]
+
+Number of studies: k = 10
+Number of pairwise comparisons: m = 10
+Number of observations: o = 7259
+Number of treatments: n = 7
+Number of designs: d = 6
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'daridorexant'):
+                 OR           95%-CI    z p-value
+daridorexant      .                .    .       .
+eszopiclone  2.5849 [1.0938; 6.1089] 2.16  0.0304
+lemborexant  2.9141 [0.9585; 8.8598] 1.89  0.0594
+melatonin    1.5614 [0.5351; 4.5561] 0.82  0.4148
+placebo      1.8268 [0.8505; 3.9235] 1.54  0.1224
+suvorexant   1.0811 [0.4061; 2.8781] 0.16  0.8760
+zolpidem     3.5349 [1.3682; 9.1330] 2.61  0.0091
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'daridorexant'):
+                 OR           95%-CI    z p-value
+daridorexant      .                .    .       .
+eszopiclone  2.5854 [1.0899; 6.1332] 2.16  0.0311
+lemborexant  2.9130 [0.9541; 8.8937] 1.88  0.0605
+melatonin    1.5608 [0.5326; 4.5742] 0.81  0.4171
+placebo      1.8261 [0.8482; 3.9311] 1.54  0.1237
+suvorexant   1.0803 [0.4045; 2.8856] 0.15  0.8775
+zolpidem     3.5358 [1.3621; 9.1782] 2.59  0.0095
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0015; tau = 0.0388; I^2 = 0.8% [0.0%; 79.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           4.03    4  0.4018
+Within designs  4.03    4  0.4018
+Between designs 0.00    0      --
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 10 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-04-10"

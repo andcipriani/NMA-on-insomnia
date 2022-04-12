@@ -10,7 +10,7 @@ Fixed effects model:
         doxepin:BZD-intermediate  0    0 0.78      .   0.78     .     .        .
     eszopiclone:BZD-intermediate  1 0.06 1.39   0.19   1.58  0.12 -3.33   0.0009
     lemborexant:BZD-intermediate  0    0 1.28      .   1.28     .     .        .
-      melatonin:BZD-intermediate  0    0 0.87      .   0.87     .     .        .
+      melatonin:BZD-intermediate  0    0 0.77      .   0.77     .     .        .
     mirtazapine:BZD-intermediate  1 1.00 0.81   0.81      .     .     .        .
         placebo:BZD-intermediate  8 0.70 0.81   0.88   0.67  1.31  1.08   0.2802
    propiomazine:BZD-intermediate  0    0 1.37      .   1.37     .     .        .
@@ -28,7 +28,7 @@ Fixed effects model:
                 BZD-long:doxepin  0    0 1.96      .   1.96     .     .        .
             BZD-long:eszopiclone  0    0 1.09      .   1.09     .     .        .
             BZD-long:lemborexant  0    0 1.19      .   1.19     .     .        .
-              BZD-long:melatonin  0    0 1.75      .   1.75     .     .        .
+              BZD-long:melatonin  0    0 1.99      .   1.99     .     .        .
             BZD-long:mirtazapine  0    0 1.88      .   1.88     .     .        .
                 BZD-long:placebo  4 0.73 1.88   1.54   3.19  0.48 -2.68   0.0074
            BZD-long:propiomazine  0    0 1.11      .   1.11     .     .        .
@@ -45,7 +45,7 @@ Fixed effects model:
                BZD-short:doxepin  0    0 1.67      .   1.67     .     .        .
            BZD-short:eszopiclone  0    0 0.93      .   0.93     .     .        .
            BZD-short:lemborexant  0    0 1.01      .   1.01     .     .        .
-             BZD-short:melatonin  0    0 1.50      .   1.50     .     .        .
+             BZD-short:melatonin  0    0 1.70      .   1.70     .     .        .
            BZD-short:mirtazapine  0    0 1.60      .   1.60     .     .        .
                BZD-short:placebo  4 0.62 1.60   1.15   2.74  0.42 -3.59   0.0003
           BZD-short:propiomazine  0    0 0.95      .   0.95     .     .        .
@@ -61,7 +61,7 @@ Fixed effects model:
             daridorexant:doxepin  0    0 1.30      .   1.30     .     .        .
         daridorexant:eszopiclone  0    0 0.73      .   0.73     .     .        .
         daridorexant:lemborexant  0    0 0.79      .   0.79     .     .        .
-          daridorexant:melatonin  0    0 1.17      .   1.17     .     .        .
+          daridorexant:melatonin  0    0 1.32      .   1.32     .     .        .
         daridorexant:mirtazapine  0    0 1.25      .   1.25     .     .        .
             daridorexant:placebo  3 0.95 1.25   1.25   1.18  1.06  0.13   0.8944
        daridorexant:propiomazine  0    0 0.74      .   0.74     .     .        .
@@ -76,7 +76,7 @@ Fixed effects model:
           diphenydramine:doxepin  0    0 1.98      .   1.98     .     .        .
       diphenydramine:eszopiclone  0    0 1.10      .   1.10     .     .        .
       diphenydramine:lemborexant  0    0 1.20      .   1.20     .     .        .
-        diphenydramine:melatonin  0    0 1.77      .   1.77     .     .        .
+        diphenydramine:melatonin  0    0 2.01      .   2.01     .     .        .
       diphenydramine:mirtazapine  0    0 1.89      .   1.89     .     .        .
           diphenydramine:placebo  1 1.00 1.89   1.89      .     .     .        .
      diphenydramine:propiomazine  0    0 1.12      .   1.12     .     .        .
@@ -90,7 +90,7 @@ Fixed effects model:
         diphenydramine:zopiclone  0    0 1.22      .   1.22     .     .        .
              doxepin:eszopiclone  0    0 0.56      .   0.56     .     .        .
              doxepin:lemborexant  0    0 0.61      .   0.61     .     .        .
-               doxepin:melatonin  0    0 0.90      .   0.90     .     .        .
+               doxepin:melatonin  0    0 1.02      .   1.02     .     .        .
              doxepin:mirtazapine  0    0 0.96      .   0.96     .     .        .
                  doxepin:placebo  2 0.87 0.96   0.97   0.86  1.13  0.21   0.8302
             doxepin:propiomazine  0    0 0.57      .   0.57     .     .        .
@@ -103,7 +103,7 @@ Fixed effects model:
                 doxepin:zolpidem  0    0 0.67      .   0.67     .     .        .
                doxepin:zopiclone  0    0 0.62      .   0.62     .     .        .
          eszopiclone:lemborexant  0    0 1.09      .   1.09     .     .        .
-           eszopiclone:melatonin  0    0 1.60      .   1.60     .     .        .
+           eszopiclone:melatonin  0    0 1.82      .   1.82     .     .        .
          eszopiclone:mirtazapine  0    0 1.71      .   1.71     .     .        .
              eszopiclone:placebo  2 0.79 1.71   1.97   1.01  1.94  2.54   0.0109
         eszopiclone:propiomazine  0    0 1.01      .   1.01     .     .        .
@@ -126,7 +126,7 @@ Random effects model:
         doxepin:BZD-intermediate  0    0 0.77      .   0.77     .     .       .
     eszopiclone:BZD-intermediate  1 0.11 1.22   0.19   1.53  0.13 -2.94  0.0033
     lemborexant:BZD-intermediate  0    0 1.24      .   1.24     .     .       .
-      melatonin:BZD-intermediate  0    0 0.84      .   0.84     .     .       .
+      melatonin:BZD-intermediate  0    0 0.75      .   0.75     .     .       .
     mirtazapine:BZD-intermediate  1 1.00 0.81   0.81      .     .     .       .
         placebo:BZD-intermediate  8 0.69 0.79   0.90   0.59  1.52  1.33  0.1841
    propiomazine:BZD-intermediate  0    0 1.46      .   1.46     .     .       .
@@ -144,7 +144,7 @@ Random effects model:
                 BZD-long:doxepin  0    0 2.09      .   2.09     .     .       .
             BZD-long:eszopiclone  0    0 1.31      .   1.31     .     .       .
             BZD-long:lemborexant  0    0 1.29      .   1.29     .     .       .
-              BZD-long:melatonin  0    0 1.91      .   1.91     .     .       .
+              BZD-long:melatonin  0    0 2.13      .   2.13     .     .       .
             BZD-long:mirtazapine  0    0 1.97      .   1.97     .     .       .
                 BZD-long:placebo  4 0.68 2.02   1.88   2.36  0.79 -0.62  0.5322
            BZD-long:propiomazine  0    0 1.10      .   1.10     .     .       .
@@ -155,13 +155,13 @@ Random effects model:
            BZD-long:trimipramine  0    0 0.75      .   0.75     .     .       .
                BZD-long:zaleplon  0    0 2.33      .   2.33     .     .       .
                BZD-long:zolpidem  0    0 1.47      .   1.47     .     .       .
-              BZD-long:zopiclone  3 0.55 1.20   1.19   1.20  0.99 -0.02  0.9837
+              BZD-long:zopiclone  3 0.55 1.20   1.19   1.20  0.99 -0.02  0.9838
           BZD-short:daridorexant  0    0 1.32      .   1.32     .     .       .
         BZD-short:diphenydramine  0    0 0.87      .   0.87     .     .       .
                BZD-short:doxepin  0    0 1.70      .   1.70     .     .       .
            BZD-short:eszopiclone  0    0 1.07      .   1.07     .     .       .
            BZD-short:lemborexant  0    0 1.05      .   1.05     .     .       .
-             BZD-short:melatonin  0    0 1.55      .   1.55     .     .       .
+             BZD-short:melatonin  0    0 1.74      .   1.74     .     .       .
            BZD-short:mirtazapine  0    0 1.60      .   1.60     .     .       .
                BZD-short:placebo  4 0.56 1.65   1.32   2.20  0.60 -1.51  0.1305
           BZD-short:propiomazine  0    0 0.89      .   0.89     .     .       .
@@ -172,12 +172,12 @@ Random effects model:
           BZD-short:trimipramine  0    0 0.61      .   0.61     .     .       .
               BZD-short:zaleplon  1 0.20 1.90   1.91   1.89  1.01  0.02  0.9830
               BZD-short:zolpidem  0    0 1.20      .   1.20     .     .       .
-             BZD-short:zopiclone  1 0.43 0.97   1.19   0.83  1.43  0.91  0.3623
+             BZD-short:zopiclone  1 0.43 0.97   1.19   0.83  1.43  0.91  0.3622
      daridorexant:diphenydramine  0    0 0.66      .   0.66     .     .       .
             daridorexant:doxepin  0    0 1.29      .   1.29     .     .       .
         daridorexant:eszopiclone  0    0 0.81      .   0.81     .     .       .
         daridorexant:lemborexant  0    0 0.80      .   0.80     .     .       .
-          daridorexant:melatonin  0    0 1.18      .   1.18     .     .       .
+          daridorexant:melatonin  0    0 1.32      .   1.32     .     .       .
         daridorexant:mirtazapine  0    0 1.22      .   1.22     .     .       .
             daridorexant:placebo  3 0.92 1.25   1.27   1.08  1.17  0.24  0.8130
        daridorexant:propiomazine  0    0 0.68      .   0.68     .     .       .
@@ -192,7 +192,7 @@ Random effects model:
           diphenydramine:doxepin  0    0 1.95      .   1.95     .     .       .
       diphenydramine:eszopiclone  0    0 1.23      .   1.23     .     .       .
       diphenydramine:lemborexant  0    0 1.21      .   1.21     .     .       .
-        diphenydramine:melatonin  0    0 1.78      .   1.78     .     .       .
+        diphenydramine:melatonin  0    0 1.99      .   1.99     .     .       .
       diphenydramine:mirtazapine  0    0 1.84      .   1.84     .     .       .
           diphenydramine:placebo  1 1.00 1.89   1.89      .     .     .       .
      diphenydramine:propiomazine  0    0 1.03      .   1.03     .     .       .
@@ -206,7 +206,7 @@ Random effects model:
         diphenydramine:zopiclone  0    0 1.12      .   1.12     .     .       .
              doxepin:eszopiclone  0    0 0.63      .   0.63     .     .       .
              doxepin:lemborexant  0    0 0.62      .   0.62     .     .       .
-               doxepin:melatonin  0    0 0.91      .   0.91     .     .       .
+               doxepin:melatonin  0    0 1.02      .   1.02     .     .       .
              doxepin:mirtazapine  0    0 0.94      .   0.94     .     .       .
                  doxepin:placebo  2 0.87 0.97   0.99   0.85  1.16  0.19  0.8495
             doxepin:propiomazine  0    0 0.53      .   0.53     .     .       .
@@ -219,7 +219,7 @@ Random effects model:
                 doxepin:zolpidem  0    0 0.70      .   0.70     .     .       .
                doxepin:zopiclone  0    0 0.57      .   0.57     .     .       .
          eszopiclone:lemborexant  0    0 0.98      .   0.98     .     .       .
-           eszopiclone:melatonin  0    0 1.45      .   1.45     .     .       .
+           eszopiclone:melatonin  0    0 1.62      .   1.62     .     .       .
          eszopiclone:mirtazapine  0    0 1.50      .   1.50     .     .       .
              eszopiclone:placebo  2 0.66 1.54   1.95   0.98  1.99  1.84  0.0659
         eszopiclone:propiomazine  0    0 0.84      .   0.84     .     .       .
@@ -243,4 +243,4 @@ Legend:
  z          - z-value of test for disagreement (direct versus indirect)
  p-value    - p-value of test for disagreement (direct versus indirect)
 [1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.09. (3 out of 33 comparisons)."
-[1] "File created on 2022-01-30"
+[1] "File created on 2022-04-10"

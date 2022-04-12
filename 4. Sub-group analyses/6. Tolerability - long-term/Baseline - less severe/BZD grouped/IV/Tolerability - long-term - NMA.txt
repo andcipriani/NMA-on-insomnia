@@ -1,0 +1,64 @@
+Original data:
+
+         treat1  treat2      TE   seTE
+60      doxepin placebo -0.0127 0.8320
+130   melatonin placebo -0.1570 0.3826
+136 eszopiclone placebo  0.1145 0.2686
+
+Number of treatment arms (by study):
+    narms
+60      2
+130     2
+136     2
+
+Results (fixed effects model):
+
+         treat1  treat2     OR           95%-CI    Q leverage
+60      doxepin placebo 0.9873 [0.1933; 5.0423] 0.00     1.00
+130   melatonin placebo 0.8547 [0.4038; 1.8094] 0.00     1.00
+136 eszopiclone placebo 1.1213 [0.6623; 1.8984] 0.00     1.00
+
+Results (random effects model):
+
+         treat1  treat2     OR           95%-CI
+60      doxepin placebo 0.9873 [0.1933; 5.0423]
+130   melatonin placebo 0.8547 [0.4038; 1.8094]
+136 eszopiclone placebo 1.1213 [0.6623; 1.8984]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of observations: o = 1704
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'doxepin'):
+                OR           95%-CI     z p-value
+doxepin          .                .     .       .
+eszopiclone 1.1357 [0.2047; 6.3012]  0.15  0.8843
+melatonin   0.8657 [0.1438; 5.2099] -0.16  0.8748
+placebo     1.0128 [0.1983; 5.1724]  0.02  0.9878
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'doxepin'):
+                OR           95%-CI     z p-value
+doxepin          .                .     .       .
+eszopiclone 1.1357 [0.2047; 6.3012]  0.15  0.8843
+melatonin   0.8657 [0.1438; 5.2099] -0.16  0.8748
+placebo     1.0128 [0.1983; 5.1724]  0.02  0.9878
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 3 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-04-11"

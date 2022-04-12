@@ -13,7 +13,7 @@
 12      lemborexant vs  placebo                 2  0.38     0.28     0.49   0.00 0.00         NA         NA  0.00 0.9704
 13       loprazolam vs  placebo                 3  0.49     0.03     0.94   0.11 0.72       0.03       0.92  7.02 0.0298
 14     lormetazepam vs  placebo                 2  1.20     0.76     1.63   0.00 0.00         NA         NA  0.60 0.4385
-15        melatonin vs  placebo                 5  0.11    -0.01     0.23   0.00 0.21       0.00       0.67  5.06 0.2811
+15        melatonin vs  placebo                 5  0.18     0.07     0.29   0.00 0.27       0.00       0.71  5.46 0.2437
 16     mirtazapine vs lorazepam                 1  0.32    -0.14     0.79     NA   NA         NA         NA  0.00     NA
 17       nitrazepam vs  placebo                 2  0.15    -0.39     0.70   0.10 0.65       0.00       0.92  2.86 0.0907
 18     nitrazepam vs loprazolam                 1 -0.14    -0.52     0.25     NA   NA         NA         NA  0.00     NA
@@ -50,4 +50,4 @@
 49       zopiclone vs midazolam                 1 -0.26    -0.81     0.30     NA   NA         NA         NA  0.00     NA
 50      zopiclone vs nitrazepam                 2 -0.03    -0.34     0.29   0.00 0.00         NA         NA  0.20 0.6568
 51        zopiclone vs zolpidem                 1 -0.06    -0.26     0.13     NA   NA         NA         NA  0.00     NA
-[1] "File created on 2022-01-28"
+[1] "File created on 2022-04-11"

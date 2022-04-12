@@ -1,0 +1,4 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 eszopiclone vs  placebo                 1 0.55     0.41     0.74     NA   NA         NA         NA    0    NA
+2   melatonin vs  placebo                 1 0.84     0.56     1.25     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-04-11"

@@ -1,0 +1,4 @@
+            comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1   doxepin vs  placebo                 1 0.99     0.19     5.04     NA   NA         NA         NA    0    NA
+2 ramelteon vs  placebo                 1 0.78     0.30     2.02     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-04-10"

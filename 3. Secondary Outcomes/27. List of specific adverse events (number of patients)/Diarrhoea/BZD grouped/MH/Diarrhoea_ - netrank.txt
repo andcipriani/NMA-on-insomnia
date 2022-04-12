@@ -1,14 +1,14 @@
                  P-score
-seltorexant       0.9221
-doxepin           0.8829
-daridorexant      0.5978
-zaleplon          0.5555
-placebo           0.4875
-BZD-intermediate  0.4559
-eszopiclone       0.4419
-melatonin         0.4361
-zolpidem          0.4046
-ramelteon         0.3142
-doxylamine        0.2784
-suvorexant        0.2229
-[1] "File created by E. G. Ostinelli on 2021-12-31"
+seltorexant       0.9281
+doxepin           0.8900
+zaleplon          0.5739
+placebo           0.5100
+BZD-intermediate  0.4706
+eszopiclone       0.4600
+daridorexant      0.4501
+melatonin         0.4458
+zolpidem          0.4343
+ramelteon         0.3239
+doxylamine        0.2858
+suvorexant        0.2275
+[1] "File created on 2022-04-06"

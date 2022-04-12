@@ -1,0 +1,15 @@
+                 P-score (fixed) P-score (random)
+mirtazapine               0.9398           0.9123
+BZD-short                 0.9086           0.8901
+zopiclone                 0.8013           0.7692
+BZD-intermediate          0.7391           0.7343
+BZD-long                  0.6317           0.6320
+eszopiclone               0.6205           0.5909
+zolpidem                  0.4510           0.5068
+doxepin                   0.4498           0.4591
+zaleplon                  0.2452           0.2767
+quetiapine                0.2431           0.2563
+ramelteon                 0.2261           0.2287
+melatonin                 0.2039           0.1780
+placebo                   0.0399           0.0657
+[1] "File created on 2022-04-11"
