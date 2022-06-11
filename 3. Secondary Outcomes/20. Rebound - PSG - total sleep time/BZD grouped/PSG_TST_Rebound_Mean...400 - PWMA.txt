@@ -1,0 +1,17 @@
+                        comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1      BZD-intermediate vs  placebo                 1 -0.31    -1.05     0.44     NA   NA         NA         NA  0.00     NA
+2      BZD-long vs BZD-intermediate                 1  0.42    -0.73     1.57     NA   NA         NA         NA  0.00     NA
+3             BZD-short vs  placebo                 3 -0.07    -0.40     0.26   0.00 0.00          0       0.90  0.45 0.7971
+4     BZD-short vs BZD-intermediate                 2  0.05    -0.72     0.82   0.11 0.32         NA         NA  1.47 0.2249
+5             BZD-short vs BZD-long                 2 -0.22    -1.46     1.03   0.45 0.55          0       0.89  2.23 0.1350
+6           eszopiclone vs  placebo                 1 -0.28    -0.53    -0.03     NA   NA         NA         NA  0.00     NA
+7             melatonin vs  placebo                 1 -0.05    -0.67     0.57     NA   NA         NA         NA  0.00     NA
+8             ramelteon vs  placebo                 2 -0.07    -0.28     0.13   0.01 0.48         NA         NA  1.91 0.1670
+9          trimipramine vs  placebo                 1 -0.16    -0.88     0.56     NA   NA         NA         NA  0.00     NA
+10 trimipramine vs BZD-intermediate                 1  0.15    -0.57     0.86     NA   NA         NA         NA  0.00     NA
+11             zaleplon vs  placebo                 2  0.03    -0.26     0.33   0.00 0.00         NA         NA  0.07 0.7944
+12            zaleplon vs BZD-short                 1  0.03    -0.40     0.46     NA   NA         NA         NA  0.00     NA
+13             zolpidem vs  placebo                 7  0.15    -0.19     0.50   0.09 0.41          0       0.75 10.20 0.1164
+14            zolpidem vs BZD-short                 2  0.02    -0.42     0.46   0.00 0.00         NA         NA  0.90 0.3417
+15            zopiclone vs BZD-long                 1  0.18    -1.07     1.42     NA   NA         NA         NA  0.00     NA
+[1] "File created on 2022-06-08"

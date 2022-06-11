@@ -1,0 +1,132 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+                    comparison k prop   nma direct indir.  Diff     z p-value
+     BZD-intermediate:BZD-long 1 0.33  0.40   1.16   0.04  1.12  1.47  0.1416
+    BZD-intermediate:BZD-short 2 0.83  0.06  -0.13   0.99 -1.12 -1.47  0.1416
+ BZD-intermediate:daridorexant 0    0  0.24      .   0.24     .     .       .
+  BZD-intermediate:eszopiclone 0    0  0.08      .   0.08     .     .       .
+    BZD-intermediate:melatonin 0    0  0.12      .   0.12     .     .       .
+      BZD-intermediate:placebo 0    0  0.36      .   0.36     .     .       .
+    BZD-intermediate:ramelteon 0    0  0.41      .   0.41     .     .       .
+     BZD-intermediate:zaleplon 0    0 -0.01      .  -0.01     .     .       .
+     BZD-intermediate:zolpidem 0    0  0.15      .   0.15     .     .       .
+    BZD-intermediate:zopiclone 0    0  1.03      .   1.03     .     .       .
+            BZD-long:BZD-short 2 0.29 -0.34  -1.13  -0.02 -1.11 -1.83  0.0669
+         BZD-long:daridorexant 0    0 -0.16      .  -0.16     .     .       .
+          BZD-long:eszopiclone 0    0 -0.32      .  -0.32     .     .       .
+            BZD-long:melatonin 0    0 -0.28      .  -0.28     .     .       .
+              BZD-long:placebo 1 0.64 -0.04   0.51  -1.01  1.52  2.74  0.0061
+            BZD-long:ramelteon 0    0  0.00      .   0.00     .     .       .
+             BZD-long:zaleplon 0    0 -0.41      .  -0.41     .     .       .
+             BZD-long:zolpidem 0    0 -0.25      .  -0.25     .     .       .
+            BZD-long:zopiclone 1 1.00  0.63   0.63      .     .     .       .
+        BZD-short:daridorexant 0    0  0.18      .   0.18     .     .       .
+         BZD-short:eszopiclone 0    0  0.02      .   0.02     .     .       .
+           BZD-short:melatonin 0    0  0.06      .   0.06     .     .       .
+             BZD-short:placebo 2 0.74  0.30   0.32   0.26  0.06  0.18  0.8588
+           BZD-short:ramelteon 0    0  0.34      .   0.34     .     .       .
+            BZD-short:zaleplon 1 0.63 -0.07  -0.32   0.35 -0.66 -1.83  0.0668
+            BZD-short:zolpidem 1 0.47  0.09  -0.10   0.25 -0.36 -1.04  0.2989
+           BZD-short:zopiclone 0    0  0.97      .   0.97     .     .       .
+      daridorexant:eszopiclone 0    0 -0.16      .  -0.16     .     .       .
+        daridorexant:melatonin 0    0 -0.12      .  -0.12     .     .       .
+          daridorexant:placebo 2 1.00  0.13   0.13      .     .     .       .
+        daridorexant:ramelteon 0    0  0.17      .   0.17     .     .       .
+         daridorexant:zaleplon 0    0 -0.25      .  -0.25     .     .       .
+         daridorexant:zolpidem 0    0 -0.09      .  -0.09     .     .       .
+        daridorexant:zopiclone 0    0  0.79      .   0.79     .     .       .
+         eszopiclone:melatonin 0    0  0.04      .   0.04     .     .       .
+           eszopiclone:placebo 1 1.00  0.28   0.28      .     .     .       .
+         eszopiclone:ramelteon 0    0  0.33      .   0.33     .     .       .
+          eszopiclone:zaleplon 0    0 -0.09      .  -0.09     .     .       .
+          eszopiclone:zolpidem 0    0  0.07      .   0.07     .     .       .
+         eszopiclone:zopiclone 0    0  0.95      .   0.95     .     .       .
+             melatonin:placebo 1 1.00  0.24   0.24      .     .     .       .
+           melatonin:ramelteon 0    0  0.28      .   0.28     .     .       .
+            melatonin:zaleplon 0    0 -0.13      .  -0.13     .     .       .
+            melatonin:zolpidem 0    0  0.03      .   0.03     .     .       .
+           melatonin:zopiclone 0    0  0.91      .   0.91     .     .       .
+             ramelteon:placebo 4 1.00 -0.04  -0.04      .     .     .       .
+              zaleplon:placebo 2 0.90  0.37   0.29   1.09 -0.80 -1.70  0.0884
+              zolpidem:placebo 6 0.97  0.22   0.22   0.12  0.10  0.17  0.8664
+             zopiclone:placebo 0    0 -0.67      .  -0.67     .     .       .
+            ramelteon:zaleplon 0    0 -0.41      .  -0.41     .     .       .
+            ramelteon:zolpidem 0    0 -0.26      .  -0.26     .     .       .
+           ramelteon:zopiclone 0    0  0.62      .   0.62     .     .       .
+             zaleplon:zolpidem 0    0  0.16      .   0.16     .     .       .
+            zaleplon:zopiclone 0    0  1.04      .   1.04     .     .       .
+            zolpidem:zopiclone 0    0  0.88      .   0.88     .     .       .
+
+Random effects model: 
+
+                    comparison k prop   nma direct indir.  Diff     z p-value
+     BZD-intermediate:BZD-long 1 0.36  0.55   1.16   0.21  0.94  1.15  0.2483
+    BZD-intermediate:BZD-short 2 0.82  0.10  -0.07   0.87 -0.94 -1.15  0.2483
+ BZD-intermediate:daridorexant 0    0  0.34      .   0.34     .     .       .
+  BZD-intermediate:eszopiclone 0    0  0.18      .   0.18     .     .       .
+    BZD-intermediate:melatonin 0    0  0.22      .   0.22     .     .       .
+      BZD-intermediate:placebo 0    0  0.46      .   0.46     .     .       .
+    BZD-intermediate:ramelteon 0    0  0.51      .   0.51     .     .       .
+     BZD-intermediate:zaleplon 0    0  0.07      .   0.07     .     .       .
+     BZD-intermediate:zolpidem 0    0  0.20      .   0.20     .     .       .
+    BZD-intermediate:zopiclone 0    0  1.18      .   1.18     .     .       .
+            BZD-long:BZD-short 2 0.33 -0.45  -1.19  -0.08 -1.11 -1.69  0.0904
+         BZD-long:daridorexant 0    0 -0.21      .  -0.21     .     .       .
+          BZD-long:eszopiclone 0    0 -0.37      .  -0.37     .     .       .
+            BZD-long:melatonin 0    0 -0.33      .  -0.33     .     .       .
+              BZD-long:placebo 1 0.61 -0.09   0.51  -1.01  1.52  2.47  0.0137
+            BZD-long:ramelteon 0    0 -0.04      .  -0.04     .     .       .
+             BZD-long:zaleplon 0    0 -0.48      .  -0.48     .     .       .
+             BZD-long:zolpidem 0    0 -0.35      .  -0.35     .     .       .
+            BZD-long:zopiclone 1 1.00  0.63   0.63      .     .     .       .
+        BZD-short:daridorexant 0    0  0.24      .   0.24     .     .       .
+         BZD-short:eszopiclone 0    0  0.08      .   0.08     .     .       .
+           BZD-short:melatonin 0    0  0.12      .   0.12     .     .       .
+             BZD-short:placebo 2 0.74  0.36   0.32   0.48 -0.16 -0.37  0.7103
+           BZD-short:ramelteon 0    0  0.41      .   0.41     .     .       .
+            BZD-short:zaleplon 1 0.62 -0.03  -0.32   0.44 -0.76 -1.58  0.1138
+            BZD-short:zolpidem 1 0.48  0.10  -0.10   0.29 -0.39 -0.88  0.3787
+           BZD-short:zopiclone 0    0  1.08      .   1.08     .     .       .
+      daridorexant:eszopiclone 0    0 -0.17      .  -0.17     .     .       .
+        daridorexant:melatonin 0    0 -0.13      .  -0.13     .     .       .
+          daridorexant:placebo 2 1.00  0.12   0.12      .     .     .       .
+        daridorexant:ramelteon 0    0  0.17      .   0.17     .     .       .
+         daridorexant:zaleplon 0    0 -0.27      .  -0.27     .     .       .
+         daridorexant:zolpidem 0    0 -0.15      .  -0.15     .     .       .
+        daridorexant:zopiclone 0    0  0.83      .   0.83     .     .       .
+         eszopiclone:melatonin 0    0  0.04      .   0.04     .     .       .
+           eszopiclone:placebo 1 1.00  0.28   0.28      .     .     .       .
+         eszopiclone:ramelteon 0    0  0.33      .   0.33     .     .       .
+          eszopiclone:zaleplon 0    0 -0.11      .  -0.11     .     .       .
+          eszopiclone:zolpidem 0    0  0.02      .   0.02     .     .       .
+         eszopiclone:zopiclone 0    0  1.00      .   1.00     .     .       .
+             melatonin:placebo 1 1.00  0.24   0.24      .     .     .       .
+           melatonin:ramelteon 0    0  0.29      .   0.29     .     .       .
+            melatonin:zaleplon 0    0 -0.15      .  -0.15     .     .       .
+            melatonin:zolpidem 0    0 -0.02      .  -0.02     .     .       .
+           melatonin:zopiclone 0    0  0.96      .   0.96     .     .       .
+             ramelteon:placebo 4 1.00 -0.05  -0.05      .     .     .       .
+              zaleplon:placebo 2 0.90  0.39   0.29   1.31 -1.01 -1.53  0.1263
+              zolpidem:placebo 6 0.96  0.26   0.26   0.29 -0.03 -0.04  0.9687
+             zopiclone:placebo 0    0 -0.72      .  -0.72     .     .       .
+            ramelteon:zaleplon 0    0 -0.44      .  -0.44     .     .       .
+            ramelteon:zolpidem 0    0 -0.31      .  -0.31     .     .       .
+           ramelteon:zopiclone 0    0  0.67      .   0.67     .     .       .
+             zaleplon:zolpidem 0    0  0.13      .   0.13     .     .       .
+            zaleplon:zopiclone 0    0  1.11      .   1.11     .     .       .
+            zolpidem:zopiclone 0    0  0.98      .   0.98     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0.11. (1 out of 9 comparisons)."
+[1] "File created on 2022-06-08"
