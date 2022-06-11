@@ -1,7 +1,0 @@
-            P-score
-seltorexant  0.9438
-placebo      0.7149
-zolpidem     0.3326
-zopiclone    0.2543
-BZD-long     0.2543
-[1] "File created on 2022-06-08"

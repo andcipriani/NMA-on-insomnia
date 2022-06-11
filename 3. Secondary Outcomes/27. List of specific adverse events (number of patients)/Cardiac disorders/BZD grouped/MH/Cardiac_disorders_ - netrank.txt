@@ -1,4 +1,0 @@
-         P-score
-zolpidem  0.8254
-placebo   0.1746
-[1] "File created on 2022-06-08"

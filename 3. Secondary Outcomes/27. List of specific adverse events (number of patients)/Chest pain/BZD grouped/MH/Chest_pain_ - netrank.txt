@@ -1,5 +1,0 @@
-            P-score
-eszopiclone  0.5091
-placebo      0.5053
-zolpidem     0.4856
-[1] "File created on 2022-06-08"

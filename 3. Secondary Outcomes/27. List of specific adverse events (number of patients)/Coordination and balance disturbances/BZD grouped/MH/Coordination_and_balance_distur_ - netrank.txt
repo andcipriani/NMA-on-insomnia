@@ -1,6 +1,0 @@
-                 P-score
-BZD-intermediate  0.8739
-placebo           0.7190
-BZD-long          0.2371
-BZD-short         0.1700
-[1] "File created on 2022-06-08"
