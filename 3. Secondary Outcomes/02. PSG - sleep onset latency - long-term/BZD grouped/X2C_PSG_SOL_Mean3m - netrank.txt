@@ -1,0 +1,7 @@
+             P-score (fixed) P-score (random)
+zolpidem              0.9898           0.9771
+ramelteon             0.6116           0.5790
+daridorexant          0.5321           0.5185
+suvorexant            0.3606           0.3844
+placebo               0.0059           0.0410
+[1] "File created on 2022-06-01"

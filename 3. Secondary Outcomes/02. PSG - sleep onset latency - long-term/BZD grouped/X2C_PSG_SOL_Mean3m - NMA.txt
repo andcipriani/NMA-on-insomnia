@@ -1,0 +1,76 @@
+Original data:
+
+          treat1     treat2      TE   seTE
+45       placebo suvorexant  0.2514 0.0994
+46       placebo suvorexant  0.0392 0.1086
+75       placebo  ramelteon  0.2601 0.0946
+112      placebo   zolpidem  0.7369 0.2168
+160 daridorexant    placebo -0.2232 0.0808
+
+Number of treatment arms (by study):
+    narms
+45      2
+46      2
+75      2
+112     2
+160     2
+
+Results (fixed effects model):
+
+          treat1     treat2     SMD             95%-CI    Q leverage
+45       placebo suvorexant  0.1547 [ 0.0111;  0.2984] 0.95     0.54
+46       placebo suvorexant  0.1547 [ 0.0111;  0.2984] 1.13     0.46
+75       placebo  ramelteon  0.2601 [ 0.0747;  0.4455] 0.00     1.00
+112      placebo   zolpidem  0.7369 [ 0.3120;  1.1617] 0.00     1.00
+160 daridorexant    placebo -0.2232 [-0.3815; -0.0649] 0.00     1.00
+
+Results (random effects model):
+
+          treat1     treat2     SMD            95%-CI
+45       placebo suvorexant  0.1499 [-0.0579; 0.3576]
+46       placebo suvorexant  0.1499 [-0.0579; 0.3576]
+75       placebo  ramelteon  0.2601 [-0.0214; 0.5416]
+112      placebo   zolpidem  0.7369 [ 0.2621; 1.2116]
+160 daridorexant    placebo -0.2232 [-0.4877; 0.0413]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 5
+Number of observations: o = 1964
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z p-value
+daridorexant -0.2232 [-0.3815; -0.0649] -2.76  0.0057
+placebo            .                  .     .       .
+ramelteon    -0.2601 [-0.4455; -0.0747] -2.75  0.0060
+suvorexant   -0.1547 [-0.2984; -0.0111] -2.11  0.0348
+zolpidem     -0.7369 [-1.1617; -0.3120] -3.40  0.0007
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                 SMD             95%-CI     z p-value
+daridorexant -0.2232 [-0.4877;  0.0413] -1.65  0.0981
+placebo            .                  .     .       .
+ramelteon    -0.2601 [-0.5416;  0.0214] -1.81  0.0701
+suvorexant   -0.1499 [-0.3576;  0.0579] -1.41  0.1575
+zolpidem     -0.7369 [-1.2116; -0.2621] -3.04  0.0023
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0117; tau = 0.1081; I^2 = 51.9% [0.0%; 87.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           2.08    1  0.1494
+Within designs  2.08    1  0.1494
+Between designs 0.00    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 5 studies are included in this analysis."
+[1] "A total of 1964 participants are included in this analysis."
+[1] "The following studies were included in this analysis: 45 46 75 112 160"
+[1] "Estimated heterogeneity tau-squared0.01"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-01"

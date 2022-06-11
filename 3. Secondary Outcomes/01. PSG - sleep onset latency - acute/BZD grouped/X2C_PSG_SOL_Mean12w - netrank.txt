@@ -1,0 +1,18 @@
+                 P-score (fixed) P-score (random)
+lemborexant               0.9350           0.9109
+melatonin                 0.9415           0.8979
+eszopiclone               0.8339           0.7848
+seltorexant               0.6575           0.6237
+ramelteon                 0.6551           0.5978
+zaleplon                  0.5453           0.5266
+zolpidem                  0.4284           0.5252
+suvorexant                0.5324           0.4935
+trimipramine              0.5125           0.4845
+daridorexant              0.4959           0.4492
+BZD-long                  0.3324           0.4340
+zopiclone                 0.3575           0.4311
+BZD-intermediate          0.3436           0.3268
+doxepin                   0.2722           0.2957
+placebo                   0.1295           0.1499
+BZD-short                 0.0271           0.0686
+[1] "File created on 2022-06-01"
