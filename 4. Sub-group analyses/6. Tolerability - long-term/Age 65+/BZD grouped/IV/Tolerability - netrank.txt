@@ -1,5 +1,0 @@
-          P-score (fixed) P-score (random)
-ramelteon          0.6452           0.6452
-doxepin            0.4551           0.4551
-placebo            0.3997           0.3997
-[1] "File created on 2022-04-10"

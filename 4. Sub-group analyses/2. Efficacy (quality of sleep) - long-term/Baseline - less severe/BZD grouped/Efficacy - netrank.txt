@@ -1,5 +1,0 @@
-            P-score (fixed) P-score (random)
-eszopiclone          0.9544           0.9544
-doxepin              0.5442           0.5442
-placebo              0.0013           0.0013
-[1] "File created on 2022-04-11"
