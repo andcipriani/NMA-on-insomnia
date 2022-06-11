@@ -1,0 +1,10 @@
+              comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1   BZD-short vs  placebo                 1  0.29    -0.20     0.78     NA   NA         NA         NA 0.00     NA
+2   BZD-short vs BZD-long                 1  0.38    -0.13     0.89     NA   NA         NA         NA 0.00     NA
+3 eszopiclone vs  placebo                 2 -0.09    -0.27     0.09      0 0.00         NA         NA 0.03 0.8677
+4   ramelteon vs  placebo                 2  0.03    -0.14     0.20      0 0.25         NA         NA 1.33 0.2486
+5 seltorexant vs  placebo                 1 -0.15    -0.43     0.14     NA   NA         NA         NA 0.00     NA
+6    zolpidem vs  placebo                 4  0.03    -0.11     0.18      0 0.00          0       0.85 0.71 0.8708
+7   zolpidem vs BZD-short                 1 -0.19    -0.68     0.30     NA   NA         NA         NA 0.00     NA
+8 zolpidem vs seltorexant                 1  0.22    -0.08     0.52     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-08"
