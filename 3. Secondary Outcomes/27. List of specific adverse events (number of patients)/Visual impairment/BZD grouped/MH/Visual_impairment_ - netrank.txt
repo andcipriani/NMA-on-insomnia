@@ -1,4 +1,0 @@
-         P-score
-zolpidem  0.8191
-placebo   0.1809
-[1] "File created by E. G. Ostinelli on 2022-01-02"

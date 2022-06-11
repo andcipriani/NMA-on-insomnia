@@ -1,4 +1,0 @@
-              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
-1 eszopiclone vs  placebo                 1 5.92     3.14    11.18     NA   NA         NA         NA    0    NA
-2    zolpidem vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
-[1] "File created by E. G. Ostinelli on 2022-01-08"

@@ -1,8 +1,0 @@
-             P-score
-placebo       0.7496
-zopiclone     0.6245
-zolpidem      0.5645
-BZD-long      0.4315
-BZD-short     0.3837
-propiomazine  0.2462
-[1] "File created by E. G. Ostinelli on 2022-01-02"

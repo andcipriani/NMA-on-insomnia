@@ -1,6 +1,0 @@
-               comparisons Number.of.studies  SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1 daridorexant vs  placebo                 2 0.42     0.24     0.61   0.01 0.69          0       0.93  3.2 0.0738
-2      doxepin vs  placebo                 1 0.59     0.28     0.90     NA   NA         NA         NA  0.0     NA
-3    ramelteon vs  placebo                 1 0.03    -0.16     0.21     NA   NA         NA         NA  0.0     NA
-4     zolpidem vs  placebo                 1 0.76     0.33     1.18     NA   NA         NA         NA  0.0     NA
-[1] "File created on 2022-01-31"

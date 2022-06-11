@@ -1,9 +1,0 @@
-Number of observations: o = 791
-Number of events: e = 12
-
-     OR           95%-CI     z p-value
- 0.7125 [0.2242; 2.2641] -0.57  0.5655
-
-Details:
-- Mantel-Haenszel method
-[1] "File created by E. G. Ostinelli on 2022-01-02"

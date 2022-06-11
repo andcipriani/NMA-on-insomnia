@@ -1,8 +1,0 @@
-              comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1     doxepin vs  placebo                 1 -0.49    -0.83    -0.16     NA   NA         NA         NA 0.00     NA
-2 eszopiclone vs  placebo                 2 -0.11    -0.26     0.04      0 0.00         NA         NA 0.52 0.4706
-3 lemborexant vs  placebo                 1 -0.24    -0.40    -0.09     NA   NA         NA         NA 0.00     NA
-4   ramelteon vs  placebo                 1  0.20    -0.02     0.41     NA   NA         NA         NA 0.00     NA
-5  suvorexant vs  placebo                 2 -0.12    -0.24     0.00      0 0.00         NA         NA 0.02 0.8839
-6    zolpidem vs  placebo                 2 -0.32    -0.53    -0.12      0 0.11         NA         NA 1.12 0.2893
-[1] "File created on 2022-01-31"

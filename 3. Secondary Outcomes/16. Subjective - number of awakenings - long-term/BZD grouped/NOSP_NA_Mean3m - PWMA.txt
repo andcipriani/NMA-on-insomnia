@@ -1,7 +1,0 @@
-               comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1 daridorexant vs  placebo                 2 -0.06    -0.16     0.05      0    0         NA         NA 0.55 0.4602
-2  eszopiclone vs  placebo                 1 -0.38    -0.59    -0.16     NA   NA         NA         NA 0.00     NA
-3    ramelteon vs  placebo                 1  0.05    -0.16     0.27     NA   NA         NA         NA 0.00     NA
-4   suvorexant vs  placebo                 2  0.00    -0.12     0.12      0    0         NA         NA 0.00 1.0000
-5     zolpidem vs  placebo                 1 -0.04    -0.25     0.16     NA   NA         NA         NA 0.00     NA
-[1] "File created on 2022-01-31"

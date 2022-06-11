@@ -1,8 +1,0 @@
-                 P-score
-daridorexant      0.8270
-seltorexant       0.5993
-lemborexant       0.5603
-zolpidem          0.4632
-placebo           0.3478
-BZD-intermediate  0.2023
-[1] "File created by E. G. Ostinelli on 2022-01-01"

@@ -1,5 +1,0 @@
-                 P-score
-BZD-intermediate  0.8889
-placebo           0.5355
-melatonin         0.0756
-[1] "File created by E. G. Ostinelli on 2022-01-01"

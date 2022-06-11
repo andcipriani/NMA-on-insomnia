@@ -1,5 +1,0 @@
-            P-score (fixed) P-score (random)
-eszopiclone          0.9556           0.7075
-placebo              0.0609           0.5424
-zolpidem             0.4835           0.2500
-[1] "File created on 2022-01-31"

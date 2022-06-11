@@ -1,4 +1,0 @@
-            P-score (fixed) P-score (random)
-placebo                   1                1
-eszopiclone               0                0
-[1] "File created by E. G. Ostinelli on 2022-01-08"

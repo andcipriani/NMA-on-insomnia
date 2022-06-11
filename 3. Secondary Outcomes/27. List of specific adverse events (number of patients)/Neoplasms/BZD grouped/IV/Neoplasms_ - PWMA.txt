@@ -1,4 +1,0 @@
-               comparisons Number.of.studies  OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
-1 daridorexant vs  placebo                 1 1.5     0.06    37.02     NA   NA         NA         NA    0    NA
-2  lemborexant vs  placebo                 1 0.5     0.03     8.06     NA   NA         NA         NA    0    NA
-[1] "File created by E. G. Ostinelli on 2022-01-02"

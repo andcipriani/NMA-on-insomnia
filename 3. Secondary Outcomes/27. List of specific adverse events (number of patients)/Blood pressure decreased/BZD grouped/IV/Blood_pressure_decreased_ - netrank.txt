@@ -1,4 +1,0 @@
-         P-score (fixed) P-score (random)
-placebo           0.8594           0.8594
-zolpidem          0.1406           0.1406
-[1] "File created by E. G. Ostinelli on 2022-01-08"

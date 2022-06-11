@@ -1,6 +1,0 @@
-            P-score
-placebo      0.6314
-melatonin    0.6124
-zolpidem     0.3850
-lemborexant  0.3712
-[1] "File created by E. G. Ostinelli on 2022-01-01"

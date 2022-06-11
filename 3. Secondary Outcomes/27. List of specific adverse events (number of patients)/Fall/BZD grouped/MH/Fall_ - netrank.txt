@@ -1,6 +1,0 @@
-             P-score
-daridorexant  0.9337
-suvorexant    0.4678
-placebo       0.3840
-eszopiclone   0.2145
-[1] "File created on 2022-04-06"

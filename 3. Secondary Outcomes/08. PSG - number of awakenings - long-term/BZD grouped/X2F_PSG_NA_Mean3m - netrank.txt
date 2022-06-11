@@ -1,5 +1,0 @@
-             P-score (fixed) P-score (random)
-placebo               0.9362           0.9262
-daridorexant          0.3147           0.3133
-doxepin               0.2492           0.2604
-[1] "File created on 2022-01-31"

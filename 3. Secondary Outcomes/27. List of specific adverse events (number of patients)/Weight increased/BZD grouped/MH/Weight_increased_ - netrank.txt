@@ -1,4 +1,0 @@
-           P-score
-placebo     0.7983
-suvorexant  0.2017
-[1] "File created by E. G. Ostinelli on 2022-01-01"

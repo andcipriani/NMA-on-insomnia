@@ -1,7 +1,0 @@
-             P-score (fixed) P-score (random)
-zolpidem              0.9156           0.9000
-doxepin               0.7734           0.7662
-daridorexant          0.5603           0.5764
-ramelteon             0.1534           0.1498
-placebo               0.0972           0.1075
-[1] "File created on 2022-01-31"

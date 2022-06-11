@@ -1,8 +1,0 @@
-              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
-1 lemborexant vs  placebo                 2 1.05     0.13     8.64      0    0         NA         NA 0.09 0.7674
-2   melatonin vs  placebo                 1 5.06     0.59    43.54     NA   NA         NA         NA 0.00     NA
-3   ramelteon vs  placebo                 1 1.17     0.39     3.53     NA   NA         NA         NA 0.00     NA
-4    zaleplon vs  placebo                 1 2.42     0.68     8.58     NA   NA         NA         NA 0.00     NA
-5    zolpidem vs  placebo                 3 3.19     1.19     8.56      0    0          0        0.9 0.35 0.8396
-6    zolpidem vs zaleplon                 1 1.02     0.40     2.59     NA   NA         NA         NA 0.00     NA
-[1] "File created by E. G. Ostinelli on 2022-01-01"

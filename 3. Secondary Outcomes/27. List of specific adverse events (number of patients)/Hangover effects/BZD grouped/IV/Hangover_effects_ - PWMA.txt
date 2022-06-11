@@ -1,3 +1,0 @@
-           comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
-1 zolpidem vs  placebo                 1 7.45     0.36   156.28     NA   NA         NA         NA    0    NA
-[1] "File created by E. G. Ostinelli on 2022-01-02"

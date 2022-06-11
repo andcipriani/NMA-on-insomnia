@@ -1,5 +1,0 @@
-         P-score
-placebo   0.6314
-zolpidem  0.6113
-zaleplon  0.2573
-[1] "File created by E. G. Ostinelli on 2022-01-02"
