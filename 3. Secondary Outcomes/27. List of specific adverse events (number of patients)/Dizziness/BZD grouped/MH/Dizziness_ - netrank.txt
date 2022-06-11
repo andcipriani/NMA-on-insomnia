@@ -1,0 +1,14 @@
+                 P-score
+lemborexant       0.8782
+BZD-intermediate  0.7767
+zaleplon          0.7607
+doxylamine        0.7016
+placebo           0.5948
+zopiclone         0.5147
+BZD-long          0.4718
+BZD-short         0.4181
+suvorexant        0.3970
+ramelteon         0.3167
+zolpidem          0.1267
+eszopiclone       0.0430
+[1] "File created on 2022-06-08"

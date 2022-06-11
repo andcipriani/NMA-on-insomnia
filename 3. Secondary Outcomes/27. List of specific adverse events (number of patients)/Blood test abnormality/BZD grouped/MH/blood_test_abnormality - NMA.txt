@@ -1,0 +1,28 @@
+Number of studies: k = 6
+Number of pairwise comparisons: m = 10
+Number of observations: o = 2966
+Number of treatments: n = 7
+Number of designs: d = 5
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+daridorexant 0.9411 [0.1682;  5.2647] -0.07  0.9449
+lemborexant  0.7971 [0.0487; 13.0343] -0.16  0.8736
+placebo           .                 .     .       .
+ramelteon    0.9945 [0.3714;  2.6631] -0.01  0.9912
+seltorexant  1.0818 [0.1716;  6.8219]  0.08  0.9333
+zolpidem     1.0138 [0.1825;  5.6320]  0.02  0.9875
+zopiclone    2.5563 [0.3865; 16.9054]  0.97  0.3302
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.68    1  0.4090
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "A total of 2966 participants are included in this analysis, with 64 events (2.16%)."
+[1] "The following studies were included in this analysis: 99 125 126 127 154 158"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.40899 (Q=1, d.o.f. 1)"
+[1] "File created on 2022-06-09"

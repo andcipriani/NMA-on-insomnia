@@ -1,0 +1,5 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 seltorexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+2    zolpidem vs  placebo                 1 3.12     0.13    77.94     NA   NA         NA         NA    0    NA
+3 zolpidem vs seltorexant                 1 9.00     0.36   223.37     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-08"

@@ -1,0 +1,11 @@
+[1] "Number of studies: 1"
+[1] "lemborexant vs placebo"
+Number of observations: o = 126
+Number of events: e = 0
+
+ OR 95%-CI  z p-value
+ NA        --      --
+
+Details:
+- Mantel-Haenszel method
+[1] "File created on 2022-06-08"
