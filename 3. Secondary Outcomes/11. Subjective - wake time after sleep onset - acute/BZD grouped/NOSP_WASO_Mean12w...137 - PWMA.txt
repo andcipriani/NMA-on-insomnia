@@ -1,0 +1,19 @@
+                    comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1  BZD-intermediate vs  placebo                 1 -1.02    -1.73    -0.31     NA   NA         NA         NA  0.00     NA
+2         BZD-short vs BZD-long                 1  0.06    -0.44     0.57     NA   NA         NA         NA  0.00     NA
+3      daridorexant vs  placebo                 2 -0.11    -0.31     0.10   0.01 0.38         NA         NA  1.62 0.2037
+4           doxepin vs  placebo                 3 -0.19    -0.41     0.03   0.02 0.41       0.00       0.82  3.40 0.1827
+5       eszopiclone vs  placebo                 7 -0.23    -0.31    -0.14   0.00 0.00       0.00       0.71  5.93 0.4307
+6       lemborexant vs  placebo                 3 -0.23    -0.47     0.00   0.03 0.70       0.00       0.91  6.67 0.0355
+7         ramelteon vs  placebo                 2  0.06    -0.09     0.21   0.00 0.00         NA         NA  0.63 0.4286
+8       seltorexant vs  placebo                 1 -0.27    -0.54     0.00     NA   NA         NA         NA  0.00     NA
+9        suvorexant vs  placebo                 2 -0.19    -0.31    -0.08   0.00 0.00         NA         NA  0.48 0.4862
+10        trazodone vs  placebo                 1 -0.19    -0.47     0.10     NA   NA         NA         NA  0.00     NA
+11         zolpidem vs  placebo                12 -0.33    -0.48    -0.18   0.05 0.73       0.52       0.85 41.18 0.0000
+12 zolpidem vs BZD-intermediate                 1  0.03    -0.28     0.34     NA   NA         NA         NA  0.00     NA
+13     zolpidem vs daridorexant                 1  0.07    -0.24     0.38     NA   NA         NA         NA  0.00     NA
+14      zolpidem vs lemborexant                 1 -0.11    -0.26     0.04     NA   NA         NA         NA  0.00     NA
+15      zolpidem vs seltorexant                 1  0.06    -0.21     0.34     NA   NA         NA         NA  0.00     NA
+16        zolpidem vs trazodone                 1 -0.06    -0.35     0.23     NA   NA         NA         NA  0.00     NA
+17        zopiclone vs  placebo                 1  0.08    -0.67     0.83     NA   NA         NA         NA  0.00     NA
+[1] "File created on 2022-06-01"
