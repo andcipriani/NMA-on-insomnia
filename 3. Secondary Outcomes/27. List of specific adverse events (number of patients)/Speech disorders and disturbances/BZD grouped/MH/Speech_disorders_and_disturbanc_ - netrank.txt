@@ -1,0 +1,6 @@
+          P-score
+zopiclone  0.7279
+BZD-long   0.6442
+placebo    0.6041
+BZD-short  0.0238
+[1] "File created on 2022-06-09"

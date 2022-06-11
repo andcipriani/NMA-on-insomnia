@@ -1,0 +1,9 @@
+            P-score (fixed) P-score (random)
+seltorexant          0.8306           0.8306
+eszopiclone          0.7031           0.7031
+BZD-long             0.6517           0.6517
+placebo              0.4813           0.4813
+zolpidem             0.3685           0.3685
+ramelteon            0.3604           0.3604
+BZD-short            0.1045           0.1045
+[1] "File created on 2022-06-08"

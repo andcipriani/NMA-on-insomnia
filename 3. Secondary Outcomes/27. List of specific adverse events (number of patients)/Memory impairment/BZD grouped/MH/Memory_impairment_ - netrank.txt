@@ -1,0 +1,5 @@
+         P-score
+placebo   0.6865
+zaleplon  0.6835
+zolpidem  0.1301
+[1] "File created on 2022-06-09"

@@ -1,0 +1,9 @@
+                 P-score
+melatonin         0.9689
+placebo           0.6085
+BZD-intermediate  0.5592
+suvorexant        0.3478
+zolpidem          0.3468
+ramelteon         0.3393
+lemborexant       0.3295
+[1] "File created on 2022-06-09"

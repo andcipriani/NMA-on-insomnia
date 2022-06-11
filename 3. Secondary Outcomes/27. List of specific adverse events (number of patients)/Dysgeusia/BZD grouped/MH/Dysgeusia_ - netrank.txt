@@ -1,0 +1,9 @@
+            P-score
+zolpidem     0.9035
+placebo      0.8544
+zaleplon     0.6773
+ramelteon    0.5578
+BZD-long     0.2190
+eszopiclone  0.2094
+zopiclone    0.0786
+[1] "File created on 2022-06-08"

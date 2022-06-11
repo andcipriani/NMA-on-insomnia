@@ -1,0 +1,7 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 eszopiclone vs  placebo                 2 1.43     0.85     2.41   0.06 0.41         NA         NA 1.71 0.1915
+2 lemborexant vs  placebo                 1 1.60     0.71     3.58     NA   NA         NA         NA 0.00     NA
+3   melatonin vs  placebo                 1 0.85     0.40     1.81     NA   NA         NA         NA 0.00     NA
+4   ramelteon vs  placebo                 1 0.78     0.30     2.02     NA   NA         NA         NA 0.00     NA
+5    zolpidem vs  placebo                 1 1.94     1.10     3.43     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-08"

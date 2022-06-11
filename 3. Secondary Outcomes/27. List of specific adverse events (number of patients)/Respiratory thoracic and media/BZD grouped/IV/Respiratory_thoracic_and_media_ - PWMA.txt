@@ -1,0 +1,10 @@
+                   comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 BZD-intermediate vs  placebo                 1 1.00     0.13     7.89     NA   NA         NA         NA 0.00     NA
+2     daridorexant vs  placebo                 1 2.53     0.12    53.56     NA   NA         NA         NA 0.00     NA
+3      lemborexant vs  placebo                 2 1.58     0.23    10.92      0    0         NA         NA 0.00 0.9739
+4        melatonin vs  placebo                 1 0.23     0.11     0.50     NA   NA         NA         NA 0.00     NA
+5        ramelteon vs  placebo                 1 2.00     0.36    10.95     NA   NA         NA         NA 0.00     NA
+6       suvorexant vs  placebo                 2 1.77     0.66     4.72      0    0         NA         NA 0.59 0.4412
+7         zolpidem vs  placebo                 1 2.12     0.19    23.60     NA   NA         NA         NA 0.00     NA
+8     zolpidem vs daridorexant                 1 0.40     0.02     8.36     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-09"

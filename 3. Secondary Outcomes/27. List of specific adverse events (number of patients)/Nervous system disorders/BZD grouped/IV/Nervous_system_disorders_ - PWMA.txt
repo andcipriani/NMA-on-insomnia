@@ -1,0 +1,14 @@
+                    comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1  BZD-intermediate vs  placebo                 1 0.33     0.06     1.97     NA   NA         NA         NA 0.00     NA
+2         BZD-short vs BZD-long                 1 1.39     0.36     5.42     NA   NA         NA         NA 0.00     NA
+3      daridorexant vs  placebo                 1 0.99     0.09    11.16     NA   NA         NA         NA 0.00     NA
+4       lemborexant vs  placebo                 1 1.51     0.06    37.24     NA   NA         NA         NA 0.00     NA
+5         melatonin vs  placebo                 1 0.25     0.13     0.47     NA   NA         NA         NA 0.00     NA
+6         ramelteon vs  placebo                 1 8.59     1.89    39.04     NA   NA         NA         NA 0.00     NA
+7       seltorexant vs  placebo                 1 1.05     0.04    25.96     NA   NA         NA         NA 0.00     NA
+8          zaleplon vs  placebo                 1 0.56     0.21     1.49     NA   NA         NA         NA 0.00     NA
+9          zolpidem vs  placebo                 3 2.29     1.29     4.06      0    0          0        0.9 0.46 0.7929
+10     zolpidem vs daridorexant                 1 2.05     0.28    14.93     NA   NA         NA         NA 0.00     NA
+11      zolpidem vs seltorexant                 1 0.98     0.04    24.37     NA   NA         NA         NA 0.00     NA
+12    zopiclone vs propiomazine                 1 0.24     0.03     2.23     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-09"

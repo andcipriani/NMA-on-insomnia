@@ -1,0 +1,14 @@
+Linear regression test of funnel plot asymmetry
+
+Test result: t = 1.69, df = 16, p-value = 0.1095
+
+Sample estimates:
+   bias se.bias intercept se.intercept
+ 2.3039  1.3596   -1.1066       0.2648
+
+Details:
+- multiplicative residual heterogeneity variance (tau^2 = 7.7878)
+- predictor: standard error
+- weight:    inverse variance
+- reference: Egger et al. (1997), BMJ
+[1] "File created on 2022-06-07"

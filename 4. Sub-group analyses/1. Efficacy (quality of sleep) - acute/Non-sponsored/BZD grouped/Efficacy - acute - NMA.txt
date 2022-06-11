@@ -1,0 +1,170 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+              treat1     treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+15  BZD-intermediate    placebo  0.5200 0.1701     0.1950     0.5776     3        *
+15          BZD-long    placebo  0.9099 0.1992     0.2892     0.6058     3        *
+15  BZD-intermediate   BZD-long -0.3900 0.1693     0.1936     0.5770     3        *
+18  BZD-intermediate    placebo -0.2722 0.2750     0.2750     0.5221     2         
+19          BZD-long  BZD-short -0.7624 0.2797     0.2797     0.5246     2         
+23  BZD-intermediate   BZD-long -0.1025 0.1620     0.1966     0.5781     3        *
+23  BZD-intermediate    placebo  0.5237 0.1663     0.2072     0.5817     3        *
+23          BZD-long    placebo  0.6262 0.1624     0.1973     0.5783     3        *
+24         BZD-short    placebo  1.1829 0.3131     0.3131     0.5432     2         
+30  BZD-intermediate    placebo  0.7610 0.2959     0.2959     0.5335     2         
+31  BZD-intermediate   BZD-long -0.0984 0.2830     0.3415     0.6418     3        *
+31          BZD-long    placebo  0.8068 0.2904     0.3595     0.6517     3        *
+31  BZD-intermediate    placebo  0.7084 0.2887     0.3551     0.6494     3        *
+34           placebo  zopiclone -0.6480 0.0959     0.0959     0.4541     2         
+39           placebo   zolpidem -0.6596 0.1258     0.1258     0.4613     2         
+67  BZD-intermediate    placebo  1.7139 0.1166     0.1166     0.4589     2         
+69          BZD-long  zopiclone -0.1541 0.3795     0.3795     0.5840     2         
+74          BZD-long  BZD-short -0.1898 0.3169     0.3169     0.5454     2         
+80           placebo   zolpidem -1.1824 0.6258     0.6258     0.7672     2         
+81           placebo   zolpidem -1.1706 0.6248     0.6248     0.7664     2         
+85           placebo   zolpidem  0.6579 0.3251     0.3251     0.5502     2         
+87           placebo   zolpidem -0.6219 0.3518     0.3518     0.5664     2         
+102          placebo   zolpidem -0.6990 0.1965     0.1965     0.4854     2         
+108         BZD-long  BZD-short -0.0992 0.4176     0.5023     0.7399     3        *
+108         BZD-long    placebo  0.9355 0.4233     0.5152     0.7492     3        *
+108        BZD-short    placebo  1.0348 0.4354     0.5468     0.7704     3        *
+112          placebo   zolpidem -0.5690 0.2140     0.2140     0.4927     2         
+119          placebo   zolpidem -0.1815 0.2988     0.2988     0.5351     2         
+125         zolpidem  zopiclone  0.0625 0.0967     0.0967     0.4543     2         
+162          placebo quetiapine -0.0506 0.5564     0.5564     0.7118     2         
+
+Number of treatment arms (by study):
+    narms
+15      3
+18      2
+19      2
+23      3
+24      2
+30      2
+31      3
+34      2
+39      2
+67      2
+69      2
+74      2
+80      2
+81      2
+85      2
+87      2
+102     2
+108     3
+112     2
+119     2
+125     2
+162     2
+
+Results (fixed effects model):
+
+              treat1     treat2     SMD             95%-CI     Q leverage
+15  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928]  4.85        .
+15          BZD-long    placebo  0.9356 [ 0.7476;  1.1236]  0.01        .
+15  BZD-intermediate   BZD-long  0.0139 [-0.1756;  0.2035]  4.35        .
+18  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928] 19.74     0.07
+19          BZD-long  BZD-short -0.3698 [-0.6852; -0.0544]  1.97     0.33
+23  BZD-intermediate   BZD-long  0.0139 [-0.1756;  0.2035]  0.35        .
+23  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928]  4.22        .
+23          BZD-long    placebo  0.9356 [ 0.7476;  1.1236]  2.46        .
+24         BZD-short    placebo  1.3054 [ 0.9722;  1.6386]  0.15     0.29
+30  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928]  0.41     0.06
+31  BZD-intermediate   BZD-long  0.0139 [-0.1756;  0.2035]  0.11        .
+31          BZD-long    placebo  0.9356 [ 0.7476;  1.1236]  0.13        .
+31  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928]  0.46        .
+34           placebo  zopiclone -0.6083 [-0.7557; -0.4609]  0.17     0.62
+39           placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.23     0.32
+67  BZD-intermediate    placebo  0.9496 [ 0.8063;  1.0928] 42.95     0.39
+69          BZD-long  zopiclone  0.3274 [ 0.0943;  0.5604]  1.61     0.10
+74          BZD-long  BZD-short -0.3698 [-0.6852; -0.0544]  0.32     0.26
+80           placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.87     0.01
+81           placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.84     0.01
+85           placebo   zolpidem -0.5990 [-0.7375; -0.4606] 14.95     0.05
+87           placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.00     0.04
+102          placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.26     0.13
+108         BZD-long  BZD-short -0.3698 [-0.6852; -0.0544]  0.29        .
+108         BZD-long    placebo  0.9356 [ 0.7476;  1.1236]  0.00        .
+108        BZD-short    placebo  1.3054 [ 0.9722;  1.6386]  0.25        .
+112          placebo   zolpidem -0.5990 [-0.7375; -0.4606]  0.02     0.11
+119          placebo   zolpidem -0.5990 [-0.7375; -0.4606]  1.95     0.06
+125         zolpidem  zopiclone -0.0092 [-0.1591;  0.1406]  0.55     0.62
+162          placebo quetiapine -0.0506 [-1.1412;  1.0400]  0.00     1.00
+
+Results (random effects model):
+
+              treat1     treat2     SMD             95%-CI
+15  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+15          BZD-long    placebo  0.7830 [ 0.3577;  1.2084]
+15  BZD-intermediate   BZD-long -0.1038 [-0.5773;  0.3697]
+18  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+19          BZD-long  BZD-short -0.3864 [-0.9346;  0.1619]
+23  BZD-intermediate   BZD-long -0.1038 [-0.5773;  0.3697]
+23  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+23          BZD-long    placebo  0.7830 [ 0.3577;  1.2084]
+24         BZD-short    placebo  1.1694 [ 0.5783;  1.7605]
+30  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+31  BZD-intermediate   BZD-long -0.1038 [-0.5773;  0.3697]
+31          BZD-long    placebo  0.7830 [ 0.3577;  1.2084]
+31  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+34           placebo  zopiclone -0.6419 [-1.2203; -0.0635]
+39           placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+67  BZD-intermediate    placebo  0.6792 [ 0.2925;  1.0660]
+69          BZD-long  zopiclone  0.1412 [-0.5116;  0.7939]
+74          BZD-long  BZD-short -0.3864 [-0.9346;  0.1619]
+80           placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+81           placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+85           placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+87           placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+102          placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+108         BZD-long  BZD-short -0.3864 [-0.9346;  0.1619]
+108         BZD-long    placebo  0.7830 [ 0.3577;  1.2084]
+108        BZD-short    placebo  1.1694 [ 0.5783;  1.7605]
+112          placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+119          placebo   zolpidem -0.5196 [-0.8817; -0.1575]
+125         zolpidem  zopiclone -0.1223 [-0.7238;  0.4792]
+162          placebo quetiapine -0.0506 [-1.4457;  1.3445]
+
+Number of studies: k = 22
+Number of pairwise comparisons: m = 30
+Number of observations: o = 2743
+Number of treatments: n = 7
+Number of designs: d = 10
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD            95%-CI     z  p-value
+BZD-intermediate 0.9496 [ 0.8063; 1.0928] 12.99 < 0.0001
+BZD-long         0.9356 [ 0.7476; 1.1236]  9.75 < 0.0001
+BZD-short        1.3054 [ 0.9722; 1.6386]  7.68 < 0.0001
+placebo               .                 .     .        .
+quetiapine       0.0506 [-1.0400; 1.1412]  0.09   0.9275
+zolpidem         0.5990 [ 0.4606; 0.7375]  8.48 < 0.0001
+zopiclone        0.6083 [ 0.4609; 0.7557]  8.09 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+                    SMD            95%-CI    z p-value            95%-PI
+BZD-intermediate 0.6792 [ 0.2925; 1.0660] 3.44  0.0006 [-0.3375; 1.6959]
+BZD-long         0.7830 [ 0.3577; 1.2084] 3.61  0.0003 [-0.2511; 1.8172]
+BZD-short        1.1694 [ 0.5783; 1.7605] 3.88  0.0001 [ 0.0462; 2.2926]
+placebo               .                 .    .       .                 .
+quetiapine       0.0506 [-1.3445; 1.4457] 0.07  0.9433 [-1.7051; 1.8063]
+zolpidem         0.5196 [ 0.1575; 0.8817] 2.81  0.0049 [-0.4867; 1.5259]
+zopiclone        0.6419 [ 0.0635; 1.2203] 2.18  0.0296 [-0.4737; 1.7575]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1970; tau = 0.4439; I^2 = 80.9% [71.6%; 87.1%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           104.47   20 < 0.0001
+Within designs   71.26   14 < 0.0001
+Between designs  33.21    6 < 0.0001
+[1] "A total of 7 treatments are included in the network."
+[1] "A total of 22 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0.2"
+[1] "Global test for inconsistency, p-value 0.00001 (Q=33, d.o.f. 6)"
+[1] "File created on 2022-06-07"

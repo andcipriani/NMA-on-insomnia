@@ -1,0 +1,24 @@
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 751
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR           95%-CI     z p-value
+BZD-intermediate 0.2982 [0.0283; 3.1457] -1.01  0.3142
+melatonin        0.7414 [0.2255; 2.4378] -0.49  0.6223
+placebo               .                .     .       .
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "A total of 751 participants are included in this analysis, with 17 events (2.26%)."
+[1] "The following studies were included in this analysis: 83 130"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-09"

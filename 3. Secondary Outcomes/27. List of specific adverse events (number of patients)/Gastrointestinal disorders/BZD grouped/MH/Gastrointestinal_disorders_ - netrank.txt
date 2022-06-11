@@ -1,0 +1,12 @@
+             P-score
+melatonin     0.9545
+lemborexant   0.7351
+zolpidem      0.6409
+daridorexant  0.5605
+eszopiclone   0.5210
+placebo       0.5208
+ramelteon     0.4038
+BZD-long      0.3437
+BZD-short     0.1737
+zopiclone     0.1459
+[1] "File created on 2022-06-08"

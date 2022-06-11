@@ -1,0 +1,11 @@
+             P-score
+seltorexant   0.8925
+melatonin     0.8598
+zaleplon      0.6578
+daridorexant  0.6086
+suvorexant    0.5641
+placebo       0.4382
+zolpidem      0.2274
+eszopiclone   0.1959
+lemborexant   0.0556
+[1] "File created on 2022-06-09"

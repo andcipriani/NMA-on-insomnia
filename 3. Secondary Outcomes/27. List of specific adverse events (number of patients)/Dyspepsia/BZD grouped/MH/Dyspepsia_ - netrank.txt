@@ -1,0 +1,8 @@
+                 P-score
+BZD-short         0.7712
+zaleplon          0.6785
+BZD-intermediate  0.5126
+zolpidem          0.4197
+placebo           0.3640
+eszopiclone       0.2540
+[1] "File created on 2022-06-08"

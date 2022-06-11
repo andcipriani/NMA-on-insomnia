@@ -1,0 +1,9 @@
+                 P-score (fixed) P-score (random)
+quetiapine                0.7704           0.7704
+BZD-long                  0.6757           0.6757
+placebo                   0.6663           0.6663
+BZD-intermediate          0.6221           0.6221
+zolpidem                  0.3130           0.3130
+BZD-short                 0.2825           0.2825
+zopiclone                 0.1700           0.1700
+[1] "File created on 2022-06-07"

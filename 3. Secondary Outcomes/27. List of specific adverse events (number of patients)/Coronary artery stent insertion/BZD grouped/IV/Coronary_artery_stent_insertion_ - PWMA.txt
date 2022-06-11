@@ -1,0 +1,17 @@
+[1] "Number of studies: 1"
+[1] "zolpidem vs daridorexant" "zolpidem vs placebo"      "placebo vs daridorexant" 
+Number of studies combined: k = 0
+Number of observations: o = 482
+Number of events: e = 0
+
+                     OR 95%-CI  z p-value
+Common effect model  NA        --      --
+Random effects model NA        --      --
+
+Quantifying heterogeneity:
+ tau^2 = NA; tau = NA; I^2 = NA; H = NA
+
+Details on meta-analytical method:
+- Mantel-Haenszel method
+- Restricted maximum-likelihood estimator for tau^2
+[1] "File created on 2022-06-08"

@@ -1,0 +1,6 @@
+               comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 daridorexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+2  lemborexant vs  placebo                 1 0.26     0.01     6.57     NA   NA         NA         NA    0    NA
+3     zolpidem vs  placebo                 1 3.05     0.12    76.39     NA   NA         NA         NA    0    NA
+4 zolpidem vs daridorexant                 1 6.13     0.25   152.65     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-08"

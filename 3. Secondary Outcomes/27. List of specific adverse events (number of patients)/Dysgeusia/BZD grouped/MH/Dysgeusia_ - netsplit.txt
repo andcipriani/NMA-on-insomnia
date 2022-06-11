@@ -1,0 +1,38 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+            comparison k   nma direct indir.  RoR     z p-value
+  BZD-long:eszopiclone 0  0.85      .   0.85    .     .       .
+      BZD-long:placebo 2 12.27  11.18      .    .     .       .
+    BZD-long:ramelteon 0  4.95      .   4.95    .     .       .
+     BZD-long:zaleplon 0  7.51      .   7.51    .     .       .
+     BZD-long:zolpidem 0 16.39      .  16.39    .     .       .
+    BZD-long:zopiclone 1  0.70   1.00   0.63 1.59  0.29  0.7685
+   eszopiclone:placebo 5 14.45  15.40   8.31 1.85  0.60  0.5484
+ eszopiclone:ramelteon 0  5.83      .   5.83    .     .       .
+  eszopiclone:zaleplon 0  8.84      .   8.84    .     .       .
+  eszopiclone:zolpidem 0 19.31      .  19.31    .     .       .
+ eszopiclone:zopiclone 2  0.82   0.80   1.49 0.54 -0.60  0.5484
+     ramelteon:placebo 1  2.48   2.48      .    .     .       .
+      zaleplon:placebo 1  1.63   1.31      .    .     .       .
+      zolpidem:placebo 3  0.75   0.68      .    .     .       .
+     zopiclone:placebo 1 17.58  10.00  19.16 0.52 -0.61  0.5394
+    ramelteon:zaleplon 0  1.52      .   1.52    .     .       .
+    ramelteon:zolpidem 0  3.31      .   3.31    .     .       .
+   ramelteon:zopiclone 0  0.14      .   0.14    .     .       .
+     zaleplon:zolpidem 1  2.18   5.19      .    .     .       .
+    zaleplon:zopiclone 0  0.09      .   0.09    .     .       .
+    zolpidem:zopiclone 0  0.04      .   0.04    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0. (0 out of 4 comparisons)."
+[1] "File created on 2022-06-08"

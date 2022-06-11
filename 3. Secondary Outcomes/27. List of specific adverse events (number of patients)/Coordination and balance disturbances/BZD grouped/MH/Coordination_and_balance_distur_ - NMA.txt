@@ -1,0 +1,25 @@
+Number of studies: k = 5
+Number of pairwise comparisons: m = 5
+Number of observations: o = 636
+Number of treatments: n = 4
+Number of designs: d = 4
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 0.6678 [0.1315;  3.3919] -0.49  0.6262
+BZD-long         3.6948 [0.6363; 21.4533]  1.46  0.1453
+BZD-short        4.3395 [0.5411; 34.8019]  1.38  0.1670
+placebo               .                 .     .       .
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 0.01    1  0.9082
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 5 studies are included in this analysis."
+[1] "A total of 636 participants are included in this analysis, with 29 events (4.56%)."
+[1] "The following studies were included in this analysis: 16 23 73 83 104"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.90824 (Q=0, d.o.f. 1)"
+[1] "File created on 2022-06-08"

@@ -1,0 +1,52 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Fixed effects model: 
+
+              comparison k prop  nma direct indir. RoR z p-value
+ lemborexant:eszopiclone 0    0 1.96      .   1.96   . .       .
+   melatonin:eszopiclone 0    0 1.25      .   1.25   . .       .
+     placebo:eszopiclone 2 1.00 1.50   1.50      .   . .       .
+   ramelteon:eszopiclone 0    0 2.35      .   2.35   . .       .
+    zolpidem:eszopiclone 0    0 0.89      .   0.89   . .       .
+   lemborexant:melatonin 0    0 1.57      .   1.57   . .       .
+     lemborexant:placebo 1 1.00 1.31   1.31      .   . .       .
+   lemborexant:ramelteon 0    0 0.83      .   0.83   . .       .
+    lemborexant:zolpidem 0    0 2.20      .   2.20   . .       .
+       melatonin:placebo 1 1.00 0.84   0.84      .   . .       .
+     melatonin:ramelteon 0    0 0.53      .   0.53   . .       .
+      melatonin:zolpidem 0    0 1.40      .   1.40   . .       .
+       placebo:ramelteon 1 1.00 0.64   0.64      .   . .       .
+        placebo:zolpidem 1 1.00 1.68   1.68      .   . .       .
+      ramelteon:zolpidem 0    0 2.63      .   2.63   . .       .
+
+Random effects model: 
+
+              comparison k prop  nma direct indir. RoR z p-value
+ lemborexant:eszopiclone 0    0 1.93      .   1.93   . .       .
+   melatonin:eszopiclone 0    0 1.23      .   1.23   . .       .
+     placebo:eszopiclone 2 1.00 1.47   1.47      .   . .       .
+   ramelteon:eszopiclone 0    0 2.31      .   2.31   . .       .
+    zolpidem:eszopiclone 0    0 0.88      .   0.88   . .       .
+   lemborexant:melatonin 0    0 1.57      .   1.57   . .       .
+     lemborexant:placebo 1 1.00 1.31   1.31      .   . .       .
+   lemborexant:ramelteon 0    0 0.83      .   0.83   . .       .
+    lemborexant:zolpidem 0    0 2.20      .   2.20   . .       .
+       melatonin:placebo 1 1.00 0.84   0.84      .   . .       .
+     melatonin:ramelteon 0    0 0.53      .   0.53   . .       .
+      melatonin:zolpidem 0    0 1.40      .   1.40   . .       .
+       placebo:ramelteon 1 1.00 0.64   0.64      .   . .       .
+        placebo:zolpidem 1 1.00 1.68   1.68      .   . .       .
+      ramelteon:zolpidem 0    0 2.63      .   2.63   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-06-08"

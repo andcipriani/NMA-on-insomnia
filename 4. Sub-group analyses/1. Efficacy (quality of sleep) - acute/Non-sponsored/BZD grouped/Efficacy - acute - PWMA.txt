@@ -1,0 +1,12 @@
+                    comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1  BZD-intermediate vs  placebo                 6  0.68     0.15     1.20   0.38 0.93       0.88       0.96 76.20 0.0000
+2          BZD-long vs  placebo                 4  0.75     0.53     0.98   0.00 0.00       0.00       0.85  1.31 0.7264
+3  BZD-long vs BZD-intermediate                 3  0.22     0.00     0.44   0.00 0.00       0.00       0.90  1.70 0.4272
+4         BZD-short vs  placebo                 2  1.11     0.60     1.61   0.00 0.00         NA         NA  0.09 0.7611
+5         BZD-short vs BZD-long                 3  0.40    -0.03     0.84   0.04 0.22       0.00       0.92  2.55 0.2796
+6        quetiapine vs  placebo                 1  0.05    -1.04     1.14     NA   NA         NA         NA  0.00     NA
+7          zolpidem vs  placebo                 8  0.47     0.13     0.81   0.14 0.61       0.14       0.82 17.72 0.0133
+8         zopiclone vs  placebo                 1  0.65     0.46     0.83     NA   NA         NA         NA  0.00     NA
+9         zopiclone vs BZD-long                 1  0.15    -0.59     0.89     NA   NA         NA         NA  0.00     NA
+10        zopiclone vs zolpidem                 1 -0.06    -0.25     0.13     NA   NA         NA         NA  0.00     NA
+[1] "File created on 2022-06-07"

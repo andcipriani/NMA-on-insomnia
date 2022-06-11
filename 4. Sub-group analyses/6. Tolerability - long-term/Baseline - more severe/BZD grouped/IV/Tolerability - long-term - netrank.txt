@@ -1,0 +1,7 @@
+            P-score (fixed) P-score (random)
+ramelteon            0.8625           0.8625
+placebo              0.7871           0.7871
+lemborexant          0.3862           0.3862
+eszopiclone          0.2396           0.2396
+zolpidem             0.2245           0.2245
+[1] "File created on 2022-06-08"

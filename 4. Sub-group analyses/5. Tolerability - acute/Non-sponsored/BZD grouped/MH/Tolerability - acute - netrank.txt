@@ -1,0 +1,8 @@
+                 P-score
+placebo           0.9033
+BZD-intermediate  0.6892
+BZD-short         0.5280
+zolpidem          0.4237
+BZD-long          0.2457
+zopiclone         0.2101
+[1] "File created on 2022-06-07"

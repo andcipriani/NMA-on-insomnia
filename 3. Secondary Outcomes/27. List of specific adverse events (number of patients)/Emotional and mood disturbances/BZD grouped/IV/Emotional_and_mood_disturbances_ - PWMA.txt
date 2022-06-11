@@ -1,0 +1,7 @@
+                   comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 BZD-intermediate vs  placebo                 2 0.80     0.40     1.57      0    0         NA         NA 0.07 0.7868
+2      eszopiclone vs  placebo                 1 4.78     0.23   100.46     NA   NA         NA         NA 0.00     NA
+3      lemborexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA     NA
+4         zolpidem vs  placebo                 2 1.37     0.66     2.83      0    0         NA         NA 0.20 0.6548
+5     zopiclone vs eszopiclone                 1 1.37     0.56     3.36     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-08"

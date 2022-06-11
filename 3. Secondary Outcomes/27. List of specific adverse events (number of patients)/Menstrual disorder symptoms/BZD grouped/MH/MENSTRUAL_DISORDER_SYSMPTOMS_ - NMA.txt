@@ -1,0 +1,26 @@
+Number of studies: k = 3
+Number of pairwise comparisons: m = 5
+Number of observations: o = 720
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                 OR            95%-CI     z p-value
+BZD-short    1.7143 [0.2669; 11.0087]  0.57  0.5700
+daridorexant 0.6730 [0.0281; 16.1205] -0.24  0.8069
+placebo           .                 .     .       .
+zaleplon     1.3449 [0.3502;  5.1649]  0.43  0.6660
+zolpidem     1.3687 [0.2996;  6.2531]  0.40  0.6855
+
+Test of inconsistency (between designs):
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 3 studies are included in this analysis."
+[1] "A total of 720 participants are included in this analysis, with 22 events (3.06%)."
+[1] "The following studies were included in this analysis: 32 99 133"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-09"

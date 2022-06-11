@@ -1,0 +1,11 @@
+[1] "Number of studies: 1"
+[1] "melatonin vs placebo"
+Number of observations: o = 711
+Number of events: e = 6
+
+     OR           95%-CI     z p-value
+ 0.3277 [0.0655; 1.6384] -1.36  0.1742
+
+Details:
+- Mantel-Haenszel method
+[1] "File created on 2022-06-09"

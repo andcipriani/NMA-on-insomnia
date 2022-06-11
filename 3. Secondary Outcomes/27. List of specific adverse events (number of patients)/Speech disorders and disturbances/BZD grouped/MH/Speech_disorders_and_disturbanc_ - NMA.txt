@@ -1,0 +1,21 @@
+Number of studies: k = 1
+Number of pairwise comparisons: m = 6
+Number of observations: o = 1507
+Number of treatments: n = 4
+Number of designs: d = 1
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+              OR           95%-CI     z p-value
+BZD-long  0.9687 [0.4890; 1.9187] -0.09  0.9273
+BZD-short 1.7472 [0.9549; 3.1967]  1.81  0.0702
+placebo        .                .     .       .
+zopiclone 0.9150 [0.5078; 1.6488] -0.30  0.7676
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 1 studies are included in this analysis."
+[1] "A total of 1507 participants are included in this analysis, with 100 events (6.64%)."
+[1] "The following studies were included in this analysis: 37"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-09"

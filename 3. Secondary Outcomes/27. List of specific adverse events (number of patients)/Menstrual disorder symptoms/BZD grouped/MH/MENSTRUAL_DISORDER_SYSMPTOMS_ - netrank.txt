@@ -1,0 +1,7 @@
+             P-score
+daridorexant  0.6626
+placebo       0.6107
+zaleplon      0.4386
+zolpidem      0.4283
+BZD-short     0.3598
+[1] "File created on 2022-06-09"

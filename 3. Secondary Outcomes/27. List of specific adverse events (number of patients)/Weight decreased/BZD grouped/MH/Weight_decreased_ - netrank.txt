@@ -1,0 +1,4 @@
+           P-score
+placebo     0.9138
+suvorexant  0.0862
+[1] "File created on 2022-06-09"

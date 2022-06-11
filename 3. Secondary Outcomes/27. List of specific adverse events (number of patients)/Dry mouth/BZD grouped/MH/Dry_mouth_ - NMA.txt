@@ -1,0 +1,33 @@
+Number of studies: k = 17
+Number of pairwise comparisons: m = 21
+Number of observations: o = 4922
+Number of treatments: n = 12
+Number of designs: d = 12
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 0.8095 [0.1728;  3.7919] -0.27  0.7885
+BZD-long         0.7059 [0.1775;  2.8063] -0.49  0.6208
+BZD-short        2.8183 [0.3537; 22.4593]  0.98  0.3279
+doxepin          1.9219 [0.1721; 21.4662]  0.53  0.5957
+doxylamine       1.8009 [0.5833;  5.5608]  1.02  0.3064
+eszopiclone      4.3166 [1.9440;  9.5850]  3.59  0.0003
+lemborexant      0.3913 [0.0346;  4.4303] -0.76  0.4486
+placebo               .                 .     .       .
+suvorexant       1.4263 [0.5754;  3.5353]  0.77  0.4433
+zaleplon         1.0452 [0.3098;  3.5259]  0.07  0.9432
+zolpidem         1.3598 [0.5081;  3.6390]  0.61  0.5405
+zopiclone        2.2250 [0.8525;  5.8070]  1.63  0.1023
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.16    3  0.7633
+[1] "A total of 12 treatments are included in the network."
+[1] "A total of 17 studies are included in this analysis."
+[1] "A total of 4922 participants are included in this analysis, with 212 events (4.31%)."
+[1] "The following studies were included in this analysis: 9 10 18 34 45 46 48 58 63 77 87 117 124 144 147 154 157"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.76334 (Q=1, d.o.f. 3)"
+[1] "File created on 2022-06-08"

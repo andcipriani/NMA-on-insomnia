@@ -1,0 +1,58 @@
+Original data:
+
+         treat1  treat2      TE   seTE
+130   melatonin placebo -0.1786 0.2048
+136 eszopiclone placebo -0.5985 0.1486
+
+Number of treatment arms (by study):
+    narms
+130     2
+136     2
+
+Results (fixed effects model):
+
+         treat1  treat2     OR           95%-CI    Q leverage
+130   melatonin placebo 0.8364 [0.5599; 1.2496] 0.00     1.00
+136 eszopiclone placebo 0.5496 [0.4108; 0.7354] 0.00     1.00
+
+Results (random effects model):
+
+         treat1  treat2     OR           95%-CI
+130   melatonin placebo 0.8364 [0.5599; 1.2496]
+136 eszopiclone placebo 0.5496 [0.4108; 0.7354]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 1541
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI    z  p-value
+eszopiclone      .                .    .        .
+melatonin   1.5219 [0.9268; 2.4988] 1.66   0.0970
+placebo     1.8194 [1.3598; 2.4345] 4.03 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI    z  p-value
+eszopiclone      .                .    .        .
+melatonin   1.5219 [0.9268; 2.4988] 1.66   0.0970
+placebo     1.8194 [1.3598; 2.4345] 4.03 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+[1] "A total of 3 treatments are included in the network."
+[1] "A total of 2 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-08"

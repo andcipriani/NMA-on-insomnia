@@ -1,0 +1,21 @@
+[1] "Number of studies: 2"
+[1] "zolpidem vs placebo"  "melatonin vs placebo"
+Number of studies combined: k = 2
+Number of observations: o = 923
+Number of events: e = 24
+
+                         OR           95%-CI     z p-value
+Common effect model  0.6724 [0.2962; 1.5265] -0.95  0.3427
+Random effects model 0.6194 [0.1908; 2.0102] -0.80  0.4251
+
+Quantifying heterogeneity:
+ tau^2 = 0.3684; tau = 0.6070; I^2 = 50.8% [0.0%; 87.5%]; H = 1.43 [1.00; 2.83]
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 2.03    1  0.1540
+
+Details on meta-analytical method:
+- Mantel-Haenszel method
+- Restricted maximum-likelihood estimator for tau^2
+[1] "File created on 2022-06-08"

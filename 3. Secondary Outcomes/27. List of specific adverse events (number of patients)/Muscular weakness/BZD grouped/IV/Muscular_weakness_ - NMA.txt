@@ -1,0 +1,71 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+      treat1    treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+37  BZD-long BZD-short  0.2722 0.2125     0.3223     0.3223     4        *
+37  BZD-long   placebo  0.2365 0.2129     0.3233     0.3233     4        *
+37  BZD-long zopiclone  0.4461 0.1866     0.2426     0.2426     4        *
+37 BZD-short   placebo -0.0356 0.2189     0.3426     0.3426     4        *
+37 BZD-short zopiclone  0.1739 0.1934     0.2570     0.2570     4        *
+37   placebo zopiclone  0.2095 0.1938     0.2578     0.2578     4        *
+
+Number of treatment arms (by study):
+   narms
+37     4
+
+Results (fixed effects model):
+
+      treat1    treat2     OR           95%-CI    Q
+37  BZD-long BZD-short 1.3128 [0.8656; 1.9912] 0.00
+37  BZD-long   placebo 1.2668 [0.8347; 1.9227] 0.00
+37  BZD-long zopiclone 1.5622 [1.0837; 2.2518] 0.00
+37 BZD-short   placebo 0.9650 [0.6283; 1.4820] 0.00
+37 BZD-short zopiclone 1.1899 [0.8145; 1.7385] 0.00
+37   placebo zopiclone 1.2331 [0.8434; 1.8029] 0.00
+
+Results (random effects model):
+
+      treat1    treat2     OR           95%-CI
+37  BZD-long BZD-short 1.3128 [0.8656; 1.9912]
+37  BZD-long   placebo 1.2668 [0.8347; 1.9227]
+37  BZD-long zopiclone 1.5622 [1.0837; 2.2518]
+37 BZD-short   placebo 0.9650 [0.6283; 1.4820]
+37 BZD-short zopiclone 1.1899 [0.8145; 1.7385]
+37   placebo zopiclone 1.2331 [0.8434; 1.8029]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 6
+Number of observations: o = 1507
+Number of treatments: n = 4
+Number of designs: d = 1
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+              OR           95%-CI     z p-value
+BZD-long  1.2668 [0.8347; 1.9227]  1.11  0.2665
+BZD-short 0.9650 [0.6283; 1.4820] -0.16  0.8706
+placebo        .                .     .       .
+zopiclone 0.8110 [0.5547; 1.1857] -1.08  0.2796
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+              OR           95%-CI     z p-value
+BZD-long  1.2668 [0.8347; 1.9227]  1.11  0.2665
+BZD-short 0.9650 [0.6283; 1.4820] -0.16  0.8706
+placebo        .                .     .       .
+zopiclone 0.8110 [0.5547; 1.1857] -1.08  0.2796
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 1 studies are included in this analysis."
+[1] "A total of 1507 participants are included in this analysis, with 245 events (16.26%)."
+[1] "The following studies were included in this analysis: 37"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=NA, d.o.f. NA)"
+[1] "File created on 2022-06-09"

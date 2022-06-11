@@ -1,0 +1,21 @@
+[1] "Number of studies: 2"
+[1] "suvorexant vs placebo" "suvorexant vs placebo"
+Number of studies combined: k = 2
+Number of observations: o = 1266
+Number of events: e = 32
+
+                         OR           95%-CI    z p-value
+Common effect model  1.5706 [0.7777; 3.1720] 1.26  0.2081
+Random effects model 1.5708 [0.7778; 3.1723] 1.26  0.2080
+
+Quantifying heterogeneity:
+ tau^2 = 0; tau = 0; I^2 = 0.0%; H = 1.00
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 0.01    1  0.9378
+
+Details on meta-analytical method:
+- Mantel-Haenszel method
+- Restricted maximum-likelihood estimator for tau^2
+[1] "File created on 2022-06-08"

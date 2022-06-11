@@ -1,0 +1,3 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 lemborexant vs  placebo                 1 1.01     0.09    11.14     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-09"

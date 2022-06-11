@@ -1,0 +1,20 @@
+Separate indirect from direct design evidence (SIDDE)
+
+Fixed effects model: 
+
+        comparison k  nma direct indir. RoR z p-value
+  zaleplon:placebo 1 1.04   1.04      .   . .       .
+  zolpidem:placebo 1 2.12   2.12      .   . .       .
+ zaleplon:zolpidem 1 0.49   0.49      .   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ nma        - Estimated treatment effect (OR) in network meta-analysis
+ direct     - Estimated treatment effect (OR) derived from direct evidence
+ indir.     - Estimated treatment effect (OR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+[1] "Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: NaN. (0 out of 0 comparisons)."
+[1] "File created on 2022-06-09"

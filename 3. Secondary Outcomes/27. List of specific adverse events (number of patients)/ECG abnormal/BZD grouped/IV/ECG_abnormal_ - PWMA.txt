@@ -1,0 +1,10 @@
+               comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1    BZD-short vs  placebo                 1 0.35     0.01     9.03     NA   NA         NA         NA    0    NA
+2 daridorexant vs  placebo                 1 1.51     0.06    37.53     NA   NA         NA         NA    0    NA
+3  seltorexant vs  placebo                 1 0.86     0.26     2.82     NA   NA         NA         NA    0    NA
+4     zaleplon vs  placebo                 1 1.02     0.09    11.61     NA   NA         NA         NA    0    NA
+5    zaleplon vs BZD-short                 1 2.40     0.11    51.59     NA   NA         NA         NA    0    NA
+6     zolpidem vs  placebo                 1 1.88     0.53     6.73     NA   NA         NA         NA    0    NA
+7 zolpidem vs daridorexant                 1 0.66     0.03    16.54     NA   NA         NA         NA    0    NA
+8  zolpidem vs seltorexant                 1 2.20     0.80     6.00     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-08"

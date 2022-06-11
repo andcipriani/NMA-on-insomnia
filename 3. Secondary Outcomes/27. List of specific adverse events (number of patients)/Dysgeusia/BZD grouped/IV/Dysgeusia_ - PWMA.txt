@@ -1,0 +1,18 @@
+                    comparisons Number.of.studies    OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1  BZD-intermediate vs  placebo                 1  0.33     0.01     8.10     NA   NA         NA         NA 0.00     NA
+2          BZD-long vs  placebo                 3  5.05     0.83    30.72   1.13 0.48          0       0.85 3.83 0.1474
+3  BZD-long vs BZD-intermediate                 1 25.86     1.50   446.55     NA   NA         NA         NA 0.00     NA
+4      daridorexant vs  placebo                 1  1.51     0.06    37.53     NA   NA         NA         NA 0.00     NA
+5       eszopiclone vs  placebo                 5 13.30     7.06    25.06   0.00 0.00          0       0.79 2.03 0.7311
+6       lemborexant vs  placebo                 1  2.44     0.10    61.03     NA   NA         NA         NA 0.00     NA
+7         ramelteon vs  placebo                 1  2.48     1.07     5.76     NA   NA         NA         NA 0.00     NA
+8          zaleplon vs  placebo                 1  1.31     0.40     4.26     NA   NA         NA         NA 0.00     NA
+9          zolpidem vs  placebo                 3  0.68     0.11     4.02   0.84 0.30          0       0.93 2.84 0.2412
+10     zolpidem vs daridorexant                 1  0.66     0.03    16.54     NA   NA         NA         NA 0.00     NA
+11         zolpidem vs zaleplon                 1  0.19     0.02     1.52     NA   NA         NA         NA 0.00     NA
+12        zopiclone vs  placebo                 1 10.00     1.44    69.26     NA   NA         NA         NA 0.00     NA
+13        zopiclone vs BZD-long                 3  2.43     0.53    11.17   0.00 0.00          0       0.90 1.62 0.4440
+14       zopiclone vs BZD-short                 2 16.38     2.10   127.58   0.00 0.00         NA         NA 0.01 0.9170
+15     zopiclone vs eszopiclone                 2  1.22     0.75     1.97   0.04 0.32         NA         NA 1.46 0.2262
+16    zopiclone vs propiomazine                 1 14.48     0.80   262.36     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-08"

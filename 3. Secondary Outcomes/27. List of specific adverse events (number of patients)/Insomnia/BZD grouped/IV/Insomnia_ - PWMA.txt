@@ -1,0 +1,7 @@
+               comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1 daridorexant vs  placebo                 1 1.51     0.06    37.53     NA   NA         NA         NA 0.00     NA
+2    ramelteon vs  placebo                 2 1.47     0.77     2.78   0.06 0.29         NA         NA 1.41 0.2348
+3     zolpidem vs  placebo                 2 2.94     0.30    29.16   0.00 0.00         NA         NA 0.00 0.9743
+4 zolpidem vs daridorexant                 1 2.03     0.13    33.09     NA   NA         NA         NA 0.00     NA
+5     zolpidem vs zaleplon                 1 1.54     0.53     4.49     NA   NA         NA         NA 0.00     NA
+[1] "File created on 2022-06-09"

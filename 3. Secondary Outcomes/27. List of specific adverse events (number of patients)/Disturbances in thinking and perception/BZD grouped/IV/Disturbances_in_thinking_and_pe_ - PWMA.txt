@@ -1,0 +1,5 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1    BZD-long vs  placebo                 1 3.10     0.12    79.23     NA   NA         NA         NA    0    NA
+2 eszopiclone vs  placebo                 1 3.02     0.12    74.48     NA   NA         NA         NA    0    NA
+3    zolpidem vs  placebo                 1 0.28     0.01     7.36     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-08"

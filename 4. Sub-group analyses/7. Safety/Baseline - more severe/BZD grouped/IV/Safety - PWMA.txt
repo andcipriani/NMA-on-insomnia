@@ -1,0 +1,24 @@
+                        comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st  p.val
+1      BZD-intermediate vs  placebo                 2 0.70     0.06     8.79   2.95 0.88       0.55       0.97 8.57 0.0034
+2              BZD-long vs  placebo                 2 3.02     0.89    10.26   0.35 0.45         NA         NA 1.81 0.1784
+3      BZD-long vs BZD-intermediate                 1 0.69     0.25     1.88     NA   NA         NA         NA 0.00     NA
+4          daridorexant vs  placebo                 1 1.33     0.69     2.59     NA   NA         NA         NA 0.00     NA
+5           eszopiclone vs  placebo                 1 1.77     1.23     2.56     NA   NA         NA         NA 0.00     NA
+6           lemborexant vs  placebo                 2 1.01     0.75     1.35   0.02 0.42         NA         NA 1.73 0.1881
+7             melatonin vs  placebo                 1 1.00     0.38     2.64     NA   NA         NA         NA 0.00     NA
+8             ramelteon vs  placebo                 1 1.06     0.74     1.54     NA   NA         NA         NA 0.00     NA
+9           seltorexant vs  placebo                 1 0.52     0.31     0.89     NA   NA         NA         NA 0.00     NA
+10            trazodone vs  placebo                 1 1.59     0.87     2.91     NA   NA         NA         NA 0.00     NA
+11         trimipramine vs  placebo                 1 1.07     0.30     3.84     NA   NA         NA         NA 0.00     NA
+12 trimipramine vs BZD-intermediate                 1 5.71     1.56    20.93     NA   NA         NA         NA 0.00     NA
+13             zaleplon vs  placebo                 2 0.86     0.57     1.30   0.04 0.47         NA         NA 1.88 0.1707
+14             zolpidem vs  placebo                 9 1.50     1.28     1.77   0.00 0.03       0.00       0.66 8.25 0.4091
+15            zolpidem vs BZD-short                 1 0.58     0.28     1.21     NA   NA         NA         NA 0.00     NA
+16         zolpidem vs daridorexant                 1 1.17     0.62     2.20     NA   NA         NA         NA 0.00     NA
+17          zolpidem vs lemborexant                 1 1.33     0.97     1.82     NA   NA         NA         NA 0.00     NA
+18          zolpidem vs seltorexant                 1 1.46     0.85     2.51     NA   NA         NA         NA 0.00     NA
+19            zolpidem vs trazodone                 1 1.08     0.57     2.06     NA   NA         NA         NA 0.00     NA
+20             zolpidem vs zaleplon                 1 0.95     0.61     1.50     NA   NA         NA         NA 0.00     NA
+21            zopiclone vs BZD-long                 2 1.06     0.41     2.70   0.00 0.00         NA         NA 0.70 0.4043
+22         zopiclone vs eszopiclone                 2 1.13     0.74     1.74   0.00 0.00         NA         NA 0.42 0.5175
+[1] "File created on 2022-06-08"

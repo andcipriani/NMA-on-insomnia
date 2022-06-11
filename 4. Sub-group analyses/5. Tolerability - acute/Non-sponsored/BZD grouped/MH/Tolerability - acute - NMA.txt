@@ -1,0 +1,25 @@
+Number of studies: k = 11
+Number of pairwise comparisons: m = 15
+Number of observations: o = 1966
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI    z p-value
+BZD-intermediate 1.4333 [0.6999;  2.9351] 0.98  0.3250
+BZD-long         2.9574 [1.3373;  6.5401] 2.68  0.0074
+BZD-short        1.8546 [0.2517; 13.6632] 0.61  0.5444
+placebo               .                 .    .       .
+zolpidem         2.3426 [0.9268;  5.9208] 1.80  0.0720
+zopiclone        3.1278 [1.2081;  8.0982] 2.35  0.0188
+
+Test of inconsistency (between designs):
+    Q d.f. p-value
+ 1.72    3  0.6318
+[1] "A total of 6 treatments are included in the network."
+[1] "A total of 11 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.63184 (Q=2, d.o.f. 3)"
+[1] "File created on 2022-06-07"

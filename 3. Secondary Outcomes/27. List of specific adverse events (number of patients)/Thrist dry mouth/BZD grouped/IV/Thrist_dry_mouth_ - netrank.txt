@@ -1,0 +1,4 @@
+            P-score (fixed) P-score (random)
+placebo                   1                1
+eszopiclone               0                0
+[1] "File created on 2022-06-09"

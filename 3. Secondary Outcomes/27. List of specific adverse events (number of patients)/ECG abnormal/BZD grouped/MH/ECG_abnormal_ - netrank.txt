@@ -1,0 +1,6 @@
+            P-score
+seltorexant  0.6953
+placebo      0.5800
+zaleplon     0.5389
+zolpidem     0.1858
+[1] "File created on 2022-06-08"

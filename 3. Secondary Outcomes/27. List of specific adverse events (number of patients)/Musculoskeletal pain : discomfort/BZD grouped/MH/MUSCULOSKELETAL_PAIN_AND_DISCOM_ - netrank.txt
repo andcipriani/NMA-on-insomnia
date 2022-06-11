@@ -1,0 +1,11 @@
+            P-score
+seltorexant  0.9656
+suvorexant   0.7995
+BZD-short    0.6517
+placebo      0.5758
+zolpidem     0.5128
+eszopiclone  0.3687
+zaleplon     0.3257
+lemborexant  0.1731
+ramelteon    0.1270
+[1] "File created on 2022-06-09"

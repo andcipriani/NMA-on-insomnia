@@ -1,0 +1,4 @@
+              comparisons Number.of.studies   OR lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq Q.st p.val
+1 lemborexant vs  placebo                 0   NA       NA       NA     NA   NA         NA         NA   NA    NA
+2   zopiclone vs BZD-long                 1 2.62      0.1    65.86     NA   NA         NA         NA    0    NA
+[1] "File created on 2022-06-08"

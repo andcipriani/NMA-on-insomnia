@@ -1,0 +1,9 @@
+                 P-score
+melatonin         0.9117
+BZD-intermediate  0.7915
+zaleplon          0.6635
+placebo           0.4602
+daridorexant      0.4582
+zolpidem          0.1972
+ramelteon         0.0177
+[1] "File created on 2022-06-09"

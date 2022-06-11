@@ -1,0 +1,34 @@
+                        comparisons Number.of.studies   SMD lower.CI upper.CI tau.sq I.sq lower.I.sq upper.I.sq  Q.st  p.val
+1      BZD-intermediate vs  placebo                 5  0.67     0.24     1.09   0.18 0.74       0.36       0.90 15.49 0.0038
+2              BZD-long vs  placebo                 6  0.47     0.18     0.77   0.07 0.54       0.00       0.81 10.78 0.0559
+3      BZD-long vs BZD-intermediate                 2 -0.20    -0.49     0.09   0.00 0.00         NA         NA  0.06 0.8067
+4             BZD-short vs  placebo                 1  0.96     0.07     1.85     NA   NA         NA         NA  0.00     NA
+5     BZD-short vs BZD-intermediate                 1  0.16    -0.09     0.41     NA   NA         NA         NA  0.00     NA
+6             BZD-short vs BZD-long                 3  0.41     0.12     0.70   0.00 0.00       0.00       0.90  0.76 0.6826
+7          daridorexant vs  placebo                 3  0.24     0.15     0.34   0.00 0.00       0.00       0.90  1.40 0.4975
+8               doxepin vs  placebo                 2  0.29     0.06     0.51   0.01 0.24         NA         NA  1.32 0.2502
+9            doxylamine vs  placebo                 1  0.60     0.33     0.87     NA   NA         NA         NA  0.00     NA
+10          eszopiclone vs  placebo                 7  0.51     0.35     0.67   0.03 0.75       0.46       0.88 23.74 0.0006
+11          lemborexant vs  placebo                 2  0.33     0.22     0.44   0.00 0.00         NA         NA  0.98 0.3211
+12            melatonin vs  placebo                 4  0.18     0.07     0.29   0.00 0.47       0.00       0.82  5.62 0.1314
+13            ramelteon vs  placebo                 3  0.13     0.01     0.25   0.00 0.24       0.00       0.92  2.62 0.2704
+14          seltorexant vs  placebo                 1  0.33     0.06     0.60     NA   NA         NA         NA  0.00     NA
+15           suvorexant vs  placebo                 2  0.31     0.19     0.43   0.00 0.00         NA         NA  0.76 0.3824
+16            trazodone vs  placebo                 1  0.22    -0.07     0.51     NA   NA         NA         NA  0.00     NA
+17         trimipramine vs  placebo                 1  0.71     0.04     1.38     NA   NA         NA         NA  0.00     NA
+18 trimipramine vs BZD-intermediate                 1 -0.27    -0.92     0.38     NA   NA         NA         NA  0.00     NA
+19             zaleplon vs  placebo                 4  0.13    -0.03     0.28   0.01 0.48       0.00       0.83  5.72 0.1259
+20             zolpidem vs  placebo                14  0.40     0.31     0.49   0.01 0.39       0.00       0.68 21.32 0.0668
+21     zolpidem vs BZD-intermediate                 1  0.01    -0.27     0.29     NA   NA         NA         NA  0.00     NA
+22            zolpidem vs BZD-short                 1  0.04    -0.24     0.33     NA   NA         NA         NA  0.00     NA
+23         zolpidem vs daridorexant                 1  0.18    -0.13     0.49     NA   NA         NA         NA  0.00     NA
+24           zolpidem vs doxylamine                 1  0.10    -0.16     0.36     NA   NA         NA         NA  0.00     NA
+25          zolpidem vs lemborexant                 1  0.03    -0.13     0.18     NA   NA         NA         NA  0.00     NA
+26          zolpidem vs seltorexant                 1 -0.10    -0.37     0.18     NA   NA         NA         NA  0.00     NA
+27            zolpidem vs trazodone                 1 -0.03    -0.33     0.26     NA   NA         NA         NA  0.00     NA
+28             zolpidem vs zaleplon                 5  0.24     0.12     0.36   0.00 0.00       0.00       0.79  2.48 0.6486
+29            zopiclone vs  placebo                 1  0.52     0.01     1.03     NA   NA         NA         NA  0.00     NA
+30            zopiclone vs BZD-long                 3 -0.10    -0.35     0.14   0.00 0.00       0.00       0.90  0.75 0.6881
+31           zopiclone vs BZD-short                 1 -0.26    -0.81     0.30     NA   NA         NA         NA  0.00     NA
+32         zopiclone vs eszopiclone                 2 -0.04    -0.23     0.15   0.00 0.00         NA         NA  0.18 0.6692
+[1] "File created on 2022-06-08"
