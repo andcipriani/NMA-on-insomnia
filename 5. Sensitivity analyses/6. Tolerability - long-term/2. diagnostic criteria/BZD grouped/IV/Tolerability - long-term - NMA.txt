@@ -1,0 +1,78 @@
+Original data:
+
+         treat1   treat2      TE   seTE
+58  eszopiclone  placebo  0.6438 0.3033
+59      placebo zolpidem -0.6619 0.2910
+112     placebo zolpidem -1.7225 1.5596
+130   melatonin  placebo -0.1570 0.3826
+136 eszopiclone  placebo  0.1145 0.2686
+155 lemborexant  placebo  0.4670 0.4120
+
+Number of treatment arms (by study):
+    narms
+58      2
+59      2
+112     2
+130     2
+136     2
+155     2
+
+Results (fixed effects model):
+
+         treat1   treat2     OR           95%-CI    Q leverage
+58  eszopiclone  placebo 1.4150 [0.9541; 2.0986] 0.96     0.44
+59      placebo zolpidem 0.4978 [0.2842; 0.8721] 0.02     0.97
+112     placebo zolpidem 0.4978 [0.2842; 0.8721] 0.43     0.03
+130   melatonin  placebo 0.8547 [0.4038; 1.8094] 0.00     1.00
+136 eszopiclone  placebo 1.4150 [0.9541; 2.0986] 0.75     0.56
+155 lemborexant  placebo 1.5952 [0.7114; 3.5771] 0.00     1.00
+
+Results (random effects model):
+
+         treat1   treat2     OR           95%-CI
+58  eszopiclone  placebo 1.4207 [0.9314; 2.1672]
+59      placebo zolpidem 0.4955 [0.2727; 0.9003]
+112     placebo zolpidem 0.4955 [0.2727; 0.9003]
+130   melatonin  placebo 0.8547 [0.3920; 1.8639]
+136 eszopiclone  placebo 1.4207 [0.9314; 2.1672]
+155 lemborexant  placebo 1.5952 [0.6920; 3.6773]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 4446
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI     z p-value
+eszopiclone      .                .     .       .
+lemborexant 1.1273 [0.4590; 2.7689]  0.26  0.7938
+melatonin   0.6040 [0.2589; 1.4093] -1.17  0.2435
+placebo     0.7067 [0.4765; 1.0481] -1.73  0.0843
+zolpidem    1.4196 [0.7154; 2.8172]  1.00  0.3163
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI     z p-value
+eszopiclone      .                .     .       .
+lemborexant 1.1228 [0.4404; 2.8625]  0.24  0.8083
+melatonin   0.6016 [0.2479; 1.4601] -1.12  0.2613
+placebo     0.7039 [0.4614; 1.0737] -1.63  0.1031
+zolpidem    1.4205 [0.6836; 2.9516]  0.94  0.3469
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0118; tau = 0.1087; I^2 = 7.1% [0.0%; 90.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           2.15    2  0.3407
+Within designs  2.15    2  0.3407
+Between designs 0.00    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 6 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0.01"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-08"

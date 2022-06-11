@@ -1,0 +1,7 @@
+            P-score (fixed) P-score (random)
+zolpidem             0.9673           0.9673
+melatonin            0.5938           0.5938
+eszopiclone          0.5788           0.5788
+placebo              0.3269           0.3269
+lemborexant          0.0332           0.0332
+[1] "File created on 2022-06-08"

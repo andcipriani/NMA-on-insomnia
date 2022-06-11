@@ -1,0 +1,68 @@
+Original data:
+
+         treat1   treat2      TE   seTE
+58  eszopiclone  placebo  0.5000 0.0833
+112     placebo zolpidem -0.0308 0.2098
+136 eszopiclone  placebo  0.7773 0.1049
+155 lemborexant  placebo  0.4099 0.0777
+
+Number of treatment arms (by study):
+    narms
+58      2
+112     2
+136     2
+155     2
+
+Results (fixed effects model):
+
+         treat1   treat2     SMD            95%-CI    Q leverage
+58  eszopiclone  placebo  0.6073 [ 0.4794; 0.7351] 1.66     0.61
+112     placebo zolpidem -0.0308 [-0.4419; 0.3804] 0.00     1.00
+136 eszopiclone  placebo  0.6073 [ 0.4794; 0.7351] 2.63     0.39
+155 lemborexant  placebo  0.4099 [ 0.2576; 0.5621] 0.00     1.00
+
+Results (random effects model):
+
+         treat1   treat2     SMD            95%-CI
+58  eszopiclone  placebo  0.6313 [ 0.3599; 0.9027]
+112     placebo zolpidem -0.0308 [-0.5621; 0.5006]
+136 eszopiclone  placebo  0.6313 [ 0.3599; 0.9027]
+155 lemborexant  placebo  0.4099 [ 0.0405; 0.7793]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 2109
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Fixed effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+               SMD            95%-CI    z  p-value
+eszopiclone 0.6073 [ 0.4794; 0.7351] 9.31 < 0.0001
+lemborexant 0.4099 [ 0.2576; 0.5621] 5.28 < 0.0001
+placebo          .                 .    .        .
+zolpidem    0.0308 [-0.3804; 0.4419] 0.15   0.8834
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'placebo'):
+               SMD            95%-CI    z  p-value
+eszopiclone 0.6313 [ 0.3599; 0.9027] 4.56 < 0.0001
+lemborexant 0.4099 [ 0.0405; 0.7793] 2.17   0.0296
+placebo          .                 .    .        .
+zolpidem    0.0308 [-0.5006; 0.5621] 0.11   0.9097
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0295; tau = 0.1717; I^2 = 76.7% [0.0%; 94.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           4.29    1  0.0384
+Within designs  4.29    1  0.0384
+Between designs 0.00    0      --
+[1] "A total of 4 treatments are included in the network."
+[1] "A total of 4 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squared0.03"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-08"

@@ -1,0 +1,5 @@
+            P-score (fixed) P-score (random)
+eszopiclone          0.8928           0.8928
+lemborexant          0.6072           0.6072
+placebo              0.0000           0.0000
+[1] "File created on 2022-06-08"

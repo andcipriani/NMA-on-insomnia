@@ -1,0 +1,70 @@
+Original data:
+
+         treat1   treat2      TE   seTE
+58  eszopiclone  placebo  0.6438 0.3033
+59      placebo zolpidem -0.6619 0.2910
+130   melatonin  placebo -0.1570 0.3826
+155 lemborexant  placebo  0.4670 0.4120
+
+Number of treatment arms (by study):
+    narms
+58      2
+59      2
+130     2
+155     2
+
+Results (fixed effects model):
+
+         treat1   treat2     OR           95%-CI    Q leverage
+58  eszopiclone  placebo 1.9037 [1.0505; 3.4497] 0.00     1.00
+59      placebo zolpidem 0.5159 [0.2916; 0.9125] 0.00     1.00
+130   melatonin  placebo 0.8547 [0.4038; 1.8094] 0.00     1.00
+155 lemborexant  placebo 1.5952 [0.7114; 3.5771] 0.00     1.00
+
+Results (random effects model):
+
+         treat1   treat2     OR           95%-CI
+58  eszopiclone  placebo 1.9037 [1.0505; 3.4497]
+59      placebo zolpidem 0.5159 [0.2916; 0.9125]
+130   melatonin  placebo 0.8547 [0.4038; 1.8094]
+155 lemborexant  placebo 1.5952 [0.7114; 3.5771]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 3491
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Fixed effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI     z p-value
+eszopiclone      .                .     .       .
+lemborexant 0.8380 [0.3074; 2.2842] -0.35  0.7297
+melatonin   0.4490 [0.1724; 1.1691] -1.64  0.1010
+placebo     0.5253 [0.2899; 0.9519] -2.12  0.0338
+zolpidem    1.0183 [0.4467; 2.3209]  0.04  0.9657
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'eszopiclone'):
+                OR           95%-CI     z p-value
+eszopiclone      .                .     .       .
+lemborexant 0.8380 [0.3074; 2.2842] -0.35  0.7297
+melatonin   0.4490 [0.1724; 1.1691] -1.64  0.1010
+placebo     0.5253 [0.2899; 0.9519] -2.12  0.0338
+zolpidem    1.0183 [0.4467; 2.3209]  0.04  0.9657
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+[1] "A total of 5 treatments are included in the network."
+[1] "A total of 4 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value NA (Q=0, d.o.f. 0)"
+[1] "File created on 2022-06-08"

@@ -1,0 +1,36 @@
+Number of studies: k = 44
+Number of pairwise comparisons: m = 69
+Number of observations: o = 16226
+Number of treatments: n = 17
+Number of designs: d = 22
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR           95%-CI     z p-value
+BZD-intermediate 1.4042 [0.6507; 3.0303]  0.87  0.3870
+BZD-long         1.7802 [0.7815; 4.0556]  1.37  0.1698
+BZD-short        2.5233 [1.0828; 5.8801]  2.14  0.0320
+daridorexant     0.5891 [0.2771; 1.2523] -1.38  0.1691
+doxepin          1.3882 [0.5608; 3.4363]  0.71  0.4781
+doxylamine       0.8365 [0.1689; 4.1438] -0.22  0.8269
+eszopiclone      0.6105 [0.2233; 1.6690] -0.96  0.3362
+lemborexant      0.8337 [0.2638; 2.6346] -0.31  0.7568
+melatonin        1.5077 [0.2506; 9.0721]  0.45  0.6539
+placebo               .                .     .       .
+ramelteon        1.3277 [0.7243; 2.4338]  0.92  0.3592
+seltorexant      1.2905 [0.3349; 4.9732]  0.37  0.7110
+suvorexant       0.6478 [0.3575; 1.1736] -1.43  0.1521
+trazodone        2.4504 [0.7278; 8.2502]  1.45  0.1479
+zaleplon         1.5475 [0.8832; 2.7114]  1.53  0.1270
+zolpidem         2.3113 [1.5021; 3.5566]  3.81  0.0001
+zopiclone        3.0278 [1.6077; 5.7023]  3.43  0.0006
+
+Test of inconsistency (between designs):
+  Q d.f. p-value
+ 11   16  0.8092
+[1] "A total of 17 treatments are included in the network."
+[1] "A total of 44 studies are included in this analysis."
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.80924 (Q=11, d.o.f. 16)"
+[1] "File created on 2022-06-08"
