@@ -1,0 +1,38 @@
+Number of studies: k = 76
+Number of pairwise comparisons: m = 114
+Number of observations: o = 22811
+Number of treatments: n = 17
+Number of designs: d = 33
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR           95%-CI     z p-value
+BZD-intermediate 1.2126 [0.7491; 1.9629]  0.78  0.4329
+BZD-long         1.2907 [0.7948; 2.0961]  1.03  0.3022
+BZD-short        1.4682 [0.9543; 2.2589]  1.75  0.0806
+daridorexant     0.5891 [0.2771; 1.2523] -1.38  0.1691
+doxepin          1.3541 [0.5495; 3.3370]  0.66  0.5100
+doxylamine       0.6860 [0.1400; 3.3610] -0.46  0.6421
+eszopiclone      1.0994 [0.6392; 1.8907]  0.34  0.7320
+lemborexant      0.6781 [0.2182; 2.1073] -0.67  0.5019
+melatonin        0.7173 [0.2268; 2.2688] -0.57  0.5717
+placebo               .                .     .       .
+ramelteon        1.1908 [0.7512; 1.8878]  0.74  0.4575
+seltorexant      1.1294 [0.2948; 4.3269]  0.18  0.8590
+suvorexant       0.6478 [0.3575; 1.1736] -1.43  0.1521
+trazodone        2.0288 [0.6106; 6.7412]  1.15  0.2482
+zaleplon         1.1984 [0.7795; 1.8425]  0.82  0.4095
+zolpidem         1.7702 [1.2480; 2.5110]  3.20  0.0014
+zopiclone        2.0091 [1.2822; 3.1482]  3.04  0.0023
+
+Test of inconsistency (between designs):
+     Q d.f. p-value
+ 25.64   29  0.6445
+[1] "A total of 17 treatments are included in the network."
+[1] "A total of 76 studies are included in this analysis."
+[1] "A total of 22811 participants are included in this analysis, with 702 events (3.08%)."
+[1] "The following studies were included in this analysis: 1 2 3 5 6 7 8 9 10 15 16 19 22 23 25 26 27 32 37 39 43 44 45 46 49 51 57 60 61 62 63 65 66 67 68 69 76 77 79 83 86 88 89 90 91 92 103 104 105 106 107 108 114 115 117 120 124 125 127 129 130 131 132 134 135 137 140 142 144 145 151 153 156 158 159 160"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.64455 (Q=26, d.o.f. 29)"
+[1] "File created on 2022-05-30"
