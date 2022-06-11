@@ -1,0 +1,31 @@
+Number of studies: k = 15
+Number of pairwise comparisons: m = 28
+Number of observations: o = 4302
+Number of treatments: n = 10
+Number of designs: d = 10
+
+Fixed effects model (Mantel-Haenszel method)
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'placebo'):
+                     OR            95%-CI     z p-value
+BZD-intermediate 0.8007 [0.4481;  1.4309] -0.75  0.4531
+BZD-long         0.5876 [0.2180;  1.5835] -1.05  0.2932
+BZD-short        2.0386 [0.8146;  5.1020]  1.52  0.1281
+daridorexant     2.1837 [0.1809; 26.3622]  0.61  0.5388
+eszopiclone      1.8020 [0.6852;  4.7393]  1.19  0.2326
+lemborexant      1.2090 [0.1950;  7.4970]  0.20  0.8385
+placebo               .                 .     .       .
+zaleplon         0.4289 [0.1302;  1.4133] -1.39  0.1641
+zolpidem         2.2022 [1.2240;  3.9623]  2.63  0.0084
+zopiclone        1.8982 [0.3034; 11.8741]  0.69  0.4933
+
+Test of inconsistency (between designs):
+   Q d.f. p-value
+ 5.8    7  0.5628
+[1] "A total of 10 treatments are included in the network."
+[1] "A total of 15 studies are included in this analysis."
+[1] "A total of 4302 participants are included in this analysis, with 191 events (4.44%)."
+[1] "The following studies were included in this analysis: 6 10 23 31 32 59 66 77 87 99 131 133 144 154 157"
+[1] "Estimated heterogeneity tau-squaredNA"
+[1] "Global test for inconsistency, p-value 0.56285 (Q=6, d.o.f. 7)"
+[1] "File created on 2022-06-08"
